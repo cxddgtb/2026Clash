@@ -1,3 +1,34 @@
+name: Fetch & Strict Google + Download Speed Test (High Concurrent)
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Config Git
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+
+      - name: Download raw proxies & stars
+        env:
+          PROXIES_URL: ${{ secrets.PROXIES_URL }}
+        run: |
+          timeout 10 curl -f "https://api.star-history.com/svg?repos=cxddgtb/2026Clash&type=Date" > stars.svg || true
+          curl -f -L "$PROXIES_URL" -o raw_proxies.yaml || { echo "Failed to fetch proxies"; exit 1; }
+
+      - name: Deduplicate + 过滤垃圾节点
+        run: python3 dedup.py
+
       - name: Strict Clash Speed Test (Google + 下载速度 + 高并发)
         run: |
           curl -sL https://github.com/faceair/clash-speedtest/releases/latest/download/clash-speedtest_Linux_x86_64.tar.gz | tar xz
@@ -16,24 +47,22 @@
             -timeout 10s \
             -concurrent 12 || echo "测速工具执行异常，使用去重文件"
 
+          # 检查测速结果
           if [ -f proxies_tested.yaml ] && grep -q "proxies:" proxies_tested.yaml && [ "$(grep -c "server:" proxies_tested.yaml)" -gt 0 ]; then
-            cp proxies_tested.yaml proxies_temp.yaml
-            echo "✅ 测速完成，进行节点名增强（加入延迟）"
+            cp proxies_tested.yaml proxies.yaml
+            echo "✅ 严格测速完成（高并发），使用过滤后的优质节点"
           else
-            cp proxies_dedup.yaml proxies_temp.yaml
-            echo "⚠️ 使用去重文件"
+            cp proxies_dedup.yaml proxies.yaml
+            echo "⚠️ 严格过滤后无节点保留，使用去重文件"
           fi
-
-      - name: Enhance node names with latency (国旗 + 速度 + 延迟)
-        run: python3 enhance_names.py
 
       - name: Commit changes
         run: |
-          git add proxies.yaml stars.svg raw_proxies.yaml proxies_dedup.yaml proxies_temp.yaml || true
+          git add proxies.yaml stars.svg raw_proxies.yaml proxies_dedup.yaml || true
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update: 每5小时严格测速 + 国旗+速度+延迟命名 ($(date '+%Y-%m-%d %H:%M:%S'))"
+            git commit -m "Update: 严格Google+下载测速（高并发12） + 国旗重命名 ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push
             echo "✅ 提交成功"
           fi
