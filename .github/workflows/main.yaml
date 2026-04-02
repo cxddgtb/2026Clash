@@ -6,25 +6,42 @@ on:
 
 permissions:
   contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Config Github
+      - uses: actions/checkout@v4   # ← 升级到 v4
+
+      - name: Config Git
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-      - name: Just Do It
+
+      - name: Update proxies and stars
         env:
           PROXIES_URL: ${{ secrets.PROXIES_URL }}
         run: |
-          timeout 10 curl -f "https://api.star-history.com/svg?repos=PuddinCat/BestClash&type=Date" > /tmp/stars.svg && mv /tmp/stars.svg .
-          curl $PROXIES_URL > proxies.yaml
+          # 下载 stars.svg（可选，如果不需要可以整个删掉）
+          timeout 10 curl -f "https://api.star-history.com/svg?repos=PuddinCat/BestClash&type=Date" > /tmp/stars.svg && mv /tmp/stars.svg . || echo "stars.svg download failed, continuing..."
+
+          # 更新代理列表
+          curl -f -L "$PROXIES_URL" -o proxies.yaml
           ret=$?
           length=$(wc -l < proxies.yaml)
-          if (( ret == 0 )) && (( length >= 10 )); then 
-            git add . && git commit -m 'Update: '"$(date)" && git push || echo 'nothing to push'
+
+          if [ $ret -eq 0 ] && [ $length -ge 10 ]; then
+            git add proxies.yaml stars.svg  # 只 add 需要更新的文件
+
+            # 关键修复：只有真的有变化才 commit
+            if ! git diff --cached --quiet; then
+              git commit -m "Update: $(date '+%Y-%m-%d %H:%M:%S')"
+              git push
+              echo "✅ Updated successfully"
+            else
+              echo "ℹ️ No changes, skipping commit"
+            fi
           else
-            echo error
+            echo "❌ Failed to fetch proxies or file too small"
+            exit 1   # 明确标记失败
           fi
