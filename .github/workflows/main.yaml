@@ -34,15 +34,15 @@ jobs:
           curl -sL https://github.com/faceair/clash-speedtest/releases/latest/download/clash-speedtest_Linux_x86_64.tar.gz | tar xz
           chmod +x clash-speedtest
 
-          echo "开始严格测速（高并发12 + Google访问 + 下载速度 ≥5MB/s + 延迟 ≤500ms）..."
+          echo "开始严格测速（高并发12 + Google访问 + 下载速度 ≥1MB/s + 延迟 ≤5000ms）..."
           ./clash-speedtest \
             -c proxies_dedup.yaml \
             -output proxies_tested.yaml \
             -rename \
             -speed-mode download \
             -server-url "https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg" \
-            -max-latency 500ms \
-            -min-download-speed 5 \
+            -max-latency 5000ms \
+            -min-download-speed 1 \
             -max-packet-loss 10 \
             -timeout 10s \
             -concurrent 12 || echo "测速工具执行异常，使用去重文件"
