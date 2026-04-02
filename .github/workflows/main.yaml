@@ -2,7 +2,7 @@ name: Fetch & Strict Google + Download Speed Test (High Concurrent)
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */5 * * *"
   workflow_dispatch:
 
 permissions:
