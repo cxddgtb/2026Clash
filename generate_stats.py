@@ -29,4 +29,5 @@ with open('nodes_stats.md', 'w', encoding='utf-8') as f:
     for flag, cnt in country.most_common(10):
         f.write(f"- {flag}: {cnt}\n")
     f.write(f"\n**原始去重节点**：详见 `proxies_dedup.yaml`\n")
-    print("✅ nodes_stats.md 生成完成")
+
+print("✅ nodes_stats.md 生成完成")
