@@ -6,7 +6,145 @@ unified-delay: true
 tcp-concurrent: true
 ipv6: false
 proxies:
-- name: 🇺🇸 US 001 | ⬇️ 143.12MB/s
+- name: 🇺🇸 US 001 | ⬇️ 319.77MB/s
+  network: ws
+  port: 2096
+  server: 192.200.160.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: '%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40wangcai2'
+- name: 🇺🇸 US 002 | ⬇️ 309.98MB/s
+  network: ws
+  port: 443
+  server: 135.84.64.222
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F'
+- name: 🇺🇸 US 003 | ⬇️ 308.17MB/s
+  network: ws
+  port: 443
+  server: 135.84.64.226
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540WangCai2%3D'
+- name: 🇺🇸 US 004 | ⬇️ 303.14MB/s
+  network: ws
+  port: 443
+  server: 209.102.207.120
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇺🇸 US 005 | ⬇️ 301.13MB/s
+  network: ws
+  port: 443
+  server: 135.84.73.100
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F'
+- name: 🇺🇸 US 006 | ⬇️ 290.16MB/s
+  network: ws
+  port: 443
+  server: 199.107.164.217
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+- name: 🇺🇸 US 007 | ⬇️ 288.51MB/s
+  network: ws
+  port: 443
+  server: 135.84.72.18
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540WangCai2%3D'
+- name: 🇺🇸 US 008 | ⬇️ 287.92MB/s
+  network: ws
+  port: 443
+  server: 135.84.74.118
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F'
+- name: 🇺🇸 US 009 | ⬇️ 286.95MB/s
+  network: ws
+  port: 2096
+  server: 45.40.147.191
+  servername: sni.my111000.tech
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%40WangCai2%2F
+- name: 🇺🇸 US 010 | ⬇️ 284.39MB/s
+  network: ws
+  port: 443
+  server: 135.84.74.43
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F'
+- name: 🇺🇸 US 011 | ⬇️ 282.99MB/s
+  network: ws
+  port: 443
+  server: 135.84.74.155
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2%3D'
+- name: 🇺🇸 US 012 | ⬇️ 272.56MB/s
   network: ws
   port: 443
   server: 160.153.1.23
@@ -20,7 +158,7 @@ proxies:
       Host: sni.111000.dynv6.net
     path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
 - flow: ''
-  name: 🇺🇸 US 002 | ⬇️ 142.90MB/s
+  name: 🇺🇸 US 013 | ⬇️ 271.07MB/s
   network: ws
   port: 2096
   server: 45.40.153.191
@@ -33,59 +171,7 @@ proxies:
     headers:
       Host: sni.my111000.tech
     path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%40WangCai2%2F
-- name: 🇦🇹 AT 001 | ⬇️ 141.35MB/s
-  network: ws
-  port: 2096
-  server: 212.183.88.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- name: 🇺🇸 US 003 | ⬇️ 137.72MB/s
-  network: ws
-  port: 443
-  server: 135.84.73.100
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F'
-- name: 🇺🇸 US 004 | ⬇️ 137.14MB/s
-  network: ws
-  port: 2096
-  server: 192.0.54.238
-  servername: sni.jpmj.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.jpmj.dev
-    path: '%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40wangcai2'
-- name: 🇺🇸 US 005 | ⬇️ 132.82MB/s
-  network: ws
-  port: 443
-  server: 135.84.74.43
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F'
-- name: 🇫🇷 FR 001 | ⬇️ 131.58MB/s
+- name: 🇫🇷 FR 001 | ⬇️ 266.32MB/s
   network: ws
   port: 2096
   server: 185.16.110.238
@@ -98,57 +184,10 @@ proxies:
     headers:
       Host: sni.jpmj.dev
     path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: 🇺🇸 US 006 | ⬇️ 126.81MB/s
-  network: ws
-  port: 443
-  server: 135.84.74.118
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F'
-- name: 🇺🇸 US 007 | ⬇️ 125.51MB/s
-  network: ws
-  port: 443
-  server: 135.84.72.18
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540WangCai2%3D'
-- alterId: 0
-  name: 🇺🇸 US 008 | ⬇️ 123.45MB/s
-  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
-  port: 13109
-  server: 104.238.162.6
-  skip-cert-verify: true
-  sni: ord2.edge-command.click
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇺🇸 US 009 | ⬇️ 122.95MB/s
-  network: ws
-  port: 443
-  server: 199.107.164.217
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-- name: 🇺🇸 US 010 | ⬇️ 118.83MB/s
+- name: 🇦🇹 AT 001 | ⬇️ 261.47MB/s
   network: ws
   port: 2096
-  server: 192.200.160.238
+  server: 212.183.88.238
   servername: sni.jpmj.dev
   skip-cert-verify: true
   tls: true
@@ -157,126 +196,23 @@ proxies:
   ws-opts:
     headers:
       Host: sni.jpmj.dev
-    path: '%2F'
-- name: 🇺🇸 US 011 | ⬇️ 117.33MB/s
+    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
+- name: 🇺🇸 US 014 | ⬇️ 237.50MB/s
   network: ws
   port: 2096
-  server: 45.40.147.191
-  servername: sni.my111000.tech
+  server: 192.0.54.238
+  servername: sni.jpmj.dev
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.my111000.tech
-    path: Telegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%40WangCai2%2F
-- name: 🇺🇸 US 012 | ⬇️ 116.95MB/s
-  network: ws
-  port: 443
-  server: 209.102.207.120
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- name: 🇨🇦 CA 001 | ⬇️ 111.85MB/s
-  network: ws
-  port: 80
-  server: 104.26.13.31
-  tls: false
-  type: vless
-  uuid: fe665bb7-a558-42bc-9ba7-a59288ee4b93
-  ws-opts:
-    headers:
-      Host: floral-term-d21f.wafajax493.workers.dev
-- name: 🇺🇸 US 013 | ⬇️ 111.57MB/s
-  network: ws
-  port: 443
-  server: 135.84.64.226
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540WangCai2%3D'
-- name: 🇨🇦 CA 002 | ⬇️ 104.86MB/s
-  network: ws
-  port: 2082
-  server: 104.18.3.11
-  tls: false
-  type: vless
-  uuid: cb213db5-803d-49dd-a7e2-46d938af0751
-  ws-opts:
-    headers:
-      Host: amiroo-l43dac88-v2.amiroo-d8b.workers.dev
-    path: /
-- name: 🇨🇦 CA 003 | ⬇️ 99.17MB/s
-  network: ws
-  port: 80
-  server: 104.16.149.66
-  tls: false
-  type: vless
-  uuid: a7444b2b-20fb-461f-9840-63e5c8c7d883
-  ws-opts:
-    headers:
-      Host: mute-violet-c674.poviy66273.workers.dev
-    path: /
-- client-fingerprint: randomized
-  name: 🇨🇦 CA 004 | ⬇️ 93.80MB/s
-  network: ws
-  port: 2095
-  server: www.whatismyip.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnm-fangbinxing-nmsl.fangbinxing-wcnm.workers.dev
-    path: '%2F'
-- name: 🇨🇦 CA 005 | ⬇️ 93.79MB/s
-  network: ws
-  port: 80
-  server: 104.16.158.162
-  tls: false
-  type: vless
-  uuid: a7444b2b-20fb-461f-9840-63e5c8c7d883
-  ws-opts:
-    headers:
-      Host: mute-violet-c674.poviy66273.workers.dev
-    path: /
-- name: 🇨🇦 CA 006 | ⬇️ 85.36MB/s
-  network: ws
-  port: 8080
-  server: 104.26.15.85
-  tls: false
-  type: vless
-  uuid: b38b778b-06f0-4161-91b2-1f0b220b7df4
-  ws-opts:
-    headers:
-      Host: 015.electrocellco-cf-015.workers.dev
-    path: '%2FeyJqdW5rIjoiQm5nNGZUVWwiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyIyMTMuMTcwLjE1Ny4xIl19'
-- name: 🇨🇦 CA 007 | ⬇️ 85.22MB/s
-  network: ws
-  port: 2086
-  server: 172.67.203.94
-  tls: false
-  type: vless
-  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
-  ws-opts:
-    headers:
-      Host: iioo.iioou.workers.dev
-    path: /
+      Host: sni.jpmj.dev
+    path: '%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40wangcai2'
 - alpn:
   - http/1.1
-  name: 🇷🇺 RU 001 | ⬇️ 85.01MB/s
+  name: 🇷🇺 RU 001 | ⬇️ 222.95MB/s
   network: ws
   port: 443
   server: 45.67.215.233
@@ -289,27 +225,9 @@ proxies:
     headers:
       Host: 057.electrocellco-cf-057.workers.dev
     path: '%2FeyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D'
-- name: 🇺🇸 US 014 | ⬇️ 81.45MB/s
-  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
-  port: 443
-  server: n1.chateditimage.com
-  skip-cert-verify: true
-  type: trojan
-- name: 🇨🇦 CA 008 | ⬇️ 81.14MB/s
-  network: ws
-  port: 80
-  server: cf.0sm.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
-  ws-opts:
-    headers:
-      Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
-    path: '%2F%3Fed%3D2048'
 - alpn:
   - http/1.1
-  name: 🇷🇺 RU 002 | ⬇️ 78.07MB/s
+  name: 🇷🇺 RU 002 | ⬇️ 211.05MB/s
   network: ws
   port: 443
   server: mci.buzzmuzzpanel.online
@@ -322,21 +240,63 @@ proxies:
     headers:
       Host: 057.electrocellco-cf-057.workers.dev
     path: '%2FeyJqdW5rIjoiSFM1N0lLQmx2UU1qRzlnTiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0%3D'
-- name: 🇺🇸 US 015 | ⬇️ 77.72MB/s
+- name: 🇨🇦 CA 001 | ⬇️ 188.76MB/s
   network: ws
-  port: 443
-  server: 135.84.74.155
-  servername: sni.111000.v6.navy
-  tls: true
+  port: 80
+  server: 172.66.47.45
+  tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
+      Host: vip.yaml7.ggff.net
+    path: '%2F'
+- name: 🇨🇦 CA 002 | ⬇️ 168.19MB/s
+  network: ws
+  port: 8080
+  server: 198.41.222.50
+  tls: false
+  type: vless
+  uuid: 27950cc1-85b4-4ecc-ad3a-4507360504af
+  ws-opts:
+    headers:
+      Host: 031.electrocellco-cf-031.workers.dev
+    path: /eyJqdW5rIjoiQjE1UDBKNGN6UnEzNjg2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIxMy4yMTEuMjkiLCIzMS40NC4yLjU3IiwiNzcuMjQ2LjEwOC4xMzAiXX0=
+- name: 🇨🇦 CA 003 | ⬇️ 166.69MB/s
+  network: ws
+  port: 2082
+  server: 104.18.2.11
+  tls: false
+  type: vless
+  uuid: cb213db5-803d-49dd-a7e2-46d938af0751
+  ws-opts:
+    headers:
+      Host: amiroo-l43dac88-v2.amiroo-d8b.workers.dev
+    path: /
+- name: 🏳️ CW 001 | ⬇️ 140.42MB/s
+  network: ws
+  port: 80
+  server: 92.60.74.56
+  tls: false
+  type: vless
+  uuid: 43158d39-8066-4df4-b74e-2ab29f207e0a
+  ws-opts:
+    headers:
+      Host: 29.alij47649.workers.dev
+    path: /?ed=2048
+- alterId: 0
+  name: 🇺🇸 US 015 | ⬇️ 137.95MB/s
+  password: WwipNOSqUh49CEapMmIrv6m6AZLf-EC0+T
+  port: 13109
+  server: 104.238.162.6
+  skip-cert-verify: true
+  sni: ord2.edge-command.click
+  tls: true
+  type: trojan
+  udp: true
 - alpn:
   - http/1.1
-  name: 🇺🇸 US 016 | ⬇️ 76.59MB/s
+  name: 🇺🇸 US 016 | ⬇️ 135.97MB/s
   network: ws
   port: 443
   server: 63.141.128.22
@@ -349,47 +309,76 @@ proxies:
     headers:
       Host: misty-tooth-78ca.fobogah414-e7b.workers.dev
     path: /eyJqdW5rIjoiTkNUaFg0ZnJNUjhhcyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-- name: 🇺🇸 US 017 | ⬇️ 72.36MB/s
+- name: 🇨🇦 CA 004 | ⬇️ 124.62MB/s
   network: ws
-  port: 443
-  server: 135.84.64.222
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F'
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 🇸🇪 SE 001 | ⬇️ 71.79MB/s
-  port: 10121
-  reality-opts:
-    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
-    short-id: 9c2a7d4e5f18b6a3
-  server: 150.241.83.152
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
-- name: 🇨🇦 CA 009 | ⬇️ 69.03MB/s
-  network: ws
-  port: 80
-  server: 104.17.152.254
+  port: 2086
+  server: 172.67.203.94
   tls: false
   type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
   ws-opts:
     headers:
-      Host: vip.yaml7.ggff.net
+      Host: iioo.iioou.workers.dev
+    path: /
+- name: 🇨🇦 CA 005 | ⬇️ 121.14MB/s
+  network: ws
+  port: 80
+  server: cf.0sm.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 93526fcb-8dbf-442e-a656-eb304f1da4ef
+  ws-opts:
+    headers:
+      Host: lucky-voice-d6f3.difat89954-0c6.workers.dev
+    path: '%2F%3Fed%3D2048'
+- client-fingerprint: randomized
+  name: 🇨🇦 CA 006 | ⬇️ 120.51MB/s
+  network: ws
+  port: 2095
+  server: www.whatismyip.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnm-fangbinxing-nmsl.fangbinxing-wcnm.workers.dev
     path: '%2F'
+- name: 🇨🇦 CA 007 | ⬇️ 119.79MB/s
+  network: ws
+  port: 80
+  server: 104.17.169.216
+  tls: false
+  type: vless
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  ws-opts:
+    headers:
+      Host: amirvpn.amirhm00100.workers.dev
+- name: 🇺🇸 US 017 | ⬇️ 50.90MB/s
+  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
+  port: 443
+  server: n1.chateditimage.com
+  sni: n1.chateditimage.com
+  type: trojan
+- name: 🇺🇸 US 018 | ⬇️ 49.89MB/s
+  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
+  port: 443
+  server: n2.chateditimage.com
+  sni: n2.chateditimage.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US 018 | ⬇️ 68.57MB/s
+  name: 🇺🇸 US 019 | ⬇️ 47.58MB/s
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US 020 | ⬇️ 46.94MB/s
   network: ws
   port: '2053'
   server: usaapp1.jisuyun.top
@@ -401,63 +390,33 @@ proxies:
     headers:
       Host: usaapp1.jisuyun.top
     path: /usavm
-- client-fingerprint: random
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: 🇺🇸 US 019 | ⬇️ 61.57MB/s
-  network: tcp
-  port: 443
-  server: s173.okgg.top
-  servername: u710947ua226s173.okgg.top
+  name: 🇸🇪 SE 001 | ⬇️ 45.78MB/s
+  port: 10121
+  reality-opts:
+    public-key: 4DdA8dBVn5zB_UTbgBY45YqM0HU8zrjXYdzg3-wz5Rg
+    short-id: 9c2a7d4e5f18b6a3
+  server: 150.241.83.152
+  servername: apple.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-- name: 🇺🇸 US 020 | ⬇️ 33.95MB/s
-  password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
-  port: 443
-  server: n2.chateditimage.com
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GB 001 | ⬇️ 27.80MB/s
-  password: W74XFALLLuw6m5IA
-  port: 443
-  server: series-a1.samanehha.co
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- name: 🇬🇧 GB 002 | ⬇️ 26.54MB/s
-  network: tcp
-  port: 8443
-  server: uk1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alterId: 0
-  name: 🏳️ AL 001 | ⬇️ 26.34MB/s
-  password: MeaDiUmPlkWbZJ2BON8tz
-  port: 28259
-  server: 78.159.131.12
-  skip-cert-verify: true
-  sni: ads.x5.ru
-  tls: true
-  type: trojan
   udp: true
-- flow: ''
-  name: 🇳🇱 NL 001 | ⬇️ 25.87MB/s
-  network: ws
-  port: 80
-  server: nl-90w-c.southnetworks.cloud
+  uuid: d1209ffb-c159-48d5-b40d-542ce11fc768
+- alterId: 0
+  cipher: auto
+  name: 🇪🇸 ES 001 | ⬇️ 38.00MB/s
+  network: tcp
+  port: '22324'
+  server: 85.90.217.42
   tls: false
-  type: vless
-  uuid: e08f1ad7-0c60-446d-baec-08b3b69bb3d0
-  ws-opts:
-    path: '%2FgetWorkerUpdates'
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alpn:
   - h2
   flow: ''
-  name: 🇬🇧 GB 003 | ⬇️ 25.85MB/s
+  name: 🇬🇧 GB 001 | ⬇️ 36.97MB/s
   network: tcp
   port: 8443
   server: 152.233.28.198
@@ -466,17 +425,7 @@ proxies:
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- flow: ''
-  name: 🇳🇱 NL 002 | ⬇️ 25.66MB/s
-  network: ws
-  port: 80
-  server: 146.103.102.82
-  tls: false
-  type: vless
-  uuid: e08f1ad7-0c60-446d-baec-08b3b69bb3d0
-  ws-opts:
-    path: '%2FgetWorkerUpdates'
-- name: 🇳🇱 NL 003 | ⬇️ 25.44MB/s
+- name: 🇳🇱 NL 001 | ⬇️ 35.34MB/s
   port: 8443
   server: 195.181.173.199
   servername: ams1.fromblancwithlove.com
@@ -485,56 +434,7 @@ proxies:
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- name: 🇳🇱 NL 004 | ⬇️ 24.30MB/s
-  network: ws
-  port: 443
-  server: 45.91.202.224
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
-- name: 🇫🇷 FR 002 | ⬇️ 23.92MB/s
-  network: ws
-  port: 8443
-  server: 31.59.121.227
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-- alpn:
-  - http/1.1
-  flow: xtls-rprx-vision
-  name: 🇫🇮 FI 001 | ⬇️ 23.87MB/s
-  network: tcp
-  port: 443
-  server: 185.93.105.118
-  servername: sub.sbrf-cdn342.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
-- alpn:
-  - http/1.1
-  flow: xtls-rprx-vision
-  name: 🇫🇮 FI 002 | ⬇️ 23.64MB/s
-  network: tcp
-  port: 443
-  server: 185.93.105.107
-  servername: sub.sbrf-cdn342.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
-- name: 🇳🇱 NL 005 | ⬇️ 23.48MB/s
+- name: 🇳🇱 NL 002 | ⬇️ 33.70MB/s
   network: ws
   port: 8443
   server: 212.34.152.234
@@ -547,7 +447,7 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- name: 🇩🇪 DE 001 | ⬇️ 23.15MB/s
+- name: 🇩🇪 DE 001 | ⬇️ 32.39MB/s
   network: ws
   port: 443
   server: 159.223.24.65
@@ -560,7 +460,7 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: '%2F%3Fed%3D2560'
-- name: 🇩🇪 DE 002 | ⬇️ 22.92MB/s
+- name: 🇩🇪 DE 002 | ⬇️ 31.81MB/s
   network: ws
   port: 2053
   server: 188.245.108.104
@@ -573,16 +473,44 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: '%2F%3Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2540wangcai2%3D'
-- alterId: 0
-  cipher: auto
-  name: 🇪🇸 ES 001 | ⬇️ 22.76MB/s
-  network: tcp
-  port: '22324'
-  server: 85.90.217.42
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- name: 🇩🇪 DE 003 | ⬇️ 22.63MB/s
+- name: 🇳🇱 NL 003 | ⬇️ 31.77MB/s
+  network: ws
+  port: 443
+  server: 45.91.202.224
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
+- name: 🏳️ AL 001 | ⬇️ 31.76MB/s
+  network: ws
+  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
+  port: 2083
+  server: 185.177.238.15
+  skip-cert-verify: true
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: /trojan-ws
+- name: 🇩🇪 DE 003 | ⬇️ 31.73MB/s
+  network: ws
+  port: 8444
+  server: 49.13.171.76
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇩🇪 DE 004 | ⬇️ 31.60MB/s
   network: ws
   password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
   port: 2083
@@ -594,29 +522,7 @@ proxies:
     headers:
       Host: xo.e0f.cx
     path: /trojan-ws
-- flow: ''
-  name: 🇸🇪 SE 002 | ⬇️ 22.62MB/s
-  network: tcp
-  port: 443
-  server: 144.31.130.37
-  servername: secdn12.melodramaonline.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 7e0a9f75-b424-493b-b7e6-cebd7ea8642d
-- name: 🇩🇪 DE 004 | ⬇️ 22.48MB/s
-  network: ws
-  port: 2053
-  server: 188.241.241.3
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- name: 🇩🇪 DE 005 | ⬇️ 22.42MB/s
+- name: 🇩🇪 DE 005 | ⬇️ 31.58MB/s
   network: ws
   port: 8443
   server: 87.120.92.150
@@ -629,74 +535,31 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: /
-- name: 🇳🇱 NL 006 | ⬇️ 22.30MB/s
-  password: M08tvzYWtUEJNtbpHp
+- alpn:
+  - http/1.1
+  flow: xtls-rprx-vision
+  name: 🇫🇮 FI 001 | ⬇️ 31.15MB/s
+  network: tcp
   port: 443
-  server: nl-4.tr202512.com
-  sni: nl-4.tr202512.com
-  type: trojan
-- name: 🇬🇧 GB 004 | ⬇️ 22.28MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.14
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.14%3A7443'
-- name: 🇬🇧 GB 005 | ⬇️ 22.28MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.21
-  servername: 2026.hhhhh.eu.org
+  server: 185.93.105.118
+  servername: sub.sbrf-cdn342.ru
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /222.167.202.21:7443
-- name: 🇬🇧 GB 006 | ⬇️ 22.25MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.50
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.50%3A7443'
-- name: 🇩🇪 DE 006 | ⬇️ 22.17MB/s
-  network: ws
-  port: 8444
-  server: 49.13.171.76
-  servername: sni.111000.v6.navy
+  uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
+- alpn:
+  - http/1.1
+  flow: xtls-rprx-vision
+  name: 🇫🇮 芬兰 | vless | 03
+  network: tcp
+  port: 443
+  server: 185.93.105.107
+  servername: sub.sbrf-cdn342.ru
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- name: 🇬🇧 GB 007 | ⬇️ 22.11MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.22
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.22%3A7443'
-- name: 🇳🇱 NL 007 | ⬇️ 22.03MB/s
+  uuid: c4f2dee2-14e3-4c02-91e9-31c7917e239c
+- name: 🇷🇺 俄罗斯 | trojan | 13
   network: ws
   password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
   port: 2083
@@ -708,7 +571,31 @@ proxies:
     headers:
       Host: xo.e0f.cx
     path: /trojan-ws
-- name: 🇩🇪 DE 007 | ⬇️ 22.00MB/s
+- name: 🇨🇭 瑞士 | trojan | 03
+  network: ws
+  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
+  port: 2083
+  server: 95.85.239.225
+  skip-cert-verify: true
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: /trojan-ws
+- name: 🇩🇪 德国 | vless | 40
+  network: ws
+  port: 2087
+  server: 176.96.138.17
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F'
+- name: 🇩🇪 德国 | vless | 71
   network: ws
   port: 8443
   server: 94.130.132.180
@@ -721,59 +608,45 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540app_bedal%3D'
-- name: 🇬🇧 GB 008 | ⬇️ 22.00MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.33
-  servername: 2026.hhhhh.eu.org
+- name: 🇳🇱 荷兰 | trojan | 64
+  password: M08tvzYWtUEJNtbpHp
+  port: 443
+  server: nl-4.tr202512.com
+  sni: nl-4.tr202512.com
+  type: trojan
+- name: 🇸🇪 瑞典 | vless | 03
+  network: tcp
+  port: 443
+  server: 144.31.130.37
+  servername: secdn12.melodramaonline.net
   tls: true
   type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  uuid: 7e0a9f75-b424-493b-b7e6-cebd7ea8642d
+- name: 🇮🇹 意大利 | trojan | 01
+  network: ws
+  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
+  port: 2083
+  server: 147.45.51.114
+  skip-cert-verify: true
+  sni: xo.e0f.cx
+  type: trojan
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.33%3A7443'
-- name: 🇬🇧 GB 009 | ⬇️ 21.94MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.35
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.35%3A7443'
-- name: 🇬🇧 GB 010 | ⬇️ 21.94MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.47
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.47%3A7443'
-- name: 🇬🇧 GB 011 | ⬇️ 21.94MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.23
-  servername: 2026.hhhhh.eu.org
+      Host: xo.e0f.cx
+    path: /trojan-ws
+- name: 🇵🇱 波兰 | vless | 06
+  network: tcp
+  port: 443
+  server: 144.31.4.127
+  servername: plcdn14.melodramaonline.net
   skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.23%3A7443'
-- name: 🇬🇧 GB 012 | ⬇️ 21.92MB/s
+  uuid: 7e0a9f75-b424-493b-b7e6-cebd7ea8642d
+- name: 🇭🇰 香港 | vless | 11
   network: ws
   port: 7443
-  server: 222.167.202.60
+  server: 222.167.202.22
   servername: 2026.hhhhh.eu.org
   tls: true
   type: vless
@@ -781,20 +654,8 @@ proxies:
   ws-opts:
     headers:
       Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.60%3A7443'
-- name: 🇬🇧 GB 013 | ⬇️ 21.85MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.45
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.45%3A7443'
-- name: 🇬🇧 GB 014 | ⬇️ 21.78MB/s
+    path: '%2F222.167.202.22%3A7443'
+- name: 🇭🇰 香港 | vless | 08
   network: ws
   port: 7443
   server: 222.167.202.6
@@ -807,128 +668,7 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: '%2F222.167.202.6%3A7443'
-- name: 🇬🇧 GB 015 | ⬇️ 21.73MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.3
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.3%3A7443'
-- name: 🇬🇧 GB 016 | ⬇️ 21.62MB/s
-  network: ws
-  port: 7443
-  server: 222.167.202.70
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.70%3A7443'
-- name: 🇵🇱 PL 001 | ⬇️ 21.54MB/s
-  network: tcp
-  port: 443
-  server: 144.31.4.127
-  servername: plcdn14.melodramaonline.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 7e0a9f75-b424-493b-b7e6-cebd7ea8642d
-- name: 🇩🇪 DE 008 | ⬇️ 21.53MB/s
-  network: ws
-  port: 2087
-  server: 176.96.138.17
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F'
-- name: 🇫🇷 FR 003 | ⬇️ 21.30MB/s
-  network: ws
-  port: 443
-  server: 141.94.220.210
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: t.me%2Fv2Line
-- name: 🇧🇷 BR 001 | ⬇️ 21.29MB/s
-  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
-  port: 26593
-  server: 216.238.102.254
-  skip-cert-verify: true
-  sni: sao2.cdn-graph.click
-  type: trojan
-- name: 🇭🇰 香港 | vless | 24
-  network: ws
-  port: 7443
-  server: 222.167.202.2
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.2%3A7443'
-- name: 🇳🇴 NO 001 | ⬇️ 20.80MB/s
-  network: tcp
-  password: wp9IsiY82uQhcmgNC1eoBM
-  port: 12420
-  server: 80.173.231.254
-  sni: www.semanticstaplegun.click
-  type: trojan
-- name: 🇭🇰 香港 | vless | 21
-  network: ws
-  port: 7443
-  server: 222.167.202.36
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: '%2F222.167.202.36%3A7443'
-- name: 🇵🇱 PL 002 | ⬇️ 20.56MB/s
-  network: ws
-  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
-  port: 2083
-  server: 144.31.5.132
-  skip-cert-verify: true
-  sni: xo.e0f.cx
-  type: trojan
-  ws-opts:
-    headers:
-      Host: xo.e0f.cx
-    path: /trojan-ws
-- name: 🇫🇷 FR 004 | ⬇️ 20.53MB/s
-  network: ws
-  port: 443
-  server: 88.218.78.167
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /
-- name: 🇭🇰 香港 | vless | 29
+- name: 🇭🇰 香港 | vless | 12
   network: ws
   port: 7443
   server: 222.167.202.16
@@ -941,8 +681,302 @@ proxies:
     headers:
       Host: 2026.hhhhh.eu.org
     path: '%2F222.167.202.16%3A7443'
+- name: 🇭🇰 香港 | vless | 10
+  network: ws
+  port: 7443
+  server: 222.167.202.33
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.33%3A7443'
+- name: 🇭🇰 香港 | vless | 03
+  network: ws
+  port: 7443
+  server: 222.167.202.21
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /222.167.202.21:7443
+- name: 🇭🇰 香港 | vless | 02
+  network: ws
+  port: 7443
+  server: 222.167.202.14
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.14%3A7443'
+- name: 🇭🇰 香港 | vless | 06
+  network: ws
+  port: 7443
+  server: 222.167.202.32
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.32%3A7443'
+- name: 🇭🇰 香港 | vless | 23
+  network: ws
+  port: 7443
+  server: 222.167.202.52
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.52%3A7443'
+- name: 🇭🇰 香港 | vless | 05
+  network: ws
+  port: 7443
+  server: 222.167.202.47
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.47%3A7443'
+- name: 🇭🇰 香港 | vless | 15
+  network: ws
+  port: 7443
+  server: 222.167.202.2
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.2%3A7443'
+- name: 🇷🇴 罗马尼亚 | vless | 03
+  network: ws
+  port: 2053
+  server: 188.241.241.3
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
+- name: 🇭🇰 香港 | vless | 22
+  network: ws
+  port: 7443
+  server: 222.167.202.15
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.15%3A7443'
+- name: 🇭🇰 香港 | vless | 04
+  network: ws
+  port: 7443
+  server: 222.167.202.26
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.26%3A7443'
+- name: 🇭🇰 香港 | vless | 14
+  network: ws
+  port: 7443
+  server: 222.167.202.31
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.31%3A7443'
+- name: 🇭🇰 香港 | vless | 20
+  network: ws
+  port: 7443
+  server: 222.167.202.4
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.4%3A7443'
+- name: 🇮🇹 意大利 | trojan | 02
+  network: ws
+  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
+  port: 2083
+  server: 147.45.51.57
+  skip-cert-verify: true
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: /trojan-ws
+- name: 🇭🇰 香港 | vless | 16
+  network: ws
+  port: 7443
+  server: 222.167.202.70
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.70%3A7443'
+- name: 🇭🇰 香港 | vless | 19
+  network: ws
+  port: 7443
+  server: 222.167.202.10
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.10%3A7443'
+- name: 🇭🇰 香港 | vless | 01
+  network: ws
+  port: 7443
+  server: 222.167.202.23
+  servername: 2026.hhhhh.eu.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.23%3A7443'
+- name: 🇭🇰 香港 | vless | 18
+  network: ws
+  port: 7443
+  server: 222.167.202.36
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.36%3A7443'
+- name: 🇭🇰 香港 | vless | 17
+  network: ws
+  port: 7443
+  server: 222.167.202.50
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.50%3A7443'
+- name: 🇵🇱 波兰 | trojan | 07
+  network: ws
+  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
+  port: 2083
+  server: 144.31.5.132
+  skip-cert-verify: true
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: /trojan-ws
 - alterId: 0
-  name: 🇳🇴 NO 002 | ⬇️ 20.47MB/s
+  name: 🇺🇸US美国5 1.0MB/s
+  network: tcp
+  password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
+  port: 26593
+  server: 216.238.102.254
+  skip-cert-verify: true
+  sni: sao2.cdn-graph.click
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇪🇸ES西班牙2 1.4MB/s
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  skip-cert-verify: true
+  sni: www.semanticstaplegun.click
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇫🇷 法国 | vless | 16
+  network: ws
+  port: 8443
+  server: 31.59.121.227
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+- name: 🇭🇰 香港 | vless | 21
+  network: ws
+  port: 7443
+  server: 222.167.202.3
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.3%3A7443'
+- name: 🇭🇰 香港 | vless | 13
+  network: ws
+  port: 7443
+  server: 222.167.202.35
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.35%3A7443'
+- name: 🇹🇷 土耳其 | vless | 01
+  network: tcp
+  port: 56126
+  server: 185.72.9.200
+  tls: false
+  type: vless
+  uuid: 9bde09b3-09b5-4d7a-b5fd-3fae8dfeed5a
+- alterId: 0
+  name: 🇪🇸ES西班牙
   password: a5inYFE=JGV89+hjxIqgDp1tcWBd6
   port: 26279
   server: 80.173.230.196
@@ -950,38 +984,95 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: 🇱🇻 LV 001 | ⬇️ 20.34MB/s
-  network: ws
-  port: 8443
-  server: 188.253.16.233
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40%40jdfxq'
-- name: 🇱🇻 拉脱维亚 | vless | 06
+- name: 🇫🇷 法国 | vless | 34
   network: ws
   port: 443
-  server: 195.135.254.64
-  servername: sni.111000.indevs.in
+  server: 141.94.220.210
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40%40jdfxq'
-- name: 🇹🇷 TR 001 | ⬇️ 20.09MB/s
-  network: tcp
-  port: 56126
-  server: 185.72.9.200
+      Host: sni.111000.v6.navy
+    path: t.me%2Fv2Line
+- name: 🇭🇰 香港 | vless | 09
+  network: ws
+  port: 7443
+  server: 222.167.202.60
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.60%3A7443'
+- name: 🇷🇺 俄罗斯 | vless | 05
+  network: ws
+  port: 49169
+  server: 185.178.47.163
   tls: false
   type: vless
-  uuid: 9bde09b3-09b5-4d7a-b5fd-3fae8dfeed5a
-- name: 🇩🇪 DE 009 | ⬇️ 19.86MB/s
+  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
+- name: 🇷🇺 俄罗斯 | vless | 10
+  network: ws
+  port: 49169
+  server: 109.68.212.216
+  tls: false
+  type: vless
+  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
+  ws-opts:
+    path: '%2F'
+- name: 🇷🇺 俄罗斯 | vless | 04
+  network: ws
+  port: 49169
+  server: 188.225.34.41
+  tls: false
+  type: vless
+  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
+- name: 🇷🇺 俄罗斯 | vless | 08
+  network: ws
+  port: 49169
+  server: 217.25.94.11
+  tls: false
+  type: vless
+  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
+- name: 🇭🇰 香港 | vless | 07
+  network: ws
+  port: 7443
+  server: 222.167.202.45
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: '%2F222.167.202.45%3A7443'
+- name: 🇷🇺 俄罗斯 | vless | 07
+  network: ws
+  port: 49169
+  server: 5.23.54.3
+  tls: false
+  type: vless
+  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
+- cipher: aes-256-cfb
+  name: MT_speednode_0027
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 171.22.254.17
+  type: ss
+  udp: true
+- name: 🇷🇺 俄罗斯 | vless | 11
+  network: ws
+  port: 49169
+  server: 103.88.241.10
+  tls: false
+  type: vless
+  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
+- name: 🇷🇴 罗马尼亚 | vless | 01
   network: ws
   port: 2053
   server: 188.241.241.123
@@ -993,216 +1084,19 @@ proxies:
     headers:
       Host: sni.111000.dynv6.net
     path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- cipher: aes-256-cfb
-  name: MT_speednode_0027
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 171.22.254.17
-  type: ss
-  udp: true
-- name: 🇷🇺 俄罗斯 | vless | 09
+- name: 🇬🇧 英国 | vless | 39
   network: ws
-  port: 49169
-  server: 188.225.34.41
-  tls: false
-  type: vless
-  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: 🇪🇪 EE 001 | ⬇️ 18.99MB/s
-  network: tcp
   port: 443
-  server: s501.ccgfw.top
-  servername: u710947u2c89s501.ccgfw.top
-  tls: true
-  type: vless
-  uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-- name: 🇷🇺 RU 003 | ⬇️ 18.69MB/s
-  network: ws
-  port: 49169
-  server: 109.68.212.216
-  tls: false
-  type: vless
-  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
-  ws-opts:
-    path: '%2F'
-- name: 🇷🇺 俄罗斯 | vless | 10
-  network: ws
-  port: 49169
-  server: 5.23.54.3
-  tls: false
-  type: vless
-  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
-- name: 🇷🇺 俄罗斯 | vless | 11
-  network: ws
-  port: 49169
-  server: 217.25.94.11
-  tls: false
-  type: vless
-  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 101
-  network: ws
-  port: 80
-  server: 27703551-t70f40-tnt75r-1k8ga.hkt.gotochinatown.net
-  servername: 27703551-t70f40-tnt75r-1k8ga.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 27703551-t70f40-tnt75r-1k8ga.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 105
-  network: ws
-  port: 80
-  server: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
-  servername: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: dcbaee4d-2204-11ed-b659-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: d7d6992d-t5bb40-tdvaex-1ixuf.hkt.gotochinatown.net
-    path: /
-- name: 🇩🇪 德国 | vless | 49
-  network: ws
-  port: 8443
-  server: 57.129.63.149
-  servername: sni.111000.indevs.in
+  server: 57.129.137.81
+  servername: sni.111000.v6.navy
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
-- name: 🇷🇺 RU 004 | ⬇️ 17.96MB/s
-  network: ws
-  port: 49169
-  server: 103.88.241.10
-  tls: false
-  type: vless
-  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 韩国 | vmess | 25
-  network: ws
-  port: 443
-  server: chuncheon03.zgjok.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
-  ws-opts:
-    headers:
-      Host: chuncheon03.zgjok.com
-    path: /
-- name: 🇸🇬 SG 001 | ⬇️ 17.64MB/s
-  network: ws
-  port: 80
-  server: vps.zakir.web.id
-  tls: false
-  type: vless
-  uuid: ca73d911-29f4-42d8-ada5-81dee679e96a
-  ws-opts:
-    headers:
-      Host: vps.zakir.web.id
-    path: vless
-- name: 🇷🇺 RU 005 | ⬇️ 17.60MB/s
-  network: ws
-  port: 49169
-  server: 185.178.47.163
-  tls: false
-  type: vless
-  uuid: 801ddf0d-5b03-4a1d-a7b0-211458015187
-- alpn:
-  - h2
-  name: 🇭🇰 香港 | vless | 55
-  network: tcp
-  port: 8443
-  server: 84.17.37.19
-  servername: hkg1.fromblancwithlove.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK 001 | ⬇️ 16.92MB/s
-  network: ws
-  port: 80
-  server: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
-  servername: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK 002 | ⬇️ 16.89MB/s
-  network: ws
-  port: 80
-  server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
-    path: /
-- name: 🇸🇬 新加坡 | trojan | 25
-  network: ws
-  password: 13c169be-8592-4eaa-94cb-69c859e7d987
-  port: 443
-  server: ubu.okaoclax.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ubu.okaoclax.me
-    path: '%2Ftrojan-ws'
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺 俄罗斯 | vmess | 06
-  network: tcp
-  port: 39651
-  server: 45.89.52.207
-  tls: false
-  type: vmess
-  uuid: ac4c12c5-45f2-4398-a718-9983941ede2b
-- flow: ''
-  name: 🇩🇰 DK 001 | ⬇️ 16.57MB/s
-  network: ws
-  port: 15855
-  server: 45.148.31.0
-  tls: false
-  type: vless
-  uuid: e4fc4761-154f-490e-bbaa-b4fa193f1073
-  ws-opts:
-    path: '%2F'
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 93
-  network: ws
-  port: 80
-  server: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
-  ws-opts:
-    headers:
-      Host: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net
-    path: /
-- name: 🇫🇷 FR 005 | ⬇️ 16.34MB/s
+      Host: sni.111000.v6.navy
+- name: 🇫🇷 法国 | vless | 32
   network: ws
   port: 2053
   server: 51.38.227.155
@@ -1215,456 +1109,7 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英国 | vmess | 02
-  network: tcp
-  port: '22324'
-  server: 66.163.117.58
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 92
-  network: ws
-  port: 80
-  server: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net
-  servername: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 12
-  network: ws
-  port: 80
-  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
-    path: /
-- name: 🇫🇷 法国 | vless | 34
-  network: ws
-  port: 8443
-  server: 51.210.150.65
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F%3FTelegram%E9%A6%83%E5%9A%9A%E9%A6%83%E5%9A%A6+%40WangCai2%3D'
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 103
-  network: ws
-  port: 80
-  server: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
-  servername: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
-    path: /
-- name: 🇬🇧 英国 | vless | 41
-  network: ws
-  port: 443
-  server: 57.129.137.81
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 87
-  network: ws
-  port: 80
-  server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
-  servername: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
-    path: /
-- name: 🇫🇷 法国 | vless | 33
-  network: ws
-  port: 8443
-  server: 146.59.230.8
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 97
-  network: ws
-  port: 80
-  server: 4f7c7632-t63340-t7hjku-1rgxu.hkt.gotochinatown.net
-  servername: 4f7c7632-t63340-t7hjku-1rgxu.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 4f7c7632-t63340-t7hjku-1rgxu.hkt.gotochinatown.net
-    path: /
-- name: 🇩🇪 德国 | vless | 37
-  network: ws
-  port: 443
-  server: 138.197.183.219
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- name: 🇫🇷 法国 | vless | 22
-  network: ws
-  port: 8443
-  server: 57.128.181.18
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 84
-  network: ws
-  port: 80
-  server: c309eb1e-tbn340-td3l0d-1lkt0.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: c309eb1e-tbn340-td3l0d-1lkt0.hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 98
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- name: 🏳️ CF节点 | vless | 09
-  network: ws
-  port: 80
-  server: 172.64.147.15
-  tls: false
-  type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  ws-opts:
-    headers:
-      Host: tt.andishehparenting.com
-    path: '%2F'
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 94
-  network: ws
-  port: 80
-  server: bccdd778-tb6f40-ttxkqc-e06r.hkt.gotochinatown.net
-  servername: bccdd778-tb6f40-ttxkqc-e06r.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-  ws-opts:
-    headers:
-      Host: bccdd778-tb6f40-ttxkqc-e06r.hkt.gotochinatown.net
-    path: /
-- name: 🇩🇪 德国 | vless | 58
-  network: ws
-  port: 2053
-  server: 57.129.63.154
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram%E9%A6%83%E5%9A%9A%E9%A6%83%E5%9A%A6+%40WangCai2%3D'
-- name: 🇫🇷 法国 | vless | 23
-  network: ws
-  port: 443
-  server: 51.91.253.60
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
-- name: 🇫🇷 法国 | vless | 25
-  network: ws
-  port: 443
-  server: 51.91.254.78
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- name: 🇫🇷 法国 | vless | 31
-  network: ws
-  port: 2053
-  server: 51.91.102.163
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
-- name: 🇱🇻 拉脱维亚 | vless | 08
-  network: ws
-  port: 443
-  server: 91.197.0.100
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- name: 🇫🇷 法国 | vless | 17
-  network: ws
-  port: 8443
-  server: 57.128.176.82
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3Fed'
-- alterId: 0
-  name: 🇬🇧GB英国4 660.6KB/s
-  network: tcp
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.3
-  skip-cert-verify: true
-  sni: fra34.chasem2026sud.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇫🇷 法国 | vless | 27
-  network: ws
-  port: 2053
-  server: 141.94.77.169
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F'
-- alterId: 0
-  name: 🇬🇧GB英国3 641.7KB/s
-  network: tcp
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.199
-  skip-cert-verify: true
-  sni: fra4.chasem2026sud.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  name: 🇬🇧GB英国2 646.8KB/s
-  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
-  port: 10369
-  server: 82.26.155.20
-  skip-cert-verify: true
-  sni: fra35.chasem2026sud.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇫🇷 法国 | vless | 39
-  network: ws
-  port: 8443
-  server: 51.91.249.22
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- name: 🇫🇷 法国 | vless | 44
-  network: ws
-  port: 443
-  server: 51.91.250.152
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- name: 🇮🇳 印度 | vless | 07
-  network: ws
-  port: 2053
-  server: 64.227.174.213
-  servername: sni.111000.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 100
-  network: ws
-  port: 80
-  server: 2cdfba7a-t70f40-t9lc3n-z93q.hkt.gotochinatown.net
-  servername: 2cdfba7a-t70f40-t9lc3n-z93q.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 2cdfba7a-t70f40-t9lc3n-z93q.hkt.gotochinatown.net
-    path: /
-- name: 🇫🇷 法国 | vless | 32
-  network: ws
-  port: 8443
-  server: 146.59.229.78
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- name: 🇬🇧 英国 | vless | 37
-  network: ws
-  port: 443
-  server: 57.129.137.241
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 102
-  network: ws
-  port: 80
-  server: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
-  servername: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
-  ws-opts:
-    headers:
-      Host: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
-    path: /
-- name: 🇫🇷 法国 | vless | 35
-  network: ws
-  port: 8443
-  server: 51.91.251.43
-  servername: sni.111000.v6.navy
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- name: 🇫🇷 法国 | vless | 48
-  network: ws
-  port: 8443
-  server: 51.77.140.38
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
-- cipher: aes-256-cfb
-  name: VN_speednode_0071
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.241
-  type: ss
-  udp: true
-- name: 🇳🇱 荷兰 | vless | 46
-  network: ws
-  port: 2053
-  server: 46.17.97.207
-  servername: sni.111000.indevs.in
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: /?Telegram🇨🇳+@WangCai2=
-- name: 🇫🇷 法国 | vless | 37
+- name: 🇫🇷 法国 | vless | 20
   network: ws
   port: 443
   server: 51.91.249.9
@@ -1677,25 +1122,17 @@ proxies:
     headers:
       Host: sni.111000.indevs.in
     path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
-- cipher: aes-256-cfb
-  name: VN_speednode_0069
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.216
-  type: ss
-  udp: true
-- name: 🏳️ CF节点 | vless | 18
+- flow: ''
+  name: 🇩🇰 丹麦 | vless | 01
   network: ws
-  port: 80
-  server: 172.64.147.223
+  port: 15855
+  server: 45.148.31.0
   tls: false
   type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  uuid: e4fc4761-154f-490e-bbaa-b4fa193f1073
   ws-opts:
-    headers:
-      Host: tt.andishehparenting.com
     path: '%2F'
-- name: 🇫🇷 法国 | vless | 19
+- name: 🇫🇷 法国 | vless | 12
   network: ws
   port: 8443
   server: 57.128.181.219
@@ -1707,26 +1144,20 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.v6.navy
-- name: 🇫🇷 法国 | vless | 28
+- name: 🇫🇷 法国 | vless | 13
   network: ws
-  port: 2053
-  server: 54.36.98.30
-  servername: sni.111000.v6.navy
+  port: 8443
+  server: 57.128.176.82
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
   tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.navy
-    path: /?Telegram🇨🇳+@WangCai2=
-- name: 🇮🇩 印尼 | vless | 01
-  network: tcp
-  port: 2321
-  server: 172.232.248.242
-  tls: false
-  type: vless
-  uuid: 0d6b5af6-17df-4bb1-af76-e524f00602a5
-- name: 🇫🇷 法国 | vless | 38
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed'
+- name: 🇫🇷 法国 | vless | 35
   network: ws
   port: 443
   server: 51.91.248.253
@@ -1739,7 +1170,244 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- name: 🇫🇷 法国 | vless | 30
+- name: 🇫🇷 法国 | vless | 26
+  network: ws
+  port: 8443
+  server: 146.59.230.8
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇩🇪 德国 | vless | 58
+  network: ws
+  port: 8443
+  server: 57.129.63.149
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
+- name: 🇫🇷 法国 | vless | 14
+  network: ws
+  port: 8443
+  server: 57.128.181.18
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇩🇪 德国 | vless | 43
+  network: ws
+  port: 443
+  server: 138.197.183.219
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
+- name: 🇫🇷 法国 | vless | 47
+  network: ws
+  port: 443
+  server: 88.218.78.167
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /
+- name: 🇬🇧 英国 | vless | 33
+  network: ws
+  port: 443
+  server: 57.129.137.241
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇫🇷 法国 | vless | 39
+  network: ws
+  port: 8443
+  server: 146.59.229.78
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇫🇷 法国 | vless | 21
+  network: ws
+  port: 443
+  server: 51.91.253.60
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
+- name: 🇫🇷 法国 | vless | 36
+  network: ws
+  port: 8443
+  server: 51.210.150.65
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3FTelegram%E9%A6%83%E5%9A%9A%E9%A6%83%E5%9A%A6+%40WangCai2%3D'
+- name: 🇫🇷 法国 | vless | 24
+  network: ws
+  port: 8443
+  server: 51.91.251.43
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 英国 | vmess | 05
+  network: tcp
+  port: '22324'
+  server: 66.163.117.58
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- name: 🇫🇷 法国 | vless | 27
+  network: ws
+  port: 443
+  server: 51.91.250.152
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- name: 🇫🇷 法国 | vless | 41
+  network: ws
+  port: 443
+  server: 51.91.254.78
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+- alterId: 0
+  name: 🇬🇧GB英国2 394.5KB/s
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.20
+  skip-cert-verify: true
+  sni: fra35.chasem2026sud.com
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  name: 🇬🇧GB英国 413.5KB/s
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.3
+  skip-cert-verify: true
+  sni: fra34.chasem2026sud.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇫🇷 法国 | vless | 23
+  network: ws
+  port: 2053
+  server: 141.94.77.169
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F'
+- name: 🇫🇷 法国 | vless | 38
+  network: ws
+  port: 8443
+  server: 51.77.140.38
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
+- name: 🇬🇧 英国 | trojan | 44
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.199
+  sni: fra4.chasem2026sud.com
+  type: trojan
+- name: 🇫🇷 法国 | vless | 28
+  network: ws
+  port: 8443
+  server: 51.91.249.22
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 82
+  network: ws
+  port: 80
+  server: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: cef91d7a-t70f40-to8xn3-l4nv.hkt.gotochinatown.net
+    path: /
+- name: 🇫🇷 法国 | vless | 31
   network: ws
   port: 8443
   server: 51.75.24.59
@@ -1752,25 +1420,32 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- alpn:
-  - h2
-  flow: xtls-rprx-vision
-  name: 🇺🇸 美国 | vless | 75
-  network: tcp
-  port: 443
-  server: 5.8.18.147
-  servername: us-02.chunkyvpn.shop
+- name: 🇩🇪 德国 | vless | 53
+  network: ws
+  port: 2053
+  server: 57.129.63.154
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 6053689d-39d6-4005-b1bd-c0dce854f429
-- cipher: aes-256-cfb
-  name: VN_speednode_0066
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.199
-  type: ss
-  udp: true
-- name: 🇩🇪 德国 | vless | 54
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3FTelegram%E9%A6%83%E5%9A%9A%E9%A6%83%E5%9A%A6+%40WangCai2%3D'
+- name: 🇫🇷 法国 | vless | 22
+  network: ws
+  port: 2053
+  server: 54.36.98.30
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
+- name: 🇩🇪 德国 | vless | 63
   network: ws
   port: 8443
   server: 57.129.47.72
@@ -1782,6 +1457,51 @@ proxies:
   ws-opts:
     headers:
       Host: sni.111000.dynv6.net
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 84
+  network: ws
+  port: 80
+  server: dad1138f-tbdts0-tdt3k0-jx5r.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  ws-opts:
+    headers:
+      Host: dad1138f-tbdts0-tdt3k0-jx5r.hkt.gotochinatown.net
+    path: /
+- alpn:
+  - h2
+  name: 🇭🇰 香港 | vless | 74
+  network: tcp
+  port: 8443
+  server: 84.17.37.19
+  servername: hkg1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: 🇮🇩 印尼 | vless | 01
+  network: tcp
+  port: 2321
+  server: 172.232.248.242
+  tls: false
+  type: vless
+  uuid: 0d6b5af6-17df-4bb1-af76-e524f00602a5
+- name: 🇩🇪 德国 | vless | 66
+  network: ws
+  port: 2053
+  server: 57.129.47.11
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
 - name: 🇫🇷 法国 | vless | 29
   network: ws
   port: 2053
@@ -1795,86 +1515,7 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 83
-  network: ws
-  port: 80
-  server: e8faf291-tbdts0-tcdmjc-1gevg.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: e8faf291-tbdts0-tcdmjc-1gevg.hkt.gotochinatown.net
-    path: /
-- name: 🇩🇪 德国 | vless | 43
-  network: ws
-  port: 2053
-  server: 57.129.47.11
-  servername: sni.111000.indevs.in
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.indevs.in
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 104
-  network: ws
-  port: 80
-  server: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 70
-  network: ws
-  port: 443
-  server: n1753101277.4u9ma.icu
-  servername: n1753101277.4u9ma.icu
-  tls: true
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  ws-opts:
-    headers:
-      Host: n1753101277.4u9ma.icu
-    path: /
-- flow: ''
-  name: 🏳️ CF节点 | vless | 05
-  network: ws
-  port: 80
-  server: 172.64.147.210
-  tls: false
-  type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
-  ws-opts:
-    headers:
-      Host: tt.andishehparenting.com
-    path: '%2F'
-- name: 🇫🇷 法国 | vless | 36
-  network: ws
-  port: 8443
-  server: 51.91.100.128
-  servername: sni.111000.v6.navy
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.navy
-- name: 🇩🇪 德国 | vless | 74
+- name: 🇩🇪 德国 | vless | 67
   network: ws
   port: 2053
   server: 57.129.47.29
@@ -1889,108 +1530,185 @@ proxies:
     path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港 | vmess | 99
+  name: 🇭🇰 香港 | vmess | 91
   network: ws
   port: 80
-  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+  server: c309eb1e-tbn340-td3l0d-1lkt0.hkt.gotochinatown.net
   servername: broadcastlv.chat.bilibili.com
   tls: false
   type: vmess
-  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
   ws-opts:
     headers:
-      Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+      Host: c309eb1e-tbn340-td3l0d-1lkt0.hkt.gotochinatown.net
     path: /
-- cipher: aes-256-cfb
-  name: VN_speednode_0077
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.239
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0073
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.60
-  type: ss
-  udp: true
-- name: 🇯🇵 日本 | trojan | 02
-  password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4380
-  server: 160.16.85.33
-  sni: www.nintendogames.net
-  type: trojan
-- cipher: aes-256-cfb
-  name: VN_speednode_0075
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.112
-  type: ss
-  udp: true
-- name: 🇬🇧 英国 | trojan | 46
+- name: 🇫🇷 法国 | vless | 42
   network: ws
-  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
-  port: 2083
-  server: 5.83.218.19
+  port: 8443
+  server: 51.91.100.128
+  servername: sni.111000.v6.navy
   skip-cert-verify: true
-  sni: xo.e0f.cx
-  type: trojan
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: xo.e0f.cx
-    path: /trojan-ws
+      Host: sni.111000.v6.navy
 - alterId: 0
   cipher: auto
-  name: 🇩🇪 德国 | vmess | 02
-  network: tcp
-  port: '180'
-  server: 82.198.246.46
-  tls: false
+  name: 🇰🇷 韩国 | vmess | 25
+  network: ws
+  port: 443
+  server: chuncheon03.zgjok.com
+  servername: ''
+  tls: true
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇻🇳 越南 | vless | 02
-  network: ws
-  port: 58202
-  server: 103.245.237.124
-  tls: false
-  type: vless
-  uuid: cca053d5-7123-4a87-83d6-babe4e9c8115
+  uuid: 81d5cac4-d039-4874-9a20-c391f580012d
   ws-opts:
-    path: '%2F'
-- name: 🇳🇴 挪威 | trojan | 03
+    headers:
+      Host: chuncheon03.zgjok.com
+    path: /
+- name: 🇮🇳 印度 | vless | 07
   network: ws
-  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
-  port: 2083
-  server: 148.135.195.95
-  skip-cert-verify: true
-  sni: xo.e0f.cx
+  port: 2053
+  server: 64.227.174.213
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+- name: 🇸🇬 新加坡 | trojan | 24
+  network: ws
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  port: 443
+  server: ubu.okaoclax.me
   type: trojan
   ws-opts:
     headers:
-      Host: xo.e0f.cx
-    path: /trojan-ws
-- name: 🇯🇵 日本 | trojan | 03
-  password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4937
-  server: 160.16.132.38
-  sni: www.nintendogames.net
-  type: trojan
+      Host: ubu.okaoclax.me
+    path: '%2Ftrojan-ws'
+- name: 🇫🇷 法国 | vless | 43
+  network: ws
+  port: 2053
+  server: 51.91.102.163
+  servername: sni.111000.v6.navy
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
+- name: KR_speednode_0023
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 88
+  network: ws
+  port: 80
+  server: e8faf291-tbdts0-tcdmjc-1gevg.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: e8faf291-tbdts0-tcdmjc-1gevg.hkt.gotochinatown.net
+    path: /
+- name: 🇸🇬 新加坡 | vless | 25
+  network: ws
+  port: 80
+  server: vps.zakir.web.id
+  tls: false
+  type: vless
+  uuid: ca73d911-29f4-42d8-ada5-81dee679e96a
+  ws-opts:
+    headers:
+      Host: vps.zakir.web.id
+    path: vless
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 62
+  network: ws
+  port: 80
+  server: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
+  servername: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: c4ced910-t70f40-tdahby-1tnab.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 89
+  network: ws
+  port: 80
+  server: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
+  servername: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
+    path: /
 - alterId: 2
   cipher: auto
   name: 🇭🇰 香港 | vmess | 86
   network: ws
   port: 80
-  server: dad1138f-tbdts0-tdt3k0-jx5r.hkt.gotochinatown.net
+  server: 0e8cb90a-t70f40-tbdyji-ach1.hkt.gotochinatown.net
+  servername: 0e8cb90a-t70f40-tbdyji-ach1.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 0e8cb90a-t70f40-tbdyji-ach1.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 94
+  network: ws
+  port: 80
+  server: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
   servername: broadcastlv.chat.bilibili.com
   tls: false
   type: vmess
-  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: dad1138f-tbdts0-tdt3k0-jx5r.hkt.gotochinatown.net
+      Host: d9ba656d-t66sg0-t7mzec-yjq0.hkt.gotochinatown.net
     path: /
-- name: 🇱🇻 拉脱维亚 | vless | 11
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 78
+  network: ws
+  port: 80
+  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+    path: /
+- name: 🇱🇻 拉脱维亚 | vless | 09
   network: ws
   port: 443
   server: 90.156.254.74
@@ -2003,6 +1721,253 @@ proxies:
     headers:
       Host: sni.111000.v6.navy
     path: '%2F%3FTelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540WangCai2%3D'
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 81
+  network: ws
+  port: 80
+  server: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
+  servername: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: 467f2940-77cd-11ee-b5ed-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 7d1c5b1e-t8nog0-ta42cg-1phla.hkt.gotochinatown.net
+    path: /
+- name: 🇳🇱 荷兰 | vless | 52
+  network: ws
+  port: 2053
+  server: 46.17.97.207
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2%3D'
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 80
+  network: ws
+  port: 80
+  server: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 75
+  network: ws
+  port: 80
+  server: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
+  ws-opts:
+    headers:
+      Host: 372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net
+    path: /
+- alpn:
+  - h2
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国 | vless | 101
+  network: tcp
+  port: 443
+  server: 5.8.18.147
+  servername: us-02.chunkyvpn.shop
+  tls: true
+  type: vless
+  uuid: 6053689d-39d6-4005-b1bd-c0dce854f429
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 76
+  network: ws
+  port: 80
+  server: bccdd778-tb6f40-ttxkqc-e06r.hkt.gotochinatown.net
+  servername: bccdd778-tb6f40-ttxkqc-e06r.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
+  ws-opts:
+    headers:
+      Host: bccdd778-tb6f40-ttxkqc-e06r.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 71
+  network: ws
+  port: 80
+  server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  servername: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+    path: /
+- cipher: aes-256-cfb
+  name: VN_speednode_0068
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.208
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪 德国 | vmess | 01
+  network: tcp
+  port: '180'
+  server: 82.198.246.46
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 57
+  network: ws
+  port: 80
+  server: 2cdfba7a-t70f40-t9lc3n-z93q.hkt.gotochinatown.net
+  servername: 2cdfba7a-t70f40-t9lc3n-z93q.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 2cdfba7a-t70f40-t9lc3n-z93q.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 56
+  network: ws
+  port: 80
+  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+    path: /
+- name: 🇳🇴 挪威 | trojan | 03
+  network: ws
+  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
+  port: 2083
+  server: 148.135.195.95
+  skip-cert-verify: true
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: /trojan-ws
+- name: 日本3|@ripaojiedian
+  network: tcp
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 2001
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  name: 🇸🇬SG新加坡 2.2MB/s
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 4674
+  server: 160.16.124.17
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 85
+  network: ws
+  port: 80
+  server: 4f7c7632-t63340-t7hjku-1rgxu.hkt.gotochinatown.net
+  servername: 4f7c7632-t63340-t7hjku-1rgxu.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 4f7c7632-t63340-t7hjku-1rgxu.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 66
+  network: ws
+  port: 80
+  server: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
+  servername: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  ws-opts:
+    headers:
+      Host: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
+    path: /
+- name: 日本2|@ripaojiedian
+  network: tcp
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 4937
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇻🇳 越南 | vless | 02
+  network: ws
+  port: 58202
+  server: 103.245.237.124
+  tls: false
+  type: vless
+  uuid: cca053d5-7123-4a87-83d6-babe4e9c8115
+  ws-opts:
+    path: '%2F'
+- name: 新加坡|@ripaojiedian
+  network: tcp
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 4674
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇯🇵 日本 | trojan | 06
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 3057
+  server: 160.16.132.38
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: VN_speednode_0074
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.109
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: TR_speednode_0032
+  port: 8443
+  reality-opts:
+    public-key: 7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc
+    short-id: 6ea3daaac3d6bede
+  server: 188.132.184.148
+  servername: greenpepper.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a
 - cipher: aes-256-cfb
   name: VN_speednode_0078
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -2010,16 +1975,23 @@ proxies:
   server: 103.186.155.23
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0064
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.213
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  name: 🇭🇰 香港 | vmess | 96
+  name: 🇭🇰 香港 | vmess | 63
+  network: ws
+  port: 80
+  server: 27703551-t70f40-tnt75r-1k8ga.hkt.gotochinatown.net
+  servername: 27703551-t70f40-tnt75r-1k8ga.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 27703551-t70f40-tnt75r-1k8ga.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 69
   network: ws
   port: 80
   server: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
@@ -2031,6 +2003,252 @@ proxies:
     headers:
       Host: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
     path: /
+- cipher: aes-256-cfb
+  name: VN_speednode_0064
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.213
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 60
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- name: 🇯🇵 日本 | trojan | 05
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 4674
+  server: 160.16.85.33
+  sni: www.nintendogames.net
+  type: trojan
+- name: 美国2|@ripaojiedian
+  network: tcp
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 3057
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: VN_speednode_0079
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.70
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: aes-256-gcm
+  name: 🇨🇦CA加拿大2 2.2MB/s
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 144.217.164.29
+  skip-cert-verify: true
+  tls: true
+  type: ss
+- cipher: aes-256-cfb
+  name: VN_speednode_0067
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.162
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0076
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.129
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0062
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.48
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0073
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.60
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0071
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.241
+  type: ss
+  udp: true
+- name: 🇦🇹 奥地利 | trojan | 09
+  network: ws
+  password: trojan
+  port: 8888
+  server: 152.53.45.251
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: '%2F%2F'
+- name: 🇱🇻 拉脱维亚 | vless | 06
+  network: ws
+  port: 443
+  server: 195.135.255.177
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
+- name: 🏳️ CF节点 | vless | 04
+  network: ws
+  port: 80
+  server: 172.64.146.27
+  tls: false
+  type: vless
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  ws-opts:
+    headers:
+      Host: tt.andishehparenting.com
+    path: '%2F'
+- cipher: aes-256-cfb
+  name: VN_speednode_0077
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.239
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 90
+  network: ws
+  port: 80
+  server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
+    path: /
+- cipher: aes-256-cfb
+  name: VN_speednode_0069
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.216
+  type: ss
+  udp: true
+- name: 🇦🇹 奥地利 | trojan | 08
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.98
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F'
+- name: 🏳️ CF节点 | vless | 21
+  network: ws
+  port: 80
+  server: 172.64.146.143
+  tls: false
+  type: vless
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  ws-opts:
+    headers:
+      Host: tt.andishehparenting.com
+    path: '%2F'
+- name: 🇬🇧 英国 | trojan | 35
+  network: ws
+  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
+  port: 2083
+  server: 5.83.218.19
+  skip-cert-verify: true
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: /trojan-ws
+- cipher: aes-256-cfb
+  name: VN_speednode_0065
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.179
+  type: ss
+  udp: true
+- name: 🏳️ CF节点 | vless | 22
+  network: ws
+  port: 80
+  server: 104.17.25.173
+  tls: false
+  type: vless
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  ws-opts:
+    headers:
+      Host: tt.andishehparenting.com
+    path: '%2F'
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 64
+  network: ws
+  port: 80
+  server: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net
+  servername: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net
+  tls: false
+  type: vmess
+  uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 040f3ec5-t70f40-ta64ri-1qzi1.hkt.gotochinatown.net
+    path: /
+- flow: ''
+  name: 🇳🇱 荷兰 | vless | 68
+  network: ws
+  port: 80
+  server: nl-90w-c.southnetworks.cloud
+  tls: false
+  type: vless
+  uuid: e08f1ad7-0c60-446d-baec-08b3b69bb3d0
+  ws-opts:
+    path: '%2FgetWorkerUpdates'
+- cipher: aes-256-cfb
+  name: VN_speednode_0075
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.112
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: VN_speednode_0072
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.228
+  type: ss
+  udp: true
+- name: 🇦🇹 奥地利 | trojan | 02
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.167
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F'
 - name: AT_speednode_0001
   network: ws
   password: trojan
@@ -2044,156 +2262,35 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: 🇯🇵 日本 | trojan | 05
-  password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3057
-  server: 160.16.132.38
-  sni: www.nintendogames.net
-  type: trojan
 - cipher: aes-256-cfb
-  name: VN_speednode_0072
+  name: VN_speednode_0063
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.228
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: VN_speednode_0068
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.208
+  server: 103.186.154.141
   type: ss
   udp: true
 - alterId: 0
-  name: 新加坡2|@ripaojiedian
+  cipher: auto
+  name: 🇮🇳 印度 | vmess | 03
+  network: ws
+  port: 80
+  server: 152.67.8.205
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 🇭🇰 香港 | trojan | 79
   network: tcp
-  password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4674
-  server: 160.16.124.17
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇯🇵 日本 | trojan | 04
-  password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4674
-  server: 160.16.85.33
-  sni: www.nintendogames.net
-  type: trojan
-- cipher: aes-256-cfb
-  name: VN_speednode_0065
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.179
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 香港 | vmess | 91
-  network: ws
-  port: 80
-  server: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: fc9d3bb0-t70f40-t7hmka-1plv4.hkt.gotochinatown.net
-    path: /
-- cipher: aes-256-cfb
-  name: VN_speednode_0062
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.48
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇻🇳 VN 001 | ⬇️ 7.10MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.70
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK 003 | ⬇️ 6.90MB/s
-  network: ws
-  port: 80
-  server: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
-  servername: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
-    path: /
-- cipher: aes-256-cfb
-  name: 🇻🇳 VN 002 | ⬇️ 6.77MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.129
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 🇹🇷 TR 002 | ⬇️ 6.69MB/s
-  port: 8443
-  reality-opts:
-    public-key: 7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc
-    short-id: 6ea3daaac3d6bede
-  server: 188.132.184.148
-  servername: greenpepper.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d6cbf3e4-b7ca-a4b2-0b04-eacbdc28bc5a
-- name: 🇳🇱 NL 008 | ⬇️ 6.68MB/s
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇱🇻 LV 002 | ⬇️ 5.38MB/s
-  network: ws
+  password: BxceQaOe
   port: 443
-  server: 195.135.255.177
-  servername: sni.111000.dynv6.net
+  server: 58.152.25.253
   skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: '%2F%3FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%3D'
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK 004 | ⬇️ 5.26MB/s
-  network: ws
-  port: 80
-  server: 0e8cb90a-t70f40-tbdyji-ach1.hkt.gotochinatown.net
-  servername: 0e8cb90a-t70f40-tbdyji-ach1.hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 0e8cb90a-t70f40-tbdyji-ach1.hkt.gotochinatown.net
-    path: /
-- name: 🇩🇪 DE 010 | ⬇️ 5.17MB/s
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: 🇮🇳 IN 001 | ⬇️ 4.95MB/s
+  type: trojan
+- name: 🇮🇳 印度 | vless | 06
   network: ws
   port: 443
   server: 144.24.126.26
@@ -2206,62 +2303,17 @@ proxies:
     headers:
       Host: g.sandesh.qzz.io
     path: '%2Fvless'
-- alterId: 2
-  cipher: auto
-  name: 🇭🇰 HK 005 | ⬇️ 4.58MB/s
+- flow: ''
+  name: 🇳🇱 荷兰 | vless | 04
   network: ws
   port: 80
-  server: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 609a8c34-t9w4g0-thiwul-1gcq2.hkt.gotochinatown.net
-    path: /
-- cipher: aes-256-cfb
-  name: 🇻🇳 VN 003 | ⬇️ 4.27MB/s
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.109
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US 021 | ⬇️ 4.21MB/s
-  password: hbGrpfvNrJsUmKmPbR3iY2
-  port: 443
-  server: tinkered-pennies-puppies.freesocks.work
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- name: 🇨🇦 CA 010 | ⬇️ 4.17MB/s
-  network: ws
-  port: 80
-  server: 104.16.250.22
+  server: 146.103.102.82
   tls: false
   type: vless
-  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  uuid: e08f1ad7-0c60-446d-baec-08b3b69bb3d0
   ws-opts:
-    headers:
-      Host: tt.andishehparenting.com
-    path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: 🇮🇳 IN 002 | ⬇️ 4.07MB/s
-  network: ws
-  port: '80'
-  server: 152.67.8.205
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- name: 🇸🇪 SE 003 | ⬇️ 4.01MB/s
+    path: '%2FgetWorkerUpdates'
+- name: 🇸🇪 瑞典 | trojan | 09
   network: ws
   password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
   port: 2083
@@ -2275,7 +2327,54 @@ proxies:
     path: /trojan-ws
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 HK 006 | ⬇️ 3.20MB/s
+  name: 🇹🇼 台湾 | vmess | 05
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- alterId: 0
+  cipher: auto
+  name: ⚡ TCP-高速
+  port: 28384
+  server: 103.143.238.196
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 115
+  network: tcp
+  port: '30830'
+  server: v30.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 香港 | vmess | 123
+  network: tcp
+  port: '30808'
+  server: v8.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: NL_speednode_0029
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: WS-穿透
   network: ws
   port: 36548
   server: 103.143.238.196
@@ -2286,27 +2385,15 @@ proxies:
     headers:
       Host: www.cloudflare.com
     path: /vmessws
-- name: 🇳🇱 NL 009 | ⬇️ 3.14MB/s
-  password: 123456789StrongPass
-  port: 443
-  server: 144.31.224.14
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- alterId: 0
-  name: 🇭🇰 HK 007 | ⬇️ 3.13MB/s
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.253
-  skip-cert-verify: true
-  sni: 58.152.25.253
-  tls: true
-  type: trojan
+- name: KR_speednode_0022
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
   udp: true
+  username: T2clM0QlM0Q6
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 HK 008 | ⬇️ 2.85MB/s
+  name: WSS-隐蔽
   network: ws
   port: 21879
   server: 103.143.238.196
@@ -2321,40 +2408,9 @@ proxies:
     path: /vmesswss
 - alterId: 0
   cipher: auto
-  name: 🇭🇰 HK 009 | ⬇️ 2.77MB/s
-  port: 28384
-  server: 103.143.238.196
-  servername: www.cloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 1e1a6b3b-14b2-4ae4-9aa9-880ba5dff6fa
-- alterId: 0
-  cipher: aes-256-gcm
-  name: 🇨🇦 CA 011 | ⬇️ 2.36MB/s
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  port: 12000
-  server: 144.217.164.29
-  skip-cert-verify: true
-  tls: true
-  type: ss
-- name: 🇸🇪 SE 004 | ⬇️ 2.28MB/s
+  name: 🇺🇸 美国 | vmess | 147
   network: ws
-  password: q2jXRWncMA7pQren_VjQKhSQfoBWK_
-  port: 2083
-  server: 188.126.76.159
-  skip-cert-verify: true
-  sni: xo.e0f.cx
-  type: trojan
-  ws-opts:
-    headers:
-      Host: xo.e0f.cx
-    path: /trojan-ws
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US 022 | ⬇️ 1.84MB/s
-  network: ws
-  port: '443'
+  port: 443
   server: v2ray.codefyinc.com
   servername: ''
   tls: false
@@ -2364,479 +2420,444 @@ proxies:
     headers:
       Host: v2ray.codefyinc.com
     path: /vmessws
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 HK 010 | ⬇️ 1.83MB/s
-  network: tcp
-  port: '30812'
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 001 | ⬇️ 1.14MB/s
-  network: ws
-  port: 52511
-  server: aflzzul.meiquankongjian.com
-  servername: aflzzul.meiquankongjian.com
-  tls: false
-  type: vmess
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳 TW 002 | ⬇️ 1.06MB/s
-  network: ws
-  port: 52512
-  server: aflzzul.meiquankongjian.com
-  servername: aflzzul.meiquankongjian.com
-  tls: false
-  type: vmess
-  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-  ws-opts:
-    headers:
-      Host: aflzzul.meiquankongjian.com
-    path: /564dfa20/
 proxy-groups:
 - name: 自动选择
   type: url-test
   proxies:
-  - 🇺🇸 US 001 | ⬇️ 143.12MB/s
-  - 🇺🇸 US 002 | ⬇️ 142.90MB/s
-  - 🇦🇹 AT 001 | ⬇️ 141.35MB/s
-  - 🇺🇸 US 003 | ⬇️ 137.72MB/s
-  - 🇺🇸 US 004 | ⬇️ 137.14MB/s
-  - 🇺🇸 US 005 | ⬇️ 132.82MB/s
-  - 🇫🇷 FR 001 | ⬇️ 131.58MB/s
-  - 🇺🇸 US 006 | ⬇️ 126.81MB/s
-  - 🇺🇸 US 007 | ⬇️ 125.51MB/s
-  - 🇺🇸 US 008 | ⬇️ 123.45MB/s
-  - 🇺🇸 US 009 | ⬇️ 122.95MB/s
-  - 🇺🇸 US 010 | ⬇️ 118.83MB/s
-  - 🇺🇸 US 011 | ⬇️ 117.33MB/s
-  - 🇺🇸 US 012 | ⬇️ 116.95MB/s
-  - 🇨🇦 CA 001 | ⬇️ 111.85MB/s
-  - 🇺🇸 US 013 | ⬇️ 111.57MB/s
-  - 🇨🇦 CA 002 | ⬇️ 104.86MB/s
-  - 🇨🇦 CA 003 | ⬇️ 99.17MB/s
-  - 🇨🇦 CA 004 | ⬇️ 93.80MB/s
-  - 🇨🇦 CA 005 | ⬇️ 93.79MB/s
-  - 🇨🇦 CA 006 | ⬇️ 85.36MB/s
-  - 🇨🇦 CA 007 | ⬇️ 85.22MB/s
-  - 🇷🇺 RU 001 | ⬇️ 85.01MB/s
-  - 🇺🇸 US 014 | ⬇️ 81.45MB/s
-  - 🇨🇦 CA 008 | ⬇️ 81.14MB/s
-  - 🇷🇺 RU 002 | ⬇️ 78.07MB/s
-  - 🇺🇸 US 015 | ⬇️ 77.72MB/s
-  - 🇺🇸 US 016 | ⬇️ 76.59MB/s
-  - 🇺🇸 US 017 | ⬇️ 72.36MB/s
-  - 🇸🇪 SE 001 | ⬇️ 71.79MB/s
-  - 🇨🇦 CA 009 | ⬇️ 69.03MB/s
-  - 🇺🇸 US 018 | ⬇️ 68.57MB/s
-  - 🇺🇸 US 019 | ⬇️ 61.57MB/s
-  - 🇺🇸 US 020 | ⬇️ 33.95MB/s
-  - 🇬🇧 GB 001 | ⬇️ 27.80MB/s
-  - 🇬🇧 GB 002 | ⬇️ 26.54MB/s
-  - 🏳️ AL 001 | ⬇️ 26.34MB/s
-  - 🇳🇱 NL 001 | ⬇️ 25.87MB/s
-  - 🇬🇧 GB 003 | ⬇️ 25.85MB/s
-  - 🇳🇱 NL 002 | ⬇️ 25.66MB/s
-  - 🇳🇱 NL 003 | ⬇️ 25.44MB/s
-  - 🇳🇱 NL 004 | ⬇️ 24.30MB/s
-  - 🇫🇷 FR 002 | ⬇️ 23.92MB/s
-  - 🇫🇮 FI 001 | ⬇️ 23.87MB/s
-  - 🇫🇮 FI 002 | ⬇️ 23.64MB/s
-  - 🇳🇱 NL 005 | ⬇️ 23.48MB/s
-  - 🇩🇪 DE 001 | ⬇️ 23.15MB/s
-  - 🇩🇪 DE 002 | ⬇️ 22.92MB/s
-  - 🇪🇸 ES 001 | ⬇️ 22.76MB/s
-  - 🇩🇪 DE 003 | ⬇️ 22.63MB/s
-  - 🇸🇪 SE 002 | ⬇️ 22.62MB/s
-  - 🇩🇪 DE 004 | ⬇️ 22.48MB/s
-  - 🇩🇪 DE 005 | ⬇️ 22.42MB/s
-  - 🇳🇱 NL 006 | ⬇️ 22.30MB/s
-  - 🇬🇧 GB 004 | ⬇️ 22.28MB/s
-  - 🇬🇧 GB 005 | ⬇️ 22.28MB/s
-  - 🇬🇧 GB 006 | ⬇️ 22.25MB/s
-  - 🇩🇪 DE 006 | ⬇️ 22.17MB/s
-  - 🇬🇧 GB 007 | ⬇️ 22.11MB/s
-  - 🇳🇱 NL 007 | ⬇️ 22.03MB/s
-  - 🇩🇪 DE 007 | ⬇️ 22.00MB/s
-  - 🇬🇧 GB 008 | ⬇️ 22.00MB/s
-  - 🇬🇧 GB 009 | ⬇️ 21.94MB/s
-  - 🇬🇧 GB 010 | ⬇️ 21.94MB/s
-  - 🇬🇧 GB 011 | ⬇️ 21.94MB/s
-  - 🇬🇧 GB 012 | ⬇️ 21.92MB/s
-  - 🇬🇧 GB 013 | ⬇️ 21.85MB/s
-  - 🇬🇧 GB 014 | ⬇️ 21.78MB/s
-  - 🇬🇧 GB 015 | ⬇️ 21.73MB/s
-  - 🇬🇧 GB 016 | ⬇️ 21.62MB/s
-  - 🇵🇱 PL 001 | ⬇️ 21.54MB/s
-  - 🇩🇪 DE 008 | ⬇️ 21.53MB/s
-  - 🇫🇷 FR 003 | ⬇️ 21.30MB/s
-  - 🇧🇷 BR 001 | ⬇️ 21.29MB/s
-  - 🇭🇰 香港 | vless | 24
-  - 🇳🇴 NO 001 | ⬇️ 20.80MB/s
+  - 🇺🇸 US 001 | ⬇️ 319.77MB/s
+  - 🇺🇸 US 002 | ⬇️ 309.98MB/s
+  - 🇺🇸 US 003 | ⬇️ 308.17MB/s
+  - 🇺🇸 US 004 | ⬇️ 303.14MB/s
+  - 🇺🇸 US 005 | ⬇️ 301.13MB/s
+  - 🇺🇸 US 006 | ⬇️ 290.16MB/s
+  - 🇺🇸 US 007 | ⬇️ 288.51MB/s
+  - 🇺🇸 US 008 | ⬇️ 287.92MB/s
+  - 🇺🇸 US 009 | ⬇️ 286.95MB/s
+  - 🇺🇸 US 010 | ⬇️ 284.39MB/s
+  - 🇺🇸 US 011 | ⬇️ 282.99MB/s
+  - 🇺🇸 US 012 | ⬇️ 272.56MB/s
+  - 🇺🇸 US 013 | ⬇️ 271.07MB/s
+  - 🇫🇷 FR 001 | ⬇️ 266.32MB/s
+  - 🇦🇹 AT 001 | ⬇️ 261.47MB/s
+  - 🇺🇸 US 014 | ⬇️ 237.50MB/s
+  - 🇷🇺 RU 001 | ⬇️ 222.95MB/s
+  - 🇷🇺 RU 002 | ⬇️ 211.05MB/s
+  - 🇨🇦 CA 001 | ⬇️ 188.76MB/s
+  - 🇨🇦 CA 002 | ⬇️ 168.19MB/s
+  - 🇨🇦 CA 003 | ⬇️ 166.69MB/s
+  - 🏳️ CW 001 | ⬇️ 140.42MB/s
+  - 🇺🇸 US 015 | ⬇️ 137.95MB/s
+  - 🇺🇸 US 016 | ⬇️ 135.97MB/s
+  - 🇨🇦 CA 004 | ⬇️ 124.62MB/s
+  - 🇨🇦 CA 005 | ⬇️ 121.14MB/s
+  - 🇨🇦 CA 006 | ⬇️ 120.51MB/s
+  - 🇨🇦 CA 007 | ⬇️ 119.79MB/s
+  - 🇺🇸 US 017 | ⬇️ 50.90MB/s
+  - 🇺🇸 US 018 | ⬇️ 49.89MB/s
+  - 🇺🇸 US 019 | ⬇️ 47.58MB/s
+  - 🇺🇸 US 020 | ⬇️ 46.94MB/s
+  - 🇸🇪 SE 001 | ⬇️ 45.78MB/s
+  - 🇪🇸 ES 001 | ⬇️ 38.00MB/s
+  - 🇬🇧 GB 001 | ⬇️ 36.97MB/s
+  - 🇳🇱 NL 001 | ⬇️ 35.34MB/s
+  - 🇳🇱 NL 002 | ⬇️ 33.70MB/s
+  - 🇩🇪 DE 001 | ⬇️ 32.39MB/s
+  - 🇩🇪 DE 002 | ⬇️ 31.81MB/s
+  - 🇳🇱 NL 003 | ⬇️ 31.77MB/s
+  - 🏳️ AL 001 | ⬇️ 31.76MB/s
+  - 🇩🇪 DE 003 | ⬇️ 31.73MB/s
+  - 🇩🇪 DE 004 | ⬇️ 31.60MB/s
+  - 🇩🇪 DE 005 | ⬇️ 31.58MB/s
+  - 🇫🇮 FI 001 | ⬇️ 31.15MB/s
+  - 🇫🇮 芬兰 | vless | 03
+  - 🇷🇺 俄罗斯 | trojan | 13
+  - 🇨🇭 瑞士 | trojan | 03
+  - 🇩🇪 德国 | vless | 40
+  - 🇩🇪 德国 | vless | 71
+  - 🇳🇱 荷兰 | trojan | 64
+  - 🇸🇪 瑞典 | vless | 03
+  - 🇮🇹 意大利 | trojan | 01
+  - 🇵🇱 波兰 | vless | 06
+  - 🇭🇰 香港 | vless | 11
+  - 🇭🇰 香港 | vless | 08
+  - 🇭🇰 香港 | vless | 12
+  - 🇭🇰 香港 | vless | 10
+  - 🇭🇰 香港 | vless | 03
+  - 🇭🇰 香港 | vless | 02
+  - 🇭🇰 香港 | vless | 06
+  - 🇭🇰 香港 | vless | 23
+  - 🇭🇰 香港 | vless | 05
+  - 🇭🇰 香港 | vless | 15
+  - 🇷🇴 罗马尼亚 | vless | 03
+  - 🇭🇰 香港 | vless | 22
+  - 🇭🇰 香港 | vless | 04
+  - 🇭🇰 香港 | vless | 14
+  - 🇭🇰 香港 | vless | 20
+  - 🇮🇹 意大利 | trojan | 02
+  - 🇭🇰 香港 | vless | 16
+  - 🇭🇰 香港 | vless | 19
+  - 🇭🇰 香港 | vless | 01
+  - 🇭🇰 香港 | vless | 18
+  - 🇭🇰 香港 | vless | 17
+  - 🇵🇱 波兰 | trojan | 07
+  - 🇺🇸US美国5 1.0MB/s
+  - 🇪🇸ES西班牙2 1.4MB/s
+  - 🇫🇷 法国 | vless | 16
   - 🇭🇰 香港 | vless | 21
-  - 🇵🇱 PL 002 | ⬇️ 20.56MB/s
-  - 🇫🇷 FR 004 | ⬇️ 20.53MB/s
-  - 🇭🇰 香港 | vless | 29
-  - 🇳🇴 NO 002 | ⬇️ 20.47MB/s
-  - 🇱🇻 LV 001 | ⬇️ 20.34MB/s
-  - 🇱🇻 拉脱维亚 | vless | 06
-  - 🇹🇷 TR 001 | ⬇️ 20.09MB/s
-  - 🇩🇪 DE 009 | ⬇️ 19.86MB/s
-  - MT_speednode_0027
-  - 🇷🇺 俄罗斯 | vless | 09
-  - 🇪🇪 EE 001 | ⬇️ 18.99MB/s
-  - 🇷🇺 RU 003 | ⬇️ 18.69MB/s
-  - 🇷🇺 俄罗斯 | vless | 10
-  - 🇷🇺 俄罗斯 | vless | 11
-  - 🇭🇰 香港 | vmess | 101
-  - 🇭🇰 香港 | vmess | 105
-  - 🇩🇪 德国 | vless | 49
-  - 🇷🇺 RU 004 | ⬇️ 17.96MB/s
-  - 🇰🇷 韩国 | vmess | 25
-  - 🇸🇬 SG 001 | ⬇️ 17.64MB/s
-  - 🇷🇺 RU 005 | ⬇️ 17.60MB/s
-  - 🇭🇰 香港 | vless | 55
-  - 🇭🇰 HK 001 | ⬇️ 16.92MB/s
-  - 🇭🇰 HK 002 | ⬇️ 16.89MB/s
-  - 🇸🇬 新加坡 | trojan | 25
-  - 🇷🇺 俄罗斯 | vmess | 06
-  - 🇩🇰 DK 001 | ⬇️ 16.57MB/s
-  - 🇭🇰 香港 | vmess | 93
-  - 🇫🇷 FR 005 | ⬇️ 16.34MB/s
-  - 🇬🇧 英国 | vmess | 02
-  - 🇭🇰 香港 | vmess | 92
-  - 🇭🇰 香港 | vmess | 12
+  - 🇭🇰 香港 | vless | 13
+  - 🇹🇷 土耳其 | vless | 01
+  - 🇪🇸ES西班牙
   - 🇫🇷 法国 | vless | 34
-  - 🇭🇰 香港 | vmess | 103
-  - 🇬🇧 英国 | vless | 41
-  - 🇭🇰 香港 | vmess | 87
-  - 🇫🇷 法国 | vless | 33
-  - 🇭🇰 香港 | vmess | 97
-  - 🇩🇪 德国 | vless | 37
-  - 🇫🇷 法国 | vless | 22
-  - 🇭🇰 香港 | vmess | 84
-  - 🇭🇰 香港 | vmess | 98
-  - 🏳️ CF节点 | vless | 09
-  - 🇭🇰 香港 | vmess | 94
-  - 🇩🇪 德国 | vless | 58
-  - 🇫🇷 法国 | vless | 23
-  - 🇫🇷 法国 | vless | 25
-  - 🇫🇷 法国 | vless | 31
-  - 🇱🇻 拉脱维亚 | vless | 08
-  - 🇫🇷 法国 | vless | 17
-  - 🇬🇧GB英国4 660.6KB/s
-  - 🇫🇷 法国 | vless | 27
-  - 🇬🇧GB英国3 641.7KB/s
-  - 🇬🇧GB英国2 646.8KB/s
-  - 🇫🇷 法国 | vless | 39
-  - 🇫🇷 法国 | vless | 44
-  - 🇮🇳 印度 | vless | 07
-  - 🇭🇰 香港 | vmess | 100
+  - 🇭🇰 香港 | vless | 09
+  - 🇷🇺 俄罗斯 | vless | 05
+  - 🇷🇺 俄罗斯 | vless | 10
+  - 🇷🇺 俄罗斯 | vless | 04
+  - 🇷🇺 俄罗斯 | vless | 08
+  - 🇭🇰 香港 | vless | 07
+  - 🇷🇺 俄罗斯 | vless | 07
+  - MT_speednode_0027
+  - 🇷🇺 俄罗斯 | vless | 11
+  - 🇷🇴 罗马尼亚 | vless | 01
+  - 🇬🇧 英国 | vless | 39
   - 🇫🇷 法国 | vless | 32
-  - 🇬🇧 英国 | vless | 37
-  - 🇭🇰 香港 | vmess | 102
+  - 🇫🇷 法国 | vless | 20
+  - 🇩🇰 丹麦 | vless | 01
+  - 🇫🇷 法国 | vless | 12
+  - 🇫🇷 法国 | vless | 13
   - 🇫🇷 法国 | vless | 35
-  - 🇫🇷 法国 | vless | 48
-  - VN_speednode_0071
-  - 🇳🇱 荷兰 | vless | 46
-  - 🇫🇷 法国 | vless | 37
-  - VN_speednode_0069
-  - 🏳️ CF节点 | vless | 18
-  - 🇫🇷 法国 | vless | 19
-  - 🇫🇷 法国 | vless | 28
-  - 🇮🇩 印尼 | vless | 01
-  - 🇫🇷 法国 | vless | 38
-  - 🇫🇷 法国 | vless | 30
-  - 🇺🇸 美国 | vless | 75
-  - VN_speednode_0066
-  - 🇩🇪 德国 | vless | 54
-  - 🇫🇷 法国 | vless | 29
-  - 🇭🇰 香港 | vmess | 83
+  - 🇫🇷 法国 | vless | 26
+  - 🇩🇪 德国 | vless | 58
+  - 🇫🇷 法国 | vless | 14
   - 🇩🇪 德国 | vless | 43
-  - 🇭🇰 香港 | vmess | 104
-  - 🇭🇰 香港 | vmess | 70
-  - 🏳️ CF节点 | vless | 05
+  - 🇫🇷 法国 | vless | 47
+  - 🇬🇧 英国 | vless | 33
+  - 🇫🇷 法国 | vless | 39
+  - 🇫🇷 法国 | vless | 21
   - 🇫🇷 法国 | vless | 36
-  - 🇩🇪 德国 | vless | 74
-  - 🇭🇰 香港 | vmess | 99
-  - VN_speednode_0077
-  - VN_speednode_0073
-  - 🇯🇵 日本 | trojan | 02
-  - VN_speednode_0075
-  - 🇬🇧 英国 | trojan | 46
-  - 🇩🇪 德国 | vmess | 02
-  - 🇻🇳 越南 | vless | 02
-  - 🇳🇴 挪威 | trojan | 03
-  - 🇯🇵 日本 | trojan | 03
-  - 🇭🇰 香港 | vmess | 86
-  - 🇱🇻 拉脱维亚 | vless | 11
-  - VN_speednode_0078
-  - VN_speednode_0064
-  - 🇭🇰 香港 | vmess | 96
-  - AT_speednode_0001
-  - 🇯🇵 日本 | trojan | 05
-  - VN_speednode_0072
-  - VN_speednode_0068
-  - 新加坡2|@ripaojiedian
-  - 🇯🇵 日本 | trojan | 04
-  - VN_speednode_0065
+  - 🇫🇷 法国 | vless | 24
+  - 🇬🇧 英国 | vmess | 05
+  - 🇫🇷 法国 | vless | 27
+  - 🇫🇷 法国 | vless | 41
+  - 🇬🇧GB英国2 394.5KB/s
+  - 🇬🇧GB英国 413.5KB/s
+  - 🇫🇷 法国 | vless | 23
+  - 🇫🇷 法国 | vless | 38
+  - 🇬🇧 英国 | trojan | 44
+  - 🇫🇷 法国 | vless | 28
+  - 🇭🇰 香港 | vmess | 82
+  - 🇫🇷 法国 | vless | 31
+  - 🇩🇪 德国 | vless | 53
+  - 🇫🇷 法国 | vless | 22
+  - 🇩🇪 德国 | vless | 63
+  - 🇭🇰 香港 | vmess | 84
+  - 🇭🇰 香港 | vless | 74
+  - 🇮🇩 印尼 | vless | 01
+  - 🇩🇪 德国 | vless | 66
+  - 🇫🇷 法国 | vless | 29
+  - 🇩🇪 德国 | vless | 67
   - 🇭🇰 香港 | vmess | 91
+  - 🇫🇷 法国 | vless | 42
+  - 🇰🇷 韩国 | vmess | 25
+  - 🇮🇳 印度 | vless | 07
+  - 🇸🇬 新加坡 | trojan | 24
+  - 🇫🇷 法国 | vless | 43
+  - KR_speednode_0023
+  - 🇭🇰 香港 | vmess | 88
+  - 🇸🇬 新加坡 | vless | 25
+  - 🇭🇰 香港 | vmess | 62
+  - 🇭🇰 香港 | vmess | 89
+  - 🇭🇰 香港 | vmess | 86
+  - 🇭🇰 香港 | vmess | 94
+  - 🇭🇰 香港 | vmess | 78
+  - 🇱🇻 拉脱维亚 | vless | 09
+  - 🇭🇰 香港 | vmess | 81
+  - 🇳🇱 荷兰 | vless | 52
+  - 🇭🇰 香港 | vmess | 80
+  - 🇭🇰 香港 | vmess | 75
+  - 🇺🇸 美国 | vless | 101
+  - 🇭🇰 香港 | vmess | 76
+  - 🇭🇰 香港 | vmess | 71
+  - VN_speednode_0068
+  - 🇩🇪 德国 | vmess | 01
+  - 🇭🇰 香港 | vmess | 57
+  - 🇭🇰 香港 | vmess | 56
+  - 🇳🇴 挪威 | trojan | 03
+  - 日本3|@ripaojiedian
+  - 🇸🇬SG新加坡 2.2MB/s
+  - 🇭🇰 香港 | vmess | 85
+  - 🇭🇰 香港 | vmess | 66
+  - 日本2|@ripaojiedian
+  - 🇻🇳 越南 | vless | 02
+  - 新加坡|@ripaojiedian
+  - 🇯🇵 日本 | trojan | 06
+  - VN_speednode_0074
+  - TR_speednode_0032
+  - VN_speednode_0078
+  - 🇭🇰 香港 | vmess | 63
+  - 🇭🇰 香港 | vmess | 69
+  - VN_speednode_0064
+  - 🇭🇰 香港 | vmess | 60
+  - 🇯🇵 日本 | trojan | 05
+  - 美国2|@ripaojiedian
+  - VN_speednode_0079
+  - 🇨🇦CA加拿大2 2.2MB/s
+  - VN_speednode_0067
+  - VN_speednode_0076
   - VN_speednode_0062
-  - 🇻🇳 VN 001 | ⬇️ 7.10MB/s
-  - 🇭🇰 HK 003 | ⬇️ 6.90MB/s
-  - 🇻🇳 VN 002 | ⬇️ 6.77MB/s
-  - 🇹🇷 TR 002 | ⬇️ 6.69MB/s
-  - 🇳🇱 NL 008 | ⬇️ 6.68MB/s
-  - 🇱🇻 LV 002 | ⬇️ 5.38MB/s
-  - 🇭🇰 HK 004 | ⬇️ 5.26MB/s
-  - 🇩🇪 DE 010 | ⬇️ 5.17MB/s
-  - 🇮🇳 IN 001 | ⬇️ 4.95MB/s
-  - 🇭🇰 HK 005 | ⬇️ 4.58MB/s
-  - 🇻🇳 VN 003 | ⬇️ 4.27MB/s
-  - 🇺🇸 US 021 | ⬇️ 4.21MB/s
-  - 🇨🇦 CA 010 | ⬇️ 4.17MB/s
-  - 🇮🇳 IN 002 | ⬇️ 4.07MB/s
-  - 🇸🇪 SE 003 | ⬇️ 4.01MB/s
-  - 🇭🇰 HK 006 | ⬇️ 3.20MB/s
-  - 🇳🇱 NL 009 | ⬇️ 3.14MB/s
-  - 🇭🇰 HK 007 | ⬇️ 3.13MB/s
-  - 🇭🇰 HK 008 | ⬇️ 2.85MB/s
-  - 🇭🇰 HK 009 | ⬇️ 2.77MB/s
-  - 🇨🇦 CA 011 | ⬇️ 2.36MB/s
-  - 🇸🇪 SE 004 | ⬇️ 2.28MB/s
-  - 🇺🇸 US 022 | ⬇️ 1.84MB/s
-  - 🇭🇰 HK 010 | ⬇️ 1.83MB/s
-  - 🇨🇳 TW 001 | ⬇️ 1.14MB/s
-  - 🇨🇳 TW 002 | ⬇️ 1.06MB/s
+  - VN_speednode_0073
+  - VN_speednode_0071
+  - 🇦🇹 奥地利 | trojan | 09
+  - 🇱🇻 拉脱维亚 | vless | 06
+  - 🏳️ CF节点 | vless | 04
+  - VN_speednode_0077
+  - 🇭🇰 香港 | vmess | 90
+  - VN_speednode_0069
+  - 🇦🇹 奥地利 | trojan | 08
+  - 🏳️ CF节点 | vless | 21
+  - 🇬🇧 英国 | trojan | 35
+  - VN_speednode_0065
+  - 🏳️ CF节点 | vless | 22
+  - 🇭🇰 香港 | vmess | 64
+  - 🇳🇱 荷兰 | vless | 68
+  - VN_speednode_0075
+  - VN_speednode_0072
+  - 🇦🇹 奥地利 | trojan | 02
+  - AT_speednode_0001
+  - VN_speednode_0063
+  - 🇮🇳 印度 | vmess | 03
+  - 🇭🇰 香港 | trojan | 79
+  - 🇮🇳 印度 | vless | 06
+  - 🇳🇱 荷兰 | vless | 04
+  - 🇸🇪 瑞典 | trojan | 09
+  - 🇹🇼 台湾 | vmess | 05
+  - ⚡ TCP-高速
+  - 🇭🇰 香港 | vmess | 115
+  - 🇭🇰 香港 | vmess | 123
+  - NL_speednode_0029
+  - WS-穿透
+  - KR_speednode_0022
+  - WSS-隐蔽
+  - 🇺🇸 美国 | vmess | 147
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
 - name: 手动选择
   type: select
   proxies:
-  - 🇺🇸 US 001 | ⬇️ 143.12MB/s
-  - 🇺🇸 US 002 | ⬇️ 142.90MB/s
-  - 🇦🇹 AT 001 | ⬇️ 141.35MB/s
-  - 🇺🇸 US 003 | ⬇️ 137.72MB/s
-  - 🇺🇸 US 004 | ⬇️ 137.14MB/s
-  - 🇺🇸 US 005 | ⬇️ 132.82MB/s
-  - 🇫🇷 FR 001 | ⬇️ 131.58MB/s
-  - 🇺🇸 US 006 | ⬇️ 126.81MB/s
-  - 🇺🇸 US 007 | ⬇️ 125.51MB/s
-  - 🇺🇸 US 008 | ⬇️ 123.45MB/s
-  - 🇺🇸 US 009 | ⬇️ 122.95MB/s
-  - 🇺🇸 US 010 | ⬇️ 118.83MB/s
-  - 🇺🇸 US 011 | ⬇️ 117.33MB/s
-  - 🇺🇸 US 012 | ⬇️ 116.95MB/s
-  - 🇨🇦 CA 001 | ⬇️ 111.85MB/s
-  - 🇺🇸 US 013 | ⬇️ 111.57MB/s
-  - 🇨🇦 CA 002 | ⬇️ 104.86MB/s
-  - 🇨🇦 CA 003 | ⬇️ 99.17MB/s
-  - 🇨🇦 CA 004 | ⬇️ 93.80MB/s
-  - 🇨🇦 CA 005 | ⬇️ 93.79MB/s
-  - 🇨🇦 CA 006 | ⬇️ 85.36MB/s
-  - 🇨🇦 CA 007 | ⬇️ 85.22MB/s
-  - 🇷🇺 RU 001 | ⬇️ 85.01MB/s
-  - 🇺🇸 US 014 | ⬇️ 81.45MB/s
-  - 🇨🇦 CA 008 | ⬇️ 81.14MB/s
-  - 🇷🇺 RU 002 | ⬇️ 78.07MB/s
-  - 🇺🇸 US 015 | ⬇️ 77.72MB/s
-  - 🇺🇸 US 016 | ⬇️ 76.59MB/s
-  - 🇺🇸 US 017 | ⬇️ 72.36MB/s
-  - 🇸🇪 SE 001 | ⬇️ 71.79MB/s
-  - 🇨🇦 CA 009 | ⬇️ 69.03MB/s
-  - 🇺🇸 US 018 | ⬇️ 68.57MB/s
-  - 🇺🇸 US 019 | ⬇️ 61.57MB/s
-  - 🇺🇸 US 020 | ⬇️ 33.95MB/s
-  - 🇬🇧 GB 001 | ⬇️ 27.80MB/s
-  - 🇬🇧 GB 002 | ⬇️ 26.54MB/s
-  - 🏳️ AL 001 | ⬇️ 26.34MB/s
-  - 🇳🇱 NL 001 | ⬇️ 25.87MB/s
-  - 🇬🇧 GB 003 | ⬇️ 25.85MB/s
-  - 🇳🇱 NL 002 | ⬇️ 25.66MB/s
-  - 🇳🇱 NL 003 | ⬇️ 25.44MB/s
-  - 🇳🇱 NL 004 | ⬇️ 24.30MB/s
-  - 🇫🇷 FR 002 | ⬇️ 23.92MB/s
-  - 🇫🇮 FI 001 | ⬇️ 23.87MB/s
-  - 🇫🇮 FI 002 | ⬇️ 23.64MB/s
-  - 🇳🇱 NL 005 | ⬇️ 23.48MB/s
-  - 🇩🇪 DE 001 | ⬇️ 23.15MB/s
-  - 🇩🇪 DE 002 | ⬇️ 22.92MB/s
-  - 🇪🇸 ES 001 | ⬇️ 22.76MB/s
-  - 🇩🇪 DE 003 | ⬇️ 22.63MB/s
-  - 🇸🇪 SE 002 | ⬇️ 22.62MB/s
-  - 🇩🇪 DE 004 | ⬇️ 22.48MB/s
-  - 🇩🇪 DE 005 | ⬇️ 22.42MB/s
-  - 🇳🇱 NL 006 | ⬇️ 22.30MB/s
-  - 🇬🇧 GB 004 | ⬇️ 22.28MB/s
-  - 🇬🇧 GB 005 | ⬇️ 22.28MB/s
-  - 🇬🇧 GB 006 | ⬇️ 22.25MB/s
-  - 🇩🇪 DE 006 | ⬇️ 22.17MB/s
-  - 🇬🇧 GB 007 | ⬇️ 22.11MB/s
-  - 🇳🇱 NL 007 | ⬇️ 22.03MB/s
-  - 🇩🇪 DE 007 | ⬇️ 22.00MB/s
-  - 🇬🇧 GB 008 | ⬇️ 22.00MB/s
-  - 🇬🇧 GB 009 | ⬇️ 21.94MB/s
-  - 🇬🇧 GB 010 | ⬇️ 21.94MB/s
-  - 🇬🇧 GB 011 | ⬇️ 21.94MB/s
-  - 🇬🇧 GB 012 | ⬇️ 21.92MB/s
-  - 🇬🇧 GB 013 | ⬇️ 21.85MB/s
-  - 🇬🇧 GB 014 | ⬇️ 21.78MB/s
-  - 🇬🇧 GB 015 | ⬇️ 21.73MB/s
-  - 🇬🇧 GB 016 | ⬇️ 21.62MB/s
-  - 🇵🇱 PL 001 | ⬇️ 21.54MB/s
-  - 🇩🇪 DE 008 | ⬇️ 21.53MB/s
-  - 🇫🇷 FR 003 | ⬇️ 21.30MB/s
-  - 🇧🇷 BR 001 | ⬇️ 21.29MB/s
-  - 🇭🇰 香港 | vless | 24
-  - 🇳🇴 NO 001 | ⬇️ 20.80MB/s
+  - 🇺🇸 US 001 | ⬇️ 319.77MB/s
+  - 🇺🇸 US 002 | ⬇️ 309.98MB/s
+  - 🇺🇸 US 003 | ⬇️ 308.17MB/s
+  - 🇺🇸 US 004 | ⬇️ 303.14MB/s
+  - 🇺🇸 US 005 | ⬇️ 301.13MB/s
+  - 🇺🇸 US 006 | ⬇️ 290.16MB/s
+  - 🇺🇸 US 007 | ⬇️ 288.51MB/s
+  - 🇺🇸 US 008 | ⬇️ 287.92MB/s
+  - 🇺🇸 US 009 | ⬇️ 286.95MB/s
+  - 🇺🇸 US 010 | ⬇️ 284.39MB/s
+  - 🇺🇸 US 011 | ⬇️ 282.99MB/s
+  - 🇺🇸 US 012 | ⬇️ 272.56MB/s
+  - 🇺🇸 US 013 | ⬇️ 271.07MB/s
+  - 🇫🇷 FR 001 | ⬇️ 266.32MB/s
+  - 🇦🇹 AT 001 | ⬇️ 261.47MB/s
+  - 🇺🇸 US 014 | ⬇️ 237.50MB/s
+  - 🇷🇺 RU 001 | ⬇️ 222.95MB/s
+  - 🇷🇺 RU 002 | ⬇️ 211.05MB/s
+  - 🇨🇦 CA 001 | ⬇️ 188.76MB/s
+  - 🇨🇦 CA 002 | ⬇️ 168.19MB/s
+  - 🇨🇦 CA 003 | ⬇️ 166.69MB/s
+  - 🏳️ CW 001 | ⬇️ 140.42MB/s
+  - 🇺🇸 US 015 | ⬇️ 137.95MB/s
+  - 🇺🇸 US 016 | ⬇️ 135.97MB/s
+  - 🇨🇦 CA 004 | ⬇️ 124.62MB/s
+  - 🇨🇦 CA 005 | ⬇️ 121.14MB/s
+  - 🇨🇦 CA 006 | ⬇️ 120.51MB/s
+  - 🇨🇦 CA 007 | ⬇️ 119.79MB/s
+  - 🇺🇸 US 017 | ⬇️ 50.90MB/s
+  - 🇺🇸 US 018 | ⬇️ 49.89MB/s
+  - 🇺🇸 US 019 | ⬇️ 47.58MB/s
+  - 🇺🇸 US 020 | ⬇️ 46.94MB/s
+  - 🇸🇪 SE 001 | ⬇️ 45.78MB/s
+  - 🇪🇸 ES 001 | ⬇️ 38.00MB/s
+  - 🇬🇧 GB 001 | ⬇️ 36.97MB/s
+  - 🇳🇱 NL 001 | ⬇️ 35.34MB/s
+  - 🇳🇱 NL 002 | ⬇️ 33.70MB/s
+  - 🇩🇪 DE 001 | ⬇️ 32.39MB/s
+  - 🇩🇪 DE 002 | ⬇️ 31.81MB/s
+  - 🇳🇱 NL 003 | ⬇️ 31.77MB/s
+  - 🏳️ AL 001 | ⬇️ 31.76MB/s
+  - 🇩🇪 DE 003 | ⬇️ 31.73MB/s
+  - 🇩🇪 DE 004 | ⬇️ 31.60MB/s
+  - 🇩🇪 DE 005 | ⬇️ 31.58MB/s
+  - 🇫🇮 FI 001 | ⬇️ 31.15MB/s
+  - 🇫🇮 芬兰 | vless | 03
+  - 🇷🇺 俄罗斯 | trojan | 13
+  - 🇨🇭 瑞士 | trojan | 03
+  - 🇩🇪 德国 | vless | 40
+  - 🇩🇪 德国 | vless | 71
+  - 🇳🇱 荷兰 | trojan | 64
+  - 🇸🇪 瑞典 | vless | 03
+  - 🇮🇹 意大利 | trojan | 01
+  - 🇵🇱 波兰 | vless | 06
+  - 🇭🇰 香港 | vless | 11
+  - 🇭🇰 香港 | vless | 08
+  - 🇭🇰 香港 | vless | 12
+  - 🇭🇰 香港 | vless | 10
+  - 🇭🇰 香港 | vless | 03
+  - 🇭🇰 香港 | vless | 02
+  - 🇭🇰 香港 | vless | 06
+  - 🇭🇰 香港 | vless | 23
+  - 🇭🇰 香港 | vless | 05
+  - 🇭🇰 香港 | vless | 15
+  - 🇷🇴 罗马尼亚 | vless | 03
+  - 🇭🇰 香港 | vless | 22
+  - 🇭🇰 香港 | vless | 04
+  - 🇭🇰 香港 | vless | 14
+  - 🇭🇰 香港 | vless | 20
+  - 🇮🇹 意大利 | trojan | 02
+  - 🇭🇰 香港 | vless | 16
+  - 🇭🇰 香港 | vless | 19
+  - 🇭🇰 香港 | vless | 01
+  - 🇭🇰 香港 | vless | 18
+  - 🇭🇰 香港 | vless | 17
+  - 🇵🇱 波兰 | trojan | 07
+  - 🇺🇸US美国5 1.0MB/s
+  - 🇪🇸ES西班牙2 1.4MB/s
+  - 🇫🇷 法国 | vless | 16
   - 🇭🇰 香港 | vless | 21
-  - 🇵🇱 PL 002 | ⬇️ 20.56MB/s
-  - 🇫🇷 FR 004 | ⬇️ 20.53MB/s
-  - 🇭🇰 香港 | vless | 29
-  - 🇳🇴 NO 002 | ⬇️ 20.47MB/s
-  - 🇱🇻 LV 001 | ⬇️ 20.34MB/s
-  - 🇱🇻 拉脱维亚 | vless | 06
-  - 🇹🇷 TR 001 | ⬇️ 20.09MB/s
-  - 🇩🇪 DE 009 | ⬇️ 19.86MB/s
-  - MT_speednode_0027
-  - 🇷🇺 俄罗斯 | vless | 09
-  - 🇪🇪 EE 001 | ⬇️ 18.99MB/s
-  - 🇷🇺 RU 003 | ⬇️ 18.69MB/s
-  - 🇷🇺 俄罗斯 | vless | 10
-  - 🇷🇺 俄罗斯 | vless | 11
-  - 🇭🇰 香港 | vmess | 101
-  - 🇭🇰 香港 | vmess | 105
-  - 🇩🇪 德国 | vless | 49
-  - 🇷🇺 RU 004 | ⬇️ 17.96MB/s
-  - 🇰🇷 韩国 | vmess | 25
-  - 🇸🇬 SG 001 | ⬇️ 17.64MB/s
-  - 🇷🇺 RU 005 | ⬇️ 17.60MB/s
-  - 🇭🇰 香港 | vless | 55
-  - 🇭🇰 HK 001 | ⬇️ 16.92MB/s
-  - 🇭🇰 HK 002 | ⬇️ 16.89MB/s
-  - 🇸🇬 新加坡 | trojan | 25
-  - 🇷🇺 俄罗斯 | vmess | 06
-  - 🇩🇰 DK 001 | ⬇️ 16.57MB/s
-  - 🇭🇰 香港 | vmess | 93
-  - 🇫🇷 FR 005 | ⬇️ 16.34MB/s
-  - 🇬🇧 英国 | vmess | 02
-  - 🇭🇰 香港 | vmess | 92
-  - 🇭🇰 香港 | vmess | 12
+  - 🇭🇰 香港 | vless | 13
+  - 🇹🇷 土耳其 | vless | 01
+  - 🇪🇸ES西班牙
   - 🇫🇷 法国 | vless | 34
-  - 🇭🇰 香港 | vmess | 103
-  - 🇬🇧 英国 | vless | 41
-  - 🇭🇰 香港 | vmess | 87
-  - 🇫🇷 法国 | vless | 33
-  - 🇭🇰 香港 | vmess | 97
-  - 🇩🇪 德国 | vless | 37
-  - 🇫🇷 法国 | vless | 22
-  - 🇭🇰 香港 | vmess | 84
-  - 🇭🇰 香港 | vmess | 98
-  - 🏳️ CF节点 | vless | 09
-  - 🇭🇰 香港 | vmess | 94
-  - 🇩🇪 德国 | vless | 58
-  - 🇫🇷 法国 | vless | 23
-  - 🇫🇷 法国 | vless | 25
-  - 🇫🇷 法国 | vless | 31
-  - 🇱🇻 拉脱维亚 | vless | 08
-  - 🇫🇷 法国 | vless | 17
-  - 🇬🇧GB英国4 660.6KB/s
-  - 🇫🇷 法国 | vless | 27
-  - 🇬🇧GB英国3 641.7KB/s
-  - 🇬🇧GB英国2 646.8KB/s
-  - 🇫🇷 法国 | vless | 39
-  - 🇫🇷 法国 | vless | 44
-  - 🇮🇳 印度 | vless | 07
-  - 🇭🇰 香港 | vmess | 100
+  - 🇭🇰 香港 | vless | 09
+  - 🇷🇺 俄罗斯 | vless | 05
+  - 🇷🇺 俄罗斯 | vless | 10
+  - 🇷🇺 俄罗斯 | vless | 04
+  - 🇷🇺 俄罗斯 | vless | 08
+  - 🇭🇰 香港 | vless | 07
+  - 🇷🇺 俄罗斯 | vless | 07
+  - MT_speednode_0027
+  - 🇷🇺 俄罗斯 | vless | 11
+  - 🇷🇴 罗马尼亚 | vless | 01
+  - 🇬🇧 英国 | vless | 39
   - 🇫🇷 法国 | vless | 32
-  - 🇬🇧 英国 | vless | 37
-  - 🇭🇰 香港 | vmess | 102
+  - 🇫🇷 法国 | vless | 20
+  - 🇩🇰 丹麦 | vless | 01
+  - 🇫🇷 法国 | vless | 12
+  - 🇫🇷 法国 | vless | 13
   - 🇫🇷 法国 | vless | 35
-  - 🇫🇷 法国 | vless | 48
-  - VN_speednode_0071
-  - 🇳🇱 荷兰 | vless | 46
-  - 🇫🇷 法国 | vless | 37
-  - VN_speednode_0069
-  - 🏳️ CF节点 | vless | 18
-  - 🇫🇷 法国 | vless | 19
-  - 🇫🇷 法国 | vless | 28
-  - 🇮🇩 印尼 | vless | 01
-  - 🇫🇷 法国 | vless | 38
-  - 🇫🇷 法国 | vless | 30
-  - 🇺🇸 美国 | vless | 75
-  - VN_speednode_0066
-  - 🇩🇪 德国 | vless | 54
-  - 🇫🇷 法国 | vless | 29
-  - 🇭🇰 香港 | vmess | 83
+  - 🇫🇷 法国 | vless | 26
+  - 🇩🇪 德国 | vless | 58
+  - 🇫🇷 法国 | vless | 14
   - 🇩🇪 德国 | vless | 43
-  - 🇭🇰 香港 | vmess | 104
-  - 🇭🇰 香港 | vmess | 70
-  - 🏳️ CF节点 | vless | 05
+  - 🇫🇷 法国 | vless | 47
+  - 🇬🇧 英国 | vless | 33
+  - 🇫🇷 法国 | vless | 39
+  - 🇫🇷 法国 | vless | 21
   - 🇫🇷 法国 | vless | 36
-  - 🇩🇪 德国 | vless | 74
-  - 🇭🇰 香港 | vmess | 99
-  - VN_speednode_0077
-  - VN_speednode_0073
-  - 🇯🇵 日本 | trojan | 02
-  - VN_speednode_0075
-  - 🇬🇧 英国 | trojan | 46
-  - 🇩🇪 德国 | vmess | 02
-  - 🇻🇳 越南 | vless | 02
-  - 🇳🇴 挪威 | trojan | 03
-  - 🇯🇵 日本 | trojan | 03
-  - 🇭🇰 香港 | vmess | 86
-  - 🇱🇻 拉脱维亚 | vless | 11
-  - VN_speednode_0078
-  - VN_speednode_0064
-  - 🇭🇰 香港 | vmess | 96
-  - AT_speednode_0001
-  - 🇯🇵 日本 | trojan | 05
-  - VN_speednode_0072
-  - VN_speednode_0068
-  - 新加坡2|@ripaojiedian
-  - 🇯🇵 日本 | trojan | 04
-  - VN_speednode_0065
+  - 🇫🇷 法国 | vless | 24
+  - 🇬🇧 英国 | vmess | 05
+  - 🇫🇷 法国 | vless | 27
+  - 🇫🇷 法国 | vless | 41
+  - 🇬🇧GB英国2 394.5KB/s
+  - 🇬🇧GB英国 413.5KB/s
+  - 🇫🇷 法国 | vless | 23
+  - 🇫🇷 法国 | vless | 38
+  - 🇬🇧 英国 | trojan | 44
+  - 🇫🇷 法国 | vless | 28
+  - 🇭🇰 香港 | vmess | 82
+  - 🇫🇷 法国 | vless | 31
+  - 🇩🇪 德国 | vless | 53
+  - 🇫🇷 法国 | vless | 22
+  - 🇩🇪 德国 | vless | 63
+  - 🇭🇰 香港 | vmess | 84
+  - 🇭🇰 香港 | vless | 74
+  - 🇮🇩 印尼 | vless | 01
+  - 🇩🇪 德国 | vless | 66
+  - 🇫🇷 法国 | vless | 29
+  - 🇩🇪 德国 | vless | 67
   - 🇭🇰 香港 | vmess | 91
+  - 🇫🇷 法国 | vless | 42
+  - 🇰🇷 韩国 | vmess | 25
+  - 🇮🇳 印度 | vless | 07
+  - 🇸🇬 新加坡 | trojan | 24
+  - 🇫🇷 法国 | vless | 43
+  - KR_speednode_0023
+  - 🇭🇰 香港 | vmess | 88
+  - 🇸🇬 新加坡 | vless | 25
+  - 🇭🇰 香港 | vmess | 62
+  - 🇭🇰 香港 | vmess | 89
+  - 🇭🇰 香港 | vmess | 86
+  - 🇭🇰 香港 | vmess | 94
+  - 🇭🇰 香港 | vmess | 78
+  - 🇱🇻 拉脱维亚 | vless | 09
+  - 🇭🇰 香港 | vmess | 81
+  - 🇳🇱 荷兰 | vless | 52
+  - 🇭🇰 香港 | vmess | 80
+  - 🇭🇰 香港 | vmess | 75
+  - 🇺🇸 美国 | vless | 101
+  - 🇭🇰 香港 | vmess | 76
+  - 🇭🇰 香港 | vmess | 71
+  - VN_speednode_0068
+  - 🇩🇪 德国 | vmess | 01
+  - 🇭🇰 香港 | vmess | 57
+  - 🇭🇰 香港 | vmess | 56
+  - 🇳🇴 挪威 | trojan | 03
+  - 日本3|@ripaojiedian
+  - 🇸🇬SG新加坡 2.2MB/s
+  - 🇭🇰 香港 | vmess | 85
+  - 🇭🇰 香港 | vmess | 66
+  - 日本2|@ripaojiedian
+  - 🇻🇳 越南 | vless | 02
+  - 新加坡|@ripaojiedian
+  - 🇯🇵 日本 | trojan | 06
+  - VN_speednode_0074
+  - TR_speednode_0032
+  - VN_speednode_0078
+  - 🇭🇰 香港 | vmess | 63
+  - 🇭🇰 香港 | vmess | 69
+  - VN_speednode_0064
+  - 🇭🇰 香港 | vmess | 60
+  - 🇯🇵 日本 | trojan | 05
+  - 美国2|@ripaojiedian
+  - VN_speednode_0079
+  - 🇨🇦CA加拿大2 2.2MB/s
+  - VN_speednode_0067
+  - VN_speednode_0076
   - VN_speednode_0062
-  - 🇻🇳 VN 001 | ⬇️ 7.10MB/s
-  - 🇭🇰 HK 003 | ⬇️ 6.90MB/s
-  - 🇻🇳 VN 002 | ⬇️ 6.77MB/s
-  - 🇹🇷 TR 002 | ⬇️ 6.69MB/s
-  - 🇳🇱 NL 008 | ⬇️ 6.68MB/s
-  - 🇱🇻 LV 002 | ⬇️ 5.38MB/s
-  - 🇭🇰 HK 004 | ⬇️ 5.26MB/s
-  - 🇩🇪 DE 010 | ⬇️ 5.17MB/s
-  - 🇮🇳 IN 001 | ⬇️ 4.95MB/s
-  - 🇭🇰 HK 005 | ⬇️ 4.58MB/s
-  - 🇻🇳 VN 003 | ⬇️ 4.27MB/s
-  - 🇺🇸 US 021 | ⬇️ 4.21MB/s
-  - 🇨🇦 CA 010 | ⬇️ 4.17MB/s
-  - 🇮🇳 IN 002 | ⬇️ 4.07MB/s
-  - 🇸🇪 SE 003 | ⬇️ 4.01MB/s
-  - 🇭🇰 HK 006 | ⬇️ 3.20MB/s
-  - 🇳🇱 NL 009 | ⬇️ 3.14MB/s
-  - 🇭🇰 HK 007 | ⬇️ 3.13MB/s
-  - 🇭🇰 HK 008 | ⬇️ 2.85MB/s
-  - 🇭🇰 HK 009 | ⬇️ 2.77MB/s
-  - 🇨🇦 CA 011 | ⬇️ 2.36MB/s
-  - 🇸🇪 SE 004 | ⬇️ 2.28MB/s
-  - 🇺🇸 US 022 | ⬇️ 1.84MB/s
-  - 🇭🇰 HK 010 | ⬇️ 1.83MB/s
-  - 🇨🇳 TW 001 | ⬇️ 1.14MB/s
-  - 🇨🇳 TW 002 | ⬇️ 1.06MB/s
-- name: DIRECT
-  type: select
-  proxies:
-  - DIRECT
+  - VN_speednode_0073
+  - VN_speednode_0071
+  - 🇦🇹 奥地利 | trojan | 09
+  - 🇱🇻 拉脱维亚 | vless | 06
+  - 🏳️ CF节点 | vless | 04
+  - VN_speednode_0077
+  - 🇭🇰 香港 | vmess | 90
+  - VN_speednode_0069
+  - 🇦🇹 奥地利 | trojan | 08
+  - 🏳️ CF节点 | vless | 21
+  - 🇬🇧 英国 | trojan | 35
+  - VN_speednode_0065
+  - 🏳️ CF节点 | vless | 22
+  - 🇭🇰 香港 | vmess | 64
+  - 🇳🇱 荷兰 | vless | 68
+  - VN_speednode_0075
+  - VN_speednode_0072
+  - 🇦🇹 奥地利 | trojan | 02
+  - AT_speednode_0001
+  - VN_speednode_0063
+  - 🇮🇳 印度 | vmess | 03
+  - 🇭🇰 香港 | trojan | 79
+  - 🇮🇳 印度 | vless | 06
+  - 🇳🇱 荷兰 | vless | 04
+  - 🇸🇪 瑞典 | trojan | 09
+  - 🇹🇼 台湾 | vmess | 05
+  - ⚡ TCP-高速
+  - 🇭🇰 香港 | vmess | 115
+  - 🇭🇰 香港 | vmess | 123
+  - NL_speednode_0029
+  - WS-穿透
+  - KR_speednode_0022
+  - WSS-隐蔽
+  - 🇺🇸 美国 | vmess | 147
 - name: PROXY
   type: select
   proxies:
