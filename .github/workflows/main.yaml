@@ -23,12 +23,132 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
 
-      - name: Download raw proxies & stars
+      # ==================== 新增：安装 Python 依赖 ====================
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      # ==================== 核心升级：多订阅 + 全格式支持 ====================
+      - name: Download raw proxies & stars（支持多订阅 + 全格式 YAML/Base64）
         env:
-          PROXIES_URL: ${{ secrets.PROXIES_URL }}
+          PROXIES_URLS: ${{ secrets.PROXIES_URLS }}
         run: |
+          # 下载星星图
           timeout 10 curl -f "https://api.star-history.com/svg?repos=cxddgtb/2026Clash&type=Date" > stars.svg || true
-          curl -f -L "$PROXIES_URL" -o raw_proxies.yaml || { echo "Failed to fetch proxies"; exit 1; }
+
+          # ==================== 全格式多订阅核心逻辑 ====================
+          rm -f raw_proxies.yaml temp_*.yaml 2>/dev/null || true
+
+          IFS=$'\n' read -r -d '' -a urls <<< "${PROXIES_URLS}"
+          all_proxies_json=()
+          total_nodes=0
+
+          for i in "${!urls[@]}"; do
+            url="${urls[$i]// /}"   # 去空格
+            [ -z "$url" ] && continue
+
+            echo "📥 下载第 $((i+1)) 个订阅: ${url:0:70}..."
+
+            curl -f -L --connect-timeout 15 --max-time 60 "$url" -o "temp_${i}.yaml" || {
+              echo "❌ 下载失败，跳过"
+              continue
+            }
+
+            # Python 全格式转换器（YAML + Base64 自动识别）
+            output=$(python3 -c '
+import yaml, base64, sys, json
+
+def decode_base64(s):
+    s = s.strip()
+    try:
+        missing = len(s) % 4
+        if missing:
+            s += "=" * (4 - missing)
+        decoded = base64.b64decode(s, validate=False)
+        return decoded.decode("utf-8")
+    except:
+        return None
+
+with open("temp_'"$i"'.yaml", "r", encoding="utf-8", errors="ignore") as f:
+    content = f.read()
+
+# 1. 直接尝试 YAML
+try:
+    data = yaml.safe_load(content)
+    if isinstance(data, dict) and "proxies" in data and isinstance(data.get("proxies"), list):
+        proxies = data["proxies"]
+        print(f"  ✓ Clash YAML 格式，获取 {len(proxies)} 个节点", file=sys.stderr)
+        print(json.dumps(proxies))
+        sys.exit(0)
+    elif isinstance(data, list):
+        proxies = data
+        print(f"  ✓ 纯 proxies 列表格式，获取 {len(proxies)} 个节点", file=sys.stderr)
+        print(json.dumps(proxies))
+        sys.exit(0)
+except:
+    pass
+
+# 2. Base64 解码后再尝试
+decoded = decode_base64(content)
+if decoded:
+    try:
+        data = yaml.safe_load(decoded)
+        if isinstance(data, dict) and "proxies" in data and isinstance(data.get("proxies"), list):
+            proxies = data["proxies"]
+            print(f"  ✓ Base64 编码的 Clash YAML，获取 {len(proxies)} 个节点", file=sys.stderr)
+            print(json.dumps(proxies))
+            sys.exit(0)
+        elif isinstance(data, list):
+            proxies = data
+            print(f"  ✓ Base64 编码的 proxies 列表，获取 {len(proxies)} 个节点", file=sys.stderr)
+            print(json.dumps(proxies))
+            sys.exit(0)
+    except:
+        pass
+
+print("  ⚠️ 未知订阅格式（非 YAML / 非 Base64 YAML），已跳过", file=sys.stderr)
+print("[]")
+            ' 2>/dev/null)
+
+            proxies_json=$(echo "$output" | tail -n 1)
+            count=$(echo "$proxies_json" | python3 -c '
+import sys, json
+try:
+    data = json.loads(sys.stdin.read())
+    print(len(data))
+except:
+    print(0)
+            ' 2>/dev/null || echo 0)
+
+            if [ "$count" -gt 0 ]; then
+              total_nodes=$((total_nodes + count))
+              all_proxies_json+=("$proxies_json")
+              echo "  ✓ 成功合并 $count 个节点"
+            fi
+          done
+
+          # 最终合并成 raw_proxies.yaml
+          if [ ${#all_proxies_json[@]} -eq 0 ]; then
+            echo "❌ 所有订阅均失败或无有效节点！"
+            exit 1
+          fi
+
+          python3 -c '
+import yaml, sys, json
+all_proxies = []
+for line in sys.stdin:
+    if line.strip():
+        try:
+            proxies = json.loads(line)
+            all_proxies.extend(proxies)
+        except:
+            pass
+data = {"proxies": all_proxies}
+with open("raw_proxies.yaml", "w", encoding="utf-8") as f:
+    yaml.dump(data, f, allow_unicode=True, sort_keys=False)
+print(f"🎉 多订阅全格式合并完成！共 {len(all_proxies)} 个原始节点")
+          ' <<< "$(printf "%s\n" "${all_proxies_json[@]}")"
+
+          echo "raw_proxies.yaml 生成完毕 → 进入去重 & 严格测速"
 
       - name: Deduplicate + 过滤垃圾节点
         run: python3 dedup.py
@@ -53,10 +173,10 @@ jobs:
 
           if [ -f proxies_tested.yaml ] && grep -q "proxies:" proxies_tested.yaml && [ "$(grep -c "server:" proxies_tested.yaml)" -gt 0 ]; then
             cp proxies_tested.yaml proxies.yaml
-            echo "✅ 严格测速完成（高并发），使用过滤后的优质节点"
+            echo "严格测速完成（高并发），使用过滤后的优质节点"
           else
             cp proxies_dedup.yaml proxies.yaml
-            echo "⚠️ 严格过滤后无节点保留，使用去重文件"
+            echo "严格过滤后无节点保留，使用去重文件"
           fi
 
       - name: Generate Node Statistics
@@ -71,7 +191,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update: 严格测速 + 全网最强规则集（Loyalsoldier每日更新）+ 节点统计 ($(date '+%Y-%m-%d %H:%M:%S'))"
+            git commit -m "Update: 严格测速 + 全网最强规则集（Loyalsoldier每日更新）+ 节点统计 + 多订阅全格式支持 ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push
-            echo "✅ 提交成功"
+            echo "提交成功"
           fi
