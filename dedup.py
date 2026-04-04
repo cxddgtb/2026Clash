@@ -1,33 +1,37 @@
 import yaml
-import hashlib
 
-with open('raw_proxies.yaml', encoding='utf-8') as f:
+with open('raw_proxies.yaml', 'r', encoding='utf-8') as f:
     data = yaml.safe_load(f) or {}
-
 proxies = data.get('proxies', [])
+
+print(f"原始节点数量: {len(proxies)}")
+
+# 严格去重：以 (name, server, port) 为键
 seen = {}
-unique = []
-
+deduped = []
 for p in proxies:
-    if not isinstance(p, dict):
-        continue
-    server = p.get('server', '')
-    name = p.get('name', '')
-
-    # 过滤垃圾节点
-    if not server or server.startswith(('127.', '192.168.', '10.')):
-        continue
-    if '防范境外势力渗透' in name or '本地' in name or p.get('uuid') == '00000000-0000-4000-8000-000000000000':
-        continue
-
-    # 去重
-    key = hashlib.md5(f"{p.get('type')}|{server}|{p.get('port')}|{p.get('password') or p.get('uuid') or ''}".encode()).hexdigest()
+    key = (p.get('name'), p.get('server'), p.get('port'))
     if key not in seen:
         seen[key] = True
-        unique.append(p)
+        deduped.append(p)
 
-data['proxies'] = unique
+print(f"基础去重后: {len(deduped)} 个节点")
+
+# 最终防重名：如果仍有同名，自动加序号
+name_count = {}
+final_proxies = []
+for p in deduped:
+    original_name = p.get('name', '未知节点')
+    if original_name in name_count:
+        name_count[original_name] += 1
+        new_name = f"{original_name} #{name_count[original_name]}"
+        p['name'] = new_name
+        print(f"  重命名重复节点: {original_name} → {new_name}")
+    else:
+        name_count[original_name] = 1
+    final_proxies.append(p)
+
 with open('proxies_dedup.yaml', 'w', encoding='utf-8') as f:
-    yaml.dump(data, f, allow_unicode=True, sort_keys=False)
+    yaml.dump({'proxies': final_proxies}, f, allow_unicode=True, sort_keys=False)
 
-print(f"去重+过滤完成: {len(proxies)} → {len(unique)} 个节点")
+print(f"✅ 最终去重 + 防重名完成！共 {len(final_proxies)} 个节点 → proxies_dedup.yaml")
