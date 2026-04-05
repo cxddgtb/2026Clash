@@ -1,4 +1,4 @@
-name: Fetch & Strict Google + Download Speed Test
+name: Fetch & Strict Google + Download Speed Test (Ultimate)
 
 on:
   schedule:
@@ -23,25 +23,21 @@ jobs:
       - name: Install Python dependencies
         run: pip install pyyaml requests
 
-      - name: Download raw proxies & stars（支持多订阅 + 全格式）
+      - name: Download raw proxies & stars（多订阅全格式）
         env:
           PROXIES_URLS: ${{ secrets.PROXIES_URLS }}
         run: |
-          # 下载星星图
           timeout 10 curl -f "https://api.star-history.com/svg?repos=cxddgtb/2026Clash&type=Date" > stars.svg || true
-          
-          # 调用独立 Python 脚本处理多订阅
           python3 fetch_proxies.py
 
-      - name: Deduplicate + 过滤垃圾节点
+      - name: Deduplicate + 防重名
         run: python3 dedup.py
 
-      - name: Strict Clash Speed Test（防重复名称 + 优化速度）
+      - name: Strict Clash Speed Test（优化速度 + 防重名）
         run: |
           curl -sL https://github.com/faceair/clash-speedtest/releases/latest/download/clash-speedtest_Linux_x86_64.tar.gz | tar xz
           chmod +x clash-speedtest
-          echo "开始严格测速（已优化并发 + 防重名）..."
-
+          echo "开始严格测速..."
           ./clash-speedtest \
             -c proxies_dedup.yaml \
             -output proxies_tested.yaml \
@@ -52,28 +48,29 @@ jobs:
             -min-download-speed 0.3 \
             -max-packet-loss 20 \
             -timeout 10s \
-            -concurrent 6 || echo "⚠️ 测速工具执行异常，使用去重文件"
-
+            -concurrent 6 || echo "测速异常，使用去重文件"
+          
           if [ -f proxies_tested.yaml ] && [ "$(grep -c "server:" proxies_tested.yaml 2>/dev/null || echo 0)" -gt 5 ]; then
             cp proxies_tested.yaml proxies.yaml
-            echo "✅ 测速完成，保留优质节点"
           else
             cp proxies_dedup.yaml proxies.yaml
-            echo "⚠️ 测速后节点不足，使用去重文件"
           fi
+
+      - name: Enhance Node Names（添加延迟显示）
+        run: python3 enhance_names.py
 
       - name: Generate Node Statistics
         run: python3 generate_stats.py
 
-      - name: Build Full Config with Latest Rules
+      - name: Build Full Config（超级策略 + 色情规则）
         run: python3 build_full_config.py
 
       - name: Commit changes
         run: |
-          git add proxies.yaml nodes_stats.md stars.svg raw_proxies.yaml proxies_dedup.yaml || true
+          git add proxies.yaml clash.yaml nodes_stats.md stars.svg raw_proxies.yaml proxies_dedup.yaml || true
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update: 多订阅全格式支持 + 严格测速 + 规则集 ($(date '+%Y-%m-%d %H:%M:%S'))"
+            git commit -m "🚀 Ultimate Update: 多订阅全格式 + 超级策略组 + 色情专用规则 + 节点增强 ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push
           fi
