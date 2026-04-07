@@ -1,5 +1,9 @@
 name: Fetch & Strict Google + Download Speed Test (Ultimate Parallel + <5000ms)
 
+# 强制使用 Node.js 24，消除弃用警告
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   schedule:
     - cron: "0 */5 * * *"
