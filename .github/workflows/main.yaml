@@ -12,6 +12,12 @@ jobs:
   update:
     runs-on: ubuntu-latest
 
+    # ==================== 8 Job 并行测速配置 ====================
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+
     steps:
       - uses: actions/checkout@v4
 
@@ -23,7 +29,7 @@ jobs:
       - name: Install Python dependencies
         run: pip install pyyaml requests
 
-      # ==================== 下载多订阅 + 全格式支持 ====================
+      # ==================== 下载订阅 ====================
       - name: Download raw proxies & stars（多订阅全格式）
         env:
           PROXIES_URLS: ${{ secrets.PROXIES_URLS }}
@@ -31,25 +37,20 @@ jobs:
           timeout 10 curl -f "https://api.star-history.com/svg?repos=cxddgtb/2026Clash&type=Date" > stars.svg || true
           python3 fetch_proxies.py
 
-      # ==================== 去重 + 强制唯一名称 ====================
       - name: Deduplicate + 防重名
         run: python3 dedup.py
 
-      # ==================== 8 Job 并行 fast 测速（极致快） ====================
-      - name: Cache clash-speedtest binary
+      # ==================== 并行 fast 测速 ====================
+      - name: Cache clash-speedtest
         uses: actions/cache@v4
         with:
           path: clash-speedtest
           key: clash-speedtest-linux-x86_64-latest
 
-      - name: Split proxies into 8 shards
+      - name: Split proxies into shards
         run: python3 split_proxies.py
 
-      - name: Speed Test - Parallel 8 Shards（fast 模式）
-        strategy:
-          fail-fast: false
-          matrix:
-            shard: [0, 1, 2, 3, 4, 5, 6, 7]
+      - name: Fast Speed Test - Shard ${{ matrix.shard }}
         timeout-minutes: 180
         run: |
           if [ ! -f clash-speedtest ]; then
@@ -57,7 +58,7 @@ jobs:
             chmod +x clash-speedtest
           fi
 
-          echo "=== 并行 fast 测速分片 ${{ matrix.shard }}（高并发20）==="
+          echo "=== 并行 fast 测速分片 ${{ matrix.shard }} ==="
           ./clash-speedtest \
             -c proxies_chunk_${{ matrix.shard }}.yaml \
             -output proxies_tested_chunk_${{ matrix.shard }}.yaml \
@@ -72,9 +73,8 @@ jobs:
       - name: Merge all fast chunks
         run: python3 merge_chunks.py
 
-      - name: Filter <5000ms + Second Download Speed Test
+      - name: Filter <5000ms + Download Speed Test
         run: |
-          # 严格过滤 <5000ms 节点
           python3 filter_low_latency.py || echo "过滤异常，使用全部节点"
 
           echo "=== 第二阶段：仅对 <5000ms 节点进行 download 测速 ==="
@@ -88,23 +88,20 @@ jobs:
             -output proxies_tested.yaml \
             -rename \
             -speed-mode download \
-            -server-url "https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg" \
             -min-download-speed 0.3 \
             -max-packet-loss 40 \
             -timeout 6s \
             -concurrent 12 || echo "第二阶段失败，使用第一阶段结果"
 
-      # ==================== 节点名称增强 + 统计 + 最终配置 ====================
-      - name: Enhance Node Names（添加延迟显示）
+      - name: Enhance Node Names
         run: python3 enhance_names.py
 
       - name: Generate Node Statistics
         run: python3 generate_stats.py
 
-      - name: Build Full Config（超级策略 + 色情规则）
+      - name: Build Full Config
         run: python3 build_full_config.py
 
-      # ==================== 提交更新 ====================
       - name: Commit changes
         run: |
           git add proxies.yaml clash.yaml nodes_stats.md stars.svg raw_proxies.yaml proxies_dedup.yaml || true
