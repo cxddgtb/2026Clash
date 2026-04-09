@@ -1,6 +1,5 @@
-name: Fetch & Strict Google + Download Speed Test (8 Job Parallel + Merge)
+name: Fetch & Strict Google + Download Speed Test (8 Job Parallel + Artifact Merge)
 
-# 强制 Node.js 24（消除弃用警告）
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -24,11 +23,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Config Git
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-
       - name: Install Python
         run: pip install pyyaml requests
 
@@ -48,7 +42,6 @@ jobs:
             curl -sL https://github.com/faceair/clash-speedtest/releases/latest/download/clash-speedtest_Linux_x86_64.tar.gz | tar xz
             chmod +x clash-speedtest
           fi
-          echo "=== 并行 fast 测速分片 ${{ matrix.shard }} ==="
           ./clash-speedtest \
             -c proxies_chunk_${{ matrix.shard }}.yaml \
             -output proxies_tested_chunk_${{ matrix.shard }}.yaml \
@@ -59,6 +52,13 @@ jobs:
             -timeout 4s \
             -concurrent 20
 
+      - name: Upload chunk result
+        uses: actions/upload-artifact@v4
+        with:
+          name: chunk-${{ matrix.shard }}
+          path: proxies_tested_chunk_${{ matrix.shard }}.yaml
+          retention-days: 1
+
   # ==================== 合并 + 过滤 + 下载测速 + 最终构建 ====================
   merge-and-build:
     needs: test
@@ -67,15 +67,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Config Git
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+      - name: Download all 8 chunks
+        uses: actions/download-artifact@v4
+        with:
+          path: ./chunks
+          merge-multiple: true
 
-      - name: Install Python
-        run: pip install pyyaml requests
-
-      - name: Merge all 8 fast chunks
+      - name: Merge all fast chunks
         run: python3 merge_chunks.py
 
       - name: Filter <5000ms + Download Speed Test
@@ -113,7 +111,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes detected"
           else
-            git commit -m "🚀 8 Job 并行测速 + <5000ms 过滤 + 下载测速 ($(date '+%Y-%m-%d %H:%M:%S'))"
+            git commit -m "🚀 8 Job 并行 + <5000ms 过滤 + 下载测速 ($(date '+%Y-%m-%d %H:%M:%S'))"
             git push --force
             echo "✅ 强制推送成功"
           fi
