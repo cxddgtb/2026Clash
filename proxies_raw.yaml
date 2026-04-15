@@ -111,14 +111,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 | ss | 14
-  type: ss
-  server: 147.78.0.182
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇦🇪 阿联酋 | vless | 15
   type: vless
   server: 78.40.193.94
@@ -221,46 +213,6 @@ proxies:
   skip-cert-verify: false
   sni: xo.e0f.cx
   servername: xo.e0f.cx
-- name: 🇦🇷 阿根廷 | ss | 01
-  type: ss
-  server: 138.186.142.80
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇦🇷 阿根廷 | ss | 02
-  type: ss
-  server: 138.186.142.81
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇦🇷 阿根廷 | ss | 03
-  type: ss
-  server: 138.186.143.32
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇦🇷 阿根廷 | ss | 04
-  type: ss
-  server: 138.186.143.32
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇦🇷 阿根廷 | ss | 05
-  type: ss
-  server: 154.205.154.184
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 5b978047b47f7eab
-  udp: true
-  skip-cert-verify: false
 - name: 🇦🇷 阿根廷 | trojan | 06
   type: trojan
   server: 149.33.19.105
@@ -710,14 +662,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇦🇺 澳大利亚 | ss | 14
-  type: ss
-  server: 154.26.155.172
-  port: 80
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZac1VrTk5NREZJVlc1V2FsSXpRbkpaYkdSdlVrWlZkMXBIT1ZkV2JHdzFXV3RTUzFVeFJsSlFWREE5
-  udp: true
-  skip-cert-verify: false
 - name: 🇦🇺 澳大利亚 | vless | 15
   type: vless
   server: 176.97.69.24
@@ -742,22 +686,6 @@ proxies:
   flow: xtls-rprx-vision-udp443-udp443-udp443
   servername: peer.pan.baidu.com
   client-fingerprint: chrome
-- name: 🇦🇺 澳大利亚 | ss | 17
-  type: ss
-  server: 193.177.220.147
-  port: 30011
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbUZqVms1MVkwZDRVMDFWY0VwV1Z6RXdZakZXUjFkdVVtaFNiV2hYV1d0a2IxSkdVbGhsUjNSWFRWWndlbFl5TVRSVk1ERkZWbXhzVjFaNlJUQlpla1poWkVaT2MyRkhhRk5pVjJoWFZtMHhOR1F5Vm5OVmJGWlRZa2hDYzFac1VrZFhiRlY1VFZSU1ZrMUVSbGRXTVZKSFZqRmFSbGR1V2xwbGEzQk1WV3BHVDJOc2NFZGhSMmhzWWxob1dsWXhXbE5TTVZsM1RsVmtWbUpHV2xSWmExVXhZMVpTVjFkdFJrNVdiVko1VjJ0U1UyRkdXbk5qUm14aFUwaENTRlpxUmt0ak1rNUpVMnhXYUUxWVFubFhhMVpoVkRKTmVGZHVVbWxTYkVwVVZqQldTMlJzV25STlNHaE9VbXh3ZVZSc1dtdFdNa1Y1Vld4U1YyRXlVVEJXVjNoaFZqRldXVnBHUWxaV1JFRTE=
-  udp: true
-  skip-cert-verify: false
-- name: 🇦🇺 澳大利亚 | ss | 18
-  type: ss
-  server: 45.79.238.129
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: YUWX6COLZYmaHlUGiKwDaN
-  udp: true
-  skip-cert-verify: false
 - name: 🇦🇺 澳大利亚 | vless | 19
   type: vless
   server: 212.81.47.248
@@ -772,14 +700,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇧🇪 比利时 | ss | 01
-  type: ss
-  server: 192.71.249.78
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇧🇬 保加利亚 | trojan | 01
   type: trojan
   server: 78.159.131.12
@@ -789,22 +709,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: 78.159.131.12
-- name: 🇧🇬 保加利亚 | ss | 02
-  type: ss
-  server: 38.180.2.141
-  port: 5499
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-  udp: true
-  skip-cert-verify: false
-- name: 🇧🇬 保加利亚 | ss | 03
-  type: ss
-  server: 89.44.197.181
-  port: 31348
-  cipher: chacha20-ietf-poly1305
-  password: zDLmeWRsfcFdKT1Tpy02xodEToqCldTxvZcRoPIZZtBdnIEL
-  udp: true
-  skip-cert-verify: false
 - name: 🇧🇬 保加利亚 | vless | 04
   type: vless
   server: 87.120.92.150
@@ -845,14 +749,6 @@ proxies:
     public-key: t-xBT3S3-ToLAmHk0lgzD98XEXjt_HaiydF3HPgw0wg
     short-id: 51ac7b064d26d753
   client-fingerprint: chrome
-- name: 🇧🇭 巴林 | ss | 01
-  type: ss
-  server: 38.54.2.182
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇧🇴 玻利维亚 | ss | 01
   type: ss
   server: 185.93.173.60
@@ -989,102 +885,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇧🇷 巴西 | ss | 17
-  type: ss
-  server: 38.54.57.90
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇧🇷 巴西 | ss | 18
-  type: ss
-  server: 38.54.57.90
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 01
-  type: ss
-  server: 79.127.233.170
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 03
-  type: ss
-  server: 79.127.233.170
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 04
-  type: ss
-  server: 85.208.108.60
-  port: 3306
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 05
-  type: ss
-  server: 85.208.108.58
-  port: 9101
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 06
-  type: ss
-  server: 144.217.164.29
-  port: 12000
-  cipher: aes-256-gcm
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 07
-  type: ss
-  server: 148.113.139.160
-  port: 46534
-  cipher: chacha20-ietf-poly1305
-  password: 7a106afc33eaa261
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 08
-  type: ss
-  server: 79.127.200.169
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 09
-  type: ss
-  server: 45.154.204.7
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 10
-  type: ss
-  server: 23.95.76.59
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦 加拿大 | ss | 11
-  type: ss
-  server: 85.208.108.59
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-  skip-cert-verify: false
 - name: 🇨🇦 加拿大 | vmess | 12
   type: vmess
   server: 23.162.200.227
@@ -1170,14 +970,6 @@ proxies:
     path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
     headers:
       Host: sni.111000.v6.navy
-- name: 🇨🇭 瑞士 | ss | 01
-  type: ss
-  server: 95.85.239.225
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: X6btbRvJCo3uTQ--yaaT8Mvh0CgqhYTL
-  udp: true
-  skip-cert-verify: false
 - name: 🇨🇭 瑞士 | vless | 02
   type: vless
   server: 141.11.164.232
@@ -1783,30 +1575,6 @@ proxies:
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇨🇳 中国 | ss | 05
-  type: ss
-  server: v.w.6.4.6.g.7.e.d.fr01-ae5.entry.v51124-5.qpon
-  port: 20068
-  cipher: ss
-  password: //YWVzLTI1Ni1nY206N2I1NjI1MzItOGYwMy0zYTY5LWJiNDQtM2MzZTE4MjI3YzE5
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇳 中国 | ss | 06
-  type: ss
-  server: 8.z.y.4.l.7.7.e.d.tr01-ae5.entry.v51124-5.qpon
-  port: 20038
-  cipher: ss
-  password: //YWVzLTI1Ni1nY206N2I1NjI1MzItOGYwMy0zYTY5LWJiNDQtM2MzZTE4MjI3YzE5
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇴 哥伦比亚 | ss | 01
-  type: ss
-  server: 154.223.16.212
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇨🇷 哥斯达黎加 | ss | 01
   type: ss
   server: 145.14.131.37
@@ -1854,14 +1622,6 @@ proxies:
     public-key: x0t1otRGBv62aJKGNbsQRJGtwh-sp6CEScFS6S8y3EM
     short-id: a1b2c3d4
   client-fingerprint: chrome
-- name: 🇨🇾 塞浦路斯 | ss | 07
-  type: ss
-  server: 134.255.210.49
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇨🇾 塞浦路斯 | vmess | 08
   type: vmess
   server: pq-hungary1.09vpn.com
@@ -2079,14 +1839,6 @@ proxies:
     public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
     short-id: 41427aa565e28984
   client-fingerprint: chrome
-- name: 🇨🇿 捷克 | ss | 05
-  type: ss
-  server: 143.244.58.102
-  port: 443
-  cipher: aes-256-cfb
-  password: asdKkaskJKfnsa
-  udp: true
-  skip-cert-verify: false
 - name: 🇨🇿 捷克 | vmess | 06
   type: vmess
   server: de-v.sshmax.xyz
@@ -2201,14 +1953,6 @@ proxies:
     path: /flow=
     headers:
       Host: sub.mot.ip-ddns.com
-- name: 🇩🇪 德国 | ss | 10
-  type: ss
-  server: 141.95.106.127
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 94aae0510188e8c5
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | vmess | 12
   type: vmess
   server: 78.46.129.226
@@ -2253,14 +1997,6 @@ proxies:
   client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇩🇪 德国 | ss | 16
-  type: ss
-  server: 57.129.94.79
-  port: 11206
-  cipher: chacha20-ietf-poly1305
-  password: 70c455c9f19aa3a5
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | vless | 17
   type: vless
   server: 202.61.200.220
@@ -2288,14 +2024,6 @@ proxies:
     path: /newsflow=
     headers:
       Host: cdn.ir
-- name: 🇩🇪 德国 | ss | 21
-  type: ss
-  server: 209.46.102.22
-  port: 8388
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1V214U01GcEpXVlZvYzJGc1pFWmpSRXBhVmtWd01scFhlSE5YUm13elVGUXdQUT09
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | vless | 22
   type: vless
   server: 45.145.56.180
@@ -2364,14 +2092,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2security=tls
     headers:
       Host: sni.111000.v6.navy
-- name: 🇩🇪 德国 | ss | 27
-  type: ss
-  server: 213.202.208.199
-  port: 7001
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZac1kzaFdNRFZJVTI1S1ZHSlVWbGhXYTJSVFVqRmFkR05HWkZKaVJYQktXVlZXYmxCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | vless | 29
   type: vless
   server: 159.195.82.187
@@ -2548,14 +2268,6 @@ proxies:
     path: /flow=
     headers:
       Host: sub.mot.ip-ddns.com
-- name: 🇩🇪 德国 | ss | 48
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZaRVJtdFZNVlp6Vm1wYVZXSlVWbWhXYWtaYVRWWnNjbUZJVG14V2JGb3hWbGN3TlZWR1ZsSlFWREE5
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | vless | 49
   type: vless
   server: 128.140.64.14
@@ -2584,14 +2296,6 @@ proxies:
     path: /p3573l6m92h1ham3q23t
     headers:
       Host: ''
-  skip-cert-verify: false
-- name: 🇩🇪 德国 | ss | 51
-  type: ss
-  server: 57.129.95.45
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 6675cbf62d6a3a4f
-  udp: true
   skip-cert-verify: false
 - name: 🇩🇪 德国 | vless | 52
   type: vless
@@ -2689,14 +2393,6 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   client-fingerprint: chrome
-- name: 🇩🇪 德国 | ss | 61
-  type: ss
-  server: 57.129.95.38
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: f54cdee10f8b25ce
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | vless | 62
   type: vless
   server: 129.212.143.246
@@ -2704,14 +2400,6 @@ proxies:
   uuid: 02529660-52bf-4896-951a-1857c88d1dba
   tls: false
   network: tcp
-  udp: true
-  skip-cert-verify: false
-- name: 🇩🇪 德国 | ss | 63
-  type: ss
-  server: 38.60.250.107
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
   skip-cert-verify: false
 - name: 🇩🇪 德国 | vless | 64
@@ -2758,14 +2446,6 @@ proxies:
       Host: irvideo.cfd
   skip-cert-verify: false
   servername: 193.122.58.158
-- name: 🇩🇪 德国 | ss | 69
-  type: ss
-  server: 94.159.110.149
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVZkS1ZXSkVSbGhpUmtveVdsVlZNVk5HVGxsYVJUVnBWbXhaTVZZeFdrNWtNRFZHVDFaV1ZWZEhVazVXYTFwTFlqRmtkRTFWY0d0U1ZHeEdWbFpvYjFSdFJsVlNiazVZVm14S1ZGbFZWVEZTVjBZMlVtczVVMDFFVm5aV1IzaHJVMnhDVWxCVU1EMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | ss | 70
   type: ss
   server: 139.162.174.148
@@ -2919,14 +2599,6 @@ proxies:
     public-key: esHsu3-Fj0aZ0xuNBV6qW1zu1hLbas8YDn7AO0QGsBw
     short-id: 0ff58d687a4c6c
   client-fingerprint: chrome
-- name: 🇩🇪 德国 | ss | 85
-  type: ss
-  server: 212.224.93.171
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWZFNNRnBGV2xOVWJGcDFVV3h3VjFaRmIzZFdha1pXWlZaT2NtRkhhRlJTVlhCWVYxZDRiMVV3TVhOalJtUllZbFZhVkZSV1dtRmxWbFY1WTNwV1YwMXJjRXBWVjNoM1ZqRmFObEpxVGxoV2JIQm9WVEJhUzJOV1pITmFSMnhUWVROQ1dGWnRNVFJoTVZaMFZtNU9hbEp0YUhOVmJUVkRZekZXZEU1VlRsUmlSbFkxVkZaU1ExWlhTa1pqUldSV1RWWktSRll3V21GU2JFNXpZVVprYUdFeGNHOVdiWEJIWkRGS2RGSnJhR2hTYXpWWVZXMTRkMWRzV1hoWGJFNVRUV3hHTkZaSGRHdFdiVXB5VGxac1dtRXhWWGhaTW5oWFkxWkdWVkpzVGs1V2EzQTJWakowVTFFeFduSk5WbVJxVWxkNGFGWnNXbUZqYkZsM1YyMUdhazFWTlhwVlYzaDNZVWRGZUdOR1VsaGlSbHBvVjFaa1QxWXhjRWxVYkZKcFVqSm9WVlpHVWt0aU1XUkhWMWhvWVZKRlNtRldiWE40VGtaVmVHRkhPV2hpUlhCNldUQmFjMWR0U2xsVVdHaGFUVlp3YUZwRlpGTlRSa3B5VGxaT2FXRXdjRmxXYlRFMFZURkplRmRZWkU1V2JIQnhWVzE0ZDFZeFduRlVhMDVvVW14d2VGVldhRzlXTURGeVRsVm9WMVl6YUROWlZscHJVMGRHUmxac1pHbFNNVVYzVmxaU1IxbFdXbkpOVmxwWFlYcFdWRlZyVmtaT1VUMDk=
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | vless | 86
   type: vless
   server: 94.156.102.20
@@ -3049,14 +2721,6 @@ proxies:
   skip-cert-verify: false
   sni: getgrpc.mainssh.xyz
   servername: getgrpc.mainssh.xyz
-- name: 🇩🇪 德国 | ss | 103
-  type: ss
-  server: 172.104.143.156
-  port: 443
-  cipher: ss
-  password: //bm9uZToxNGIwMmUyYS04OTMwLTRhZmItODQxMi1lYTRhNDk1NGNhNWI=
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | vless | 104
   type: vless
   server: 88.99.121.221
@@ -3885,14 +3549,6 @@ proxies:
     public-key: Ers1clRrYxF_eXQKPXvMmo4J6bhrkxB_F18UU9OghyA
     short-id: 0a1b2c3d
   client-fingerprint: ios
-- name: 🇩🇪 德国 | ss | 198
-  type: ss
-  server: 193.108.117.75
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇪 德国 | vmess | 199
   type: vmess
   server: 23.158.56.227
@@ -4095,14 +3751,6 @@ proxies:
     path: /vless/flow=
     headers:
       Host: ov-germany1.09vpn.com
-- name: 🇩🇰 丹麦 | ss | 01
-  type: ss
-  server: 192.36.27.94
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇩🇰 丹麦 | vless | 02
   type: vless
   server: 45.148.31.0
@@ -4116,14 +3764,6 @@ proxies:
     path: /
     headers:
       Host: 45.148.31.0
-- name: 🇪🇨 厄瓜多尔 | ss | 01
-  type: ss
-  server: 38.165.231.25
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇪🇪 爱沙尼亚 | vless | 01
   type: vless
   server: 77.239.126.150
@@ -4256,62 +3896,6 @@ proxies:
   reality-opts:
     public-key: kEhVzEXS_myQF6LPpKPWEI8Ha2-mmNMyLItXoVa8SD4
   client-fingerprint: chrome
-- name: 🇪🇸 西班牙 | ss | 01
-  type: ss
-  server: 5.188.181.201
-  port: 9003
-  cipher: aes-256-cfb
-  password: JdmRK9gMEqFgs8nP
-  udp: true
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 | ss | 02
-  type: ss
-  server: 5.188.181.201
-  port: 9001
-  cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
-  udp: true
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 | ss | 03
-  type: ss
-  server: 5.188.181.201
-  port: 9027
-  cipher: aes-256-cfb
-  password: EXN3S3eQpjE7EJu8
-  udp: true
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 | ss | 04
-  type: ss
-  server: 5.188.181.201
-  port: 9037
-  cipher: aes-256-cfb
-  password: TN2YqghxeFDKZfLU
-  udp: true
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 | ss | 05
-  type: ss
-  server: 5.188.181.201
-  port: 9041
-  cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-  udp: true
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 | ss | 06
-  type: ss
-  server: 5.188.181.201
-  port: 9005
-  cipher: aes-256-cfb
-  password: ZET59LF6DvCC8KVt
-  udp: true
-  skip-cert-verify: false
-- name: 🇪🇸 西班牙 | ss | 07
-  type: ss
-  server: 37.143.130.203
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇪🇸 西班牙 | vless | 08
   type: vless
   server: 83.147.18.219
@@ -4327,14 +3911,6 @@ proxies:
     public-key: UgCLC1JdwUh-hgpvSfndN1tuH98620gziTq2UB0gOjI
     short-id: a369bfe440aba1a2
   client-fingerprint: chrome
-- name: 🇪🇸 西班牙 | ss | 09
-  type: ss
-  server: 103.45.245.208
-  port: 2053
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVdSMFpFWlNUbFp1UWxwV1ZFb3dWakZWZVZOcmFHaFRSVXBYV1d4b1UwMXNjRmRYYlVaVFRWWmFlVlV5Y3pWV01rcEpVV3h3VjFaNlJqTlhWbHBoVTBaS2NWZHNaR2xTYTNCWFZtMTRhMVZ0Vm5OalJtaHNVbTVDYzFWdE5VTlRiRlY1VFZSQ1ZXSkZjRWRWTVZKRFYwWmFSbE5zYUZkaGExcG9WbXBHZDFKdFJraGhSazVYVW14d1dsWXhXbE5TTWxGNFZHdGtWbUpyTlZsWmExVXhZMnhXY1ZGVVJsTk5Wa3A2VjJ0U1ExWnJNVmRqUld4aFZsWmFjbFl3V21Gak1VNXpVV3h3YUdFeGNGUlhiRlpoV1ZkT1YxcElUbFJpUjJoVVZGUktiMWRHV1hoYVJFSmFWbXN4TkZVeGFHOWhiRXB6WTBac1dtSllUWGhaTVZwaFpFZFNTRkpyTlZOaWEwcFlWbTE0VTFJeFdYZE5WbHBxVW14d1YxWnFUa05oUmxweFVWaG9WMDFyTlVoV1YzaDNZVlprU0dGRlZsZGlSMUV3VlZSR1lWWnJNVlpXYXpWVFVrVkZOUT09
-  udp: true
-  skip-cert-verify: false
 - name: 🇪🇸 西班牙 | vless | 10
   type: vless
   server: 185.93.3.37
@@ -4736,14 +4312,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇫🇮 芬兰 | ss | 15
-  type: ss
-  server: 37.27.200.55
-  port: 25845
-  cipher: ss
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5QXN3WGx4cXJPRXVOb2JUb05yOUVaU2k
-  udp: true
-  skip-cert-verify: false
 - name: 🇫🇮 芬兰 | vless | 16
   type: vless
   server: 104.238.29.121
@@ -4960,14 +4528,6 @@ proxies:
   password: 74918bc801d53a4b
   udp: true
   skip-cert-verify: false
-- name: 🇫🇷 法国 | ss | 10
-  type: ss
-  server: 149.202.82.172
-  port: 3306
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-  skip-cert-verify: false
 - name: 🇫🇷 法国 | vless | 11
   type: vless
   server: 51.75.30.8
@@ -4975,14 +4535,6 @@ proxies:
   uuid: 1949f066-bcb0-49be-88e9-74abd940f80e
   tls: false
   network: tcp
-  udp: true
-  skip-cert-verify: false
-- name: 🇫🇷 法国 | ss | 12
-  type: ss
-  server: 38.242.222.183
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 52671647af0cffa0
   udp: true
   skip-cert-verify: false
 - name: 🇫🇷 法国 | vmess | 13
@@ -5000,14 +4552,6 @@ proxies:
     headers:
       Host: ''
   skip-cert-verify: false
-- name: 🇫🇷 法国 | ss | 14
-  type: ss
-  server: 51.178.114.83
-  port: 11202
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1WkdoTlJGWlpWVEZTVTFReVZuUmhTRVpZVm5wR1MxUlZWVEZrUm1SWlkwZEdWMUpVUlRJPQ==
-  udp: true
-  skip-cert-verify: false
 - name: 🇫🇷 法国 | vmess | 15
   type: vmess
   server: 45.80.215.80
@@ -5017,14 +4561,6 @@ proxies:
   cipher: auto
   network: tcp
   tls: false
-  udp: true
-  skip-cert-verify: false
-- name: 🇫🇷 法国 | ss | 16
-  type: ss
-  server: 149.202.82.172
-  port: 3389
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
   udp: true
   skip-cert-verify: false
 - name: 🇫🇷 法国 | vmess | 17
@@ -5066,14 +4602,6 @@ proxies:
   alpn:
   - http/1.1
   servername: trojan.burgerip.co.uk
-- name: 🇫🇷 法国 | ss | 21
-  type: ss
-  server: 51.75.168.50
-  port: 13030
-  cipher: chacha20-ietf-poly1305
-  password: 6c815bb84c781da5
-  udp: true
-  skip-cert-verify: false
 - name: 🇫🇷 法国 | vless | 22
   type: vless
   server: 109.120.178.15
@@ -5102,14 +4630,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇫🇷 法国 | ss | 24
-  type: ss
-  server: 135.125.245.131
-  port: 20939
-  cipher: chacha20-ietf-poly1305
-  password: 85d3d8ccba287d3e
-  udp: true
-  skip-cert-verify: false
 - name: 🇫🇷 法国 | vless | 25
   type: vless
   server: 13.36.92.214
@@ -5243,14 +4763,6 @@ proxies:
     public-key: NFNZHdYMAKxt4_eOUrVG7GqjrmMFwRLLjtEnqOlOjgs
     short-id: 458acc7094ff1b98
   client-fingerprint: firefox
-- name: 🇫🇷 法国 | ss | 47
-  type: ss
-  server: 161.97.68.139
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 94dvoW0TdKRq
-  udp: true
-  skip-cert-verify: false
 - name: 🇫🇷 法国 | vless | 48
   type: vless
   server: 51.91.249.22
@@ -5368,14 +4880,6 @@ proxies:
     path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
     headers:
       Host: sni.111000.v6.navy
-- name: 🇫🇷 法国 | ss | 59
-  type: ss
-  server: 92.243.24.236
-  port: 443
-  cipher: ss
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMRTZFZTZQRUxoVnU=
-  udp: true
-  skip-cert-verify: false
 - name: 🇫🇷 法国 | vless | 62
   type: vless
   server: 141.95.127.132
@@ -6991,22 +6495,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: sni.111000.v6.navy
-- name: 🇬🇧 英国 | ss | 07
-  type: ss
-  server: 172.99.190.149
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 08
-  type: ss
-  server: 94.156.250.148
-  port: 7001
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZac1kzaFdNRFZJVTI1S1ZHSlVWbGhXYTJSVFVqRmFkR05HWkZKaVJYQktXVlZXYmxCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vmess | 09
   type: vmess
   server: 51.75.160.126
@@ -7021,70 +6509,6 @@ proxies:
     path: /vmess
     headers:
       Host: ''
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 10
-  type: ss
-  server: 149.102.132.186
-  port: 80
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZacVJtdGlNRFYwVkd4YVVGWXphRlZaYlhNeFpFWndSMWR1V2s5V01EVXdXa1ZvUzFkdFVqTlFWREE5
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 11
-  type: ss
-  server: 82.38.31.214
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 12
-  type: ss
-  server: 82.38.31.205
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 13
-  type: ss
-  server: 82.38.31.122
-  port: 8080
-  cipher: ss
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 14
-  type: ss
-  server: 82.38.31.191
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 15
-  type: ss
-  server: 82.38.31.189
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 16
-  type: ss
-  server: 146.70.61.37
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 17
-  type: ss
-  server: 82.38.31.103
-  port: 8080
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1Wkd0aVIxSjVXV3RvWVZWc1drZGhla1pYVm14S2RsUnNaRWRUUmxKelUyeGthR0pYYURWV01WcFRWREZXVjJKR1ZsVmhNR3M1
-  udp: true
   skip-cert-verify: false
 - name: 🇬🇧 英国 | vless | 19
   type: vless
@@ -7114,22 +6538,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇬🇧 英国 | ss | 22
-  type: ss
-  server: 82.38.31.62
-  port: 8080
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1Wkd0aVIxSjVXV3RvWVZWc1drZGhla1pYVm14S2RsUnNaRWRUUmxKelUyeGthR0pYYURWV01WcFRWREZXVjJKR1ZsVmhNR3M1
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 23
-  type: ss
-  server: 82.38.31.176
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vless | 26
   type: vless
   server: 46.226.163.130
@@ -7144,14 +6552,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇬🇧 英国 | ss | 27
-  type: ss
-  server: 82.38.31.66
-  port: 8080
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1Wkd0aVIxSjVXV3RvWVZWc1drZGhla1pYVm14S2RsUnNaRWRUUmxKelUyeGthR0pYYURWV01WcFRWREZXVjJKR1ZsVmhNR3M1
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vless | 29
   type: vless
   server: 46.226.163.130
@@ -7166,30 +6566,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇬🇧 英国 | ss | 30
-  type: ss
-  server: 82.38.31.124
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 31
-  type: ss
-  server: 82.38.31.146
-  port: 8080
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1Wkd0aVIxSjVXV3RvWVZWc1drZGhla1pYVm14S2RsUnNaRWRUUmxKelUyeGthR0pYYURWV01WcFRWREZXVjJKR1ZsVmhNR3M1
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 32
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1Wkd0aVIxSjVXV3RvWVZWc1drZGhla1pYVm14S2RsUnNaRWRUUmxKelUyeGthR0pYYURWV01WcFRWREZXVjJKR1ZsVmhNR3M1
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vless | 33
   type: vless
   server: 45.43.75.199
@@ -7219,38 +6595,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇬🇧 英国 | ss | 35
-  type: ss
-  server: 82.38.31.148
-  port: 8080
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1Wkd0aVIxSjVXV3RvWVZWc1drZGhla1pYVm14S2RsUnNaRWRUUmxKelUyeGthR0pYYURWV01WcFRWREZXVjJKR1ZsVmhNR3M1
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 36
-  type: ss
-  server: 82.38.31.217
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 37
-  type: ss
-  server: 82.38.31.210
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 38
-  type: ss
-  server: 82.38.31.99
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vmess | 39
   type: vmess
   server: 66.163.117.58
@@ -7260,118 +6604,6 @@ proxies:
   cipher: auto
   network: tcp
   tls: false
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 40
-  type: ss
-  server: 82.38.31.186
-  port: 8080
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1WkdwaGVrWlpWbGQwVDFaVk1YRlNiRVpXVmpOQ1ZGcEhNVTlYUjBZMlZHeGtWMlZyV1hwV1JtaDNZVEpHUmsxV2FGUmlSV3M1
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 41
-  type: ss
-  server: 82.38.31.82
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 43
-  type: ss
-  server: 82.38.31.218
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 44
-  type: ss
-  server: 82.38.31.35
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 46
-  type: ss
-  server: 82.38.31.61
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 47
-  type: ss
-  server: 82.38.31.184
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 48
-  type: ss
-  server: 82.38.31.194
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 49
-  type: ss
-  server: 82.38.31.190
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 50
-  type: ss
-  server: 82.38.31.208
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 51
-  type: ss
-  server: 82.38.31.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 52
-  type: ss
-  server: 82.38.31.187
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 53
-  type: ss
-  server: 82.38.31.179
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 54
-  type: ss
-  server: 82.38.31.202
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 55
-  type: ss
-  server: 185.5.38.111
-  port: 55988
-  cipher: chacha20-ietf-poly1305
-  password: 2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1
   udp: true
   skip-cert-verify: false
 - name: 🇬🇧 英国 | trojan | 56
@@ -7510,14 +6742,6 @@ proxies:
       Host: 149.7.16.248
   skip-cert-verify: false
   servername: 149.7.16.248
-- name: 🇬🇧 英国 | ss | 75
-  type: ss
-  server: 18.170.77.148
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5aWJUbDFXbFJ2TTA5VWF6Sk5SMGwzV1drd00xcEVUWGhNVkZGNVRtcE5kRTlFYTNoT1V6QXlUbFJGZUZscVFteE5WRTB6V1ZSblBRPT0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vless | 76
   type: vless
   server: 216.245.140.13
@@ -7577,14 +6801,6 @@ proxies:
     path: /?ed=2560&telegram🇨🇳+@V2rayBaazsecurity=tls
     headers:
       Host: sni.111000.indevs.in
-- name: 🇬🇧 英国 | ss | 81
-  type: ss
-  server: 43.245.227.108
-  port: 2053
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vless | 83
   type: vless
   server: 57.129.137.62
@@ -7609,14 +6825,6 @@ proxies:
     path: /?ed=2560&telegram🇨🇳@wangcai2security=tls
     headers:
       Host: sni.111000.indevs.in
-- name: 🇬🇧 英国 | ss | 85
-  type: ss
-  server: 68.168.31.169
-  port: 443
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | ss | 86
   type: ss
   server: 37.221.127.190
@@ -7893,14 +7101,6 @@ proxies:
     public-key: SlyS4DeFZ7Ic9r8wc-FNpxfQvCqzEe05RsmhZ4jsYm0
     short-id: 3cc8ceccd9de7f
   client-fingerprint: chrome
-- name: 🇬🇧 英国 | ss | 119
-  type: ss
-  server: 45.14.247.168
-  port: 2053
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV1pGTk5SbkJHVjJ4T1ZXSkdjREZWVjNoM1ZqRmFSbUl6WkZkaGExcFhXbFphVDJOdFJraGhSbEpUVmxoQ1dWWXhaRFJpTVZWM1RWaE9hbEp0VWxsWmJHaFRZMVpTVjFkdVpHeGlSbXcxV1ROd1IxWXdNWEpYVkVwWFlsaFNlbFpxU2tabFZsWlZVV3h3YkdFeGNEWldiWEJIVkRKTmVGZHVUbUZTTW5odlZGVm9RMWRzV1hoYVJGSnBUV3RzTkZscldtdFdiVXBJVld4c1dtRXlhRVJaZWtaWFpFVXhWMVJ0ZUZkaVJYQTJWakowVTFFeFdsaFRhMXBxVWxkb1dGUlhOVk5rYkZweFVtdDBVMkpIVWpCWlZWcHJZVWRGZUdOSE9WZGlXRUpJV2tSR1MyUkdTbkphUm1ocFZqSm9lbGRYZEdGa01XUnpWMWhvV0dKRk5WUlVWM2hIVGtaYVdHUkhkR2hXYXpWSFZqSjRVMWR0U2toaFJsSmFUVzVvV0ZsNlJsZGpiSEJIV2tVMVYwMHhSalpXYWtvd1ZURkZlRmR1U2s1V2JWSnhWV3hrTkdGR1duTlhiVVpxWWtad2VGVXlkREJWTURGeVRsVndWMDF1YUROWlZXUkdaVWRPUjFac2FHaE5WbkJ2Vmxod1MxUnRWa2RhU0ZaVllrWmFjRlpxVG05a2JHUnpXa1JTV2xadGVGaFdNalZUVkd4T1NHRkdRbFppV0U0MFZHdGFXbVZYVWtoa1IyaFhZVE5DTmxkVVFtRmlNVmw1VWxob1dHSlhhRmhaVkVaM1lVWnJlRmRyWkdwTmF6VkhWR3hrYzFVeVNraFBWRTVYVFZaS1VGcEVSbHBsUm1SMVUyczFWMVpzY0ZWWFZsSkhaREZrUjJKSVRsWmlSMUp2VlcxNGQyVkdWblJrU0dScFVqQndWMVl5ZEhkV2F6RjFZVWRvVjFKNlJreGFSV1JIVW14YWMxcEhiRk5OVlZZelZteGFVMUl4YkZkWGJrcE9WbXh3V0ZsWWNGZFdSbFp5Vm10YVQxVlVNRGs9
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vless | 120
   type: vless
   server: 83.97.78.219
@@ -7955,14 +7155,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳 @WangCai2security=tls
     headers:
       Host: sni.111000.v6.navy
-- name: 🇬🇧 英国 | ss | 124
-  type: ss
-  server: mx2.drawnrisha.one
-  port: 55988
-  cipher: chacha20-ietf-poly1305
-  password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vless | 125
   type: vless
   server: 146.185.208.206
@@ -7987,22 +7179,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: uk1.fromblancwithlove.com
-- name: 🇬🇧 英国 | ss | 131
-  type: ss
-  server: 82.38.31.89
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  skip-cert-verify: false
-- name: 🇬🇧 英国 | ss | 132
-  type: ss
-  server: 82.38.31.101
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-  skip-cert-verify: false
 - name: 🇬🇧 英国 | vless | 134
   type: vless
   server: s644.ccgfw.top
@@ -8188,14 +7364,6 @@ proxies:
     headers:
       Host: ''
   skip-cert-verify: false
-- name: 🇭🇰 香港 | ss | 10
-  type: ss
-  server: 103.219.194.220
-  port: 30011
-  cipher: ss
-  password: //c3M6Ly9jM002THk5Wk1taG9XVEpvYUUxcVFYUmhWMVl3V21reGQySXllRFZOVkUxM1RsUndlbUl5TVd4WmJUbHJaVkU5UFE9PQ==
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | vmess | 11
   type: vmess
   server: 47.243.135.74
@@ -8223,14 +7391,6 @@ proxies:
   flow: xtls-rprx-vision-udp443-udp443-udp443-udp443-udp443-udp443-udp443-udp443-udp443-udp443-udp443-udp443-udp443
   servername: www.microsoft.com
   client-fingerprint: ios
-- name: 🇭🇰 香港 | ss | 15
-  type: ss
-  server: 47.242.145.136
-  port: 8001
-  cipher: ss
-  password: //bm9uZToxNGIwMmUyYS04OTMwLTRhZmItODQxMi1lYTRhNDk1NGNhNWI=
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | trojan | 16
   type: trojan
   server: 154.3.37.35
@@ -8255,14 +7415,6 @@ proxies:
     path: /xxxxhttpfp=chromesecurity=tls
     headers:
       Host: baidu.com
-- name: 🇭🇰 香港 | ss | 20
-  type: ss
-  server: 103.141.221.124
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | vmess | 25
   type: vmess
   server: 47.244.120.197
@@ -8292,14 +7444,6 @@ proxies:
     path: /danfeng?ed=2560fp=chromesecurity=tls
     headers:
       Host: snippet.danfeng.com.cfd
-- name: 🇭🇰 香港 | ss | 31
-  type: ss
-  server: 103.149.182.79
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | vless | 34
   type: vless
   server: 156.224.79.89
@@ -8314,22 +7458,6 @@ proxies:
     path: /danfeng?ed=2560fp=chromesecurity=tls
     headers:
       Host: snippet.fgfw.loc.cc
-- name: 🇭🇰 香港 | ss | 35
-  type: ss
-  server: 203.23.128.33
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇭🇰 香港 | ss | 36
-  type: ss
-  server: 103.149.183.113
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | vless | 37
   type: vless
   server: 222.167.202.35
@@ -8372,14 +7500,6 @@ proxies:
     path: /222.167.202.4:7443
     headers:
       Host: 2026.hhhhh.eu.org
-- name: 🇭🇰 香港 | ss | 44
-  type: ss
-  server: 103.149.182.105
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | vless | 46
   type: vless
   server: 222.167.202.26
@@ -8681,30 +7801,6 @@ proxies:
   cipher: auto
   network: tcp
   tls: false
-  udp: true
-  skip-cert-verify: false
-- name: 🇭🇰 香港 | ss | 74
-  type: ss
-  server: 185.244.208.150
-  port: 11201
-  cipher: chacha20-ietf-poly1305
-  password: 41d6655d3625fd14
-  udp: true
-  skip-cert-verify: false
-- name: 🇭🇰 香港 | ss | 87
-  type: ss
-  server: 112.213.102.188
-  port: 41632
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  udp: true
-  skip-cert-verify: false
-- name: 🇭🇰 香港 | ss | 89
-  type: ss
-  server: chengbai02.ascwt179.com
-  port: 13223
-  cipher: aes-128-gcm
-  password: JVrsLLN1tkN8oXZO
   udp: true
   skip-cert-verify: false
 - name: 🇭🇰 香港 | trojan | 96
@@ -9025,14 +8121,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: hinet.mjt000.com
-- name: 🇭🇰 香港 | ss | 134
-  type: ss
-  server: 95.40.173.149
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YVdKVWJERlhiRkoyWld4d1ZXRjZTbUZXTVd0NlYydE5kMDVGTlhGVVZFNU5Wa1pHTlZkWWNFcGtSbXhZVkZST1RtVlVRWHBVYkZKR1RrVXhjVkpVVms5aVZsVjZWR3hTVmxCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | vless | 135
   type: vless
   server: 209.248.4.3
@@ -9226,14 +8314,6 @@ proxies:
       Host: hk2.lrzdx.uk
   skip-cert-verify: false
   servername: hk2.lrzdx.uk
-- name: 🇭🇰 香港 | ss | 156
-  type: ss
-  server: hk01.x.quickcht3.club
-  port: 52611
-  cipher: chacha20-ietf-poly1305
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | vless | 157
   type: vless
   server: 8.218.96.116
@@ -9347,22 +8427,6 @@ proxies:
   flow: xtls-rprx-vision
   servername: u711541ue788s306.okgg.top
   client-fingerprint: random
-- name: 🇭🇰 香港 | ss | 168
-  type: ss
-  server: a001.standard-nodes-chickenfarms.com
-  port: 50000
-  cipher: aes-256-gcm
-  password: 176c983f-6a7f-4a96-9865-891a6c48ec86
-  udp: true
-  skip-cert-verify: false
-- name: 🇭🇰 香港 | ss | 169
-  type: ss
-  server: www.ccgfw.top
-  port: 443
-  cipher: aes-128-gcm
-  password: 6601fb90e9b3
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | vmess | 170
   type: vmess
   server: vm51544542.dns8656815.com
@@ -9513,14 +8577,6 @@ proxies:
   skip-cert-verify: false
   flow: xtls-rprx-vision
   servername: addons.mozilla.org
-- name: 🇭🇰 香港 | ss | 183
-  type: ss
-  server: cm1.akaochangnode.xyz
-  port: 36698
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1V214V2JYaDRXVlJPYzFsWFNsZGlSRTVWVmxVeE0xcFdWVEZXVmxwWldrVXhWMUpyV1RCV1JscHJWbTFTUjJKSVJscGxhM0JvVlZod1EwNVdVWGhWYlhCT1RVUnNTVlV4VWxOWlYwWnpVbGhzVldKR1NsYz0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇭🇰 香港 | vmess | 184
   type: vmess
   server: cu.awslcn.info
@@ -9535,22 +8591,6 @@ proxies:
     path: /
     headers:
       Host: cu.awslcn.info
-  skip-cert-verify: false
-- name: 🇭🇷 克罗地亚 | ss | 01
-  type: ss
-  server: 46.183.184.60
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇭🇷 克罗地亚 | ss | 02
-  type: ss
-  server: 5.181.2.76
-  port: 36608
-  cipher: ss
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKT1o1TWIzbkpDbW1vS2hkOENjOWFD
-  udp: true
   skip-cert-verify: false
 - name: 🇭🇺 匈牙利 | vless | 01
   type: vless
@@ -9686,30 +8726,6 @@ proxies:
   tls: false
   udp: true
   skip-cert-verify: false
-- name: 🇮🇩 印尼 | ss | 08
-  type: ss
-  server: aws.huxx.top
-  port: 54263
-  cipher: 2022-blake3-aes-128-gcm
-  password: MjA0YzgwZjBlM2ZkNmRlNA==:MjA3MmZmNDYtNDVmNC00ZA==
-  udp: true
-  skip-cert-verify: false
-- name: 🇮🇩 印尼 | ss | 09
-  type: ss
-  server: aws.huxx.top
-  port: 54259
-  cipher: 2022-blake3-aes-128-gcm
-  password: MjA0YzgwZjBlM2ZkNmRlNA==:MjA3MmZmNDYtNDVmNC00ZA==
-  udp: true
-  skip-cert-verify: false
-- name: 🇮🇩 印尼 | ss | 10
-  type: ss
-  server: aws.yunjnet.com
-  port: 54265
-  cipher: ss
-  password: //c3M6Ly9jM002THk5TmFrRjVUV2t4YVdKSFJuSmFWRTEwV1ZkV2VreFVSWGxQUXpGdVdUSXdObFJYY0VKTlJtdzJXak5rWVdGclNuTlVWRXBoWVRBMWRGVnRlRTlSVkRBNVQyc3hjVkZVVGs1aVZuQjBWR3RTV21SRk5VVldiVEZQVVhwQmQxZHJSVGxRVVQwOQ==
-  udp: true
-  skip-cert-verify: false
 - name: 🇮🇩 印尼 | vmess | 11
   type: vmess
   server: v33.hdacd.com
@@ -9741,46 +8757,6 @@ proxies:
   cipher: auto
   network: tcp
   tls: false
-  udp: true
-  skip-cert-verify: false
-- name: 🇮🇩 印尼 | ss | 14
-  type: ss
-  server: aws.huxx.top
-  port: 54265
-  cipher: ss
-  password: //c3M6Ly9jM002THk5TmFrRjVUV2t4YVdKSFJuSmFWRTEwV1ZkV2VreFVSWGxQUXpGdVdUSXdObFJYY0VKTlJtdzJXak5rWVdGclNuTlVWRXBoWVRBMWRGVnRlRTlSVkRBNVQyc3hjVkZVVGs1aVZuQjBWR3RTV21SRk5VVldiVEZQVVhwQmQxZHJSVGxRVVQwOQ==
-  udp: true
-  skip-cert-verify: false
-- name: 🇮🇩 印尼 | ss | 15
-  type: ss
-  server: aws.yunjnet.com
-  port: 54259
-  cipher: 2022-blake3-aes-128-gcm
-  password: MjA0YzgwZjBlM2ZkNmRlNA==:MjA3MmZmNDYtNDVmNC00ZA==
-  udp: true
-  skip-cert-verify: false
-- name: 🇮🇩 印尼 | ss | 16
-  type: ss
-  server: aws.yunjnet.com
-  port: 54258
-  cipher: 2022-blake3-aes-128-gcm
-  password: MjA0YzgwZjBlM2ZkNmRlNA==:MjA3MmZmNDYtNDVmNC00ZA==
-  udp: true
-  skip-cert-verify: false
-- name: 🇮🇩 印尼 | ss | 17
-  type: ss
-  server: aws.huxx.top
-  port: 54257
-  cipher: 2022-blake3-aes-128-gcm
-  password: MjA0YzgwZjBlM2ZkNmRlNA==:MjA3MmZmNDYtNDVmNC00ZA==
-  udp: true
-  skip-cert-verify: false
-- name: 🇮🇩 印尼 | ss | 18
-  type: ss
-  server: aws.huxx.top
-  port: 54258
-  cipher: 2022-blake3-aes-128-gcm
-  password: MjA0YzgwZjBlM2ZkNmRlNA==:MjA3MmZmNDYtNDVmNC00ZA==
   udp: true
   skip-cert-verify: false
 - name: 🇮🇩 印尼 | vmess | 19
@@ -9941,14 +8917,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇮🇳 印度 | ss | 11
-  type: ss
-  server: 163.171.206.24
-  port: 44233
-  cipher: chacha20-ietf-poly1305
-  password: 9d97433688e7efd5
-  udp: true
-  skip-cert-verify: false
 - name: 🇮🇳 印度 | vless | 12
   type: vless
   server: 31.59.184.194
@@ -10005,14 +8973,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇮🇳 印度 | ss | 16
-  type: ss
-  server: 185.67.125.109
-  port: 11201
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1WkdoV2JrSldWbGN4YjFReVNsZGpTRXBWVmpOQ1MxcEVRVFZYUm1SVlUyczFhVlpXVmpZPQ==
-  udp: true
-  skip-cert-verify: false
 - name: 🇮🇳 印度 | vmess | 18
   type: vmess
   server: 152.67.8.205
@@ -10027,14 +8987,6 @@ proxies:
     path: /
     headers:
       Host: ''
-  skip-cert-verify: false
-- name: 🇮🇳 印度 | ss | 20
-  type: ss
-  server: 82.180.146.173
-  port: 35652
-  cipher: aes-128-gcm
-  password: 93498539-7838-4836-b9b3-8311ffc79bcf
-  udp: true
   skip-cert-verify: false
 - name: 🇮🇳 印度 | trojan | 21
   type: trojan
@@ -11432,14 +10384,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: it-full.privateip.net
-- name: 🇯🇵 日本 | ss | 01
-  type: ss
-  server: 103.106.228.175
-  port: 8009
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZacVFsZE5Sa2w0VkZoc2EwMHllSEZaYTFwaFZHeHNXR1JJVG10TlJGVXlWbFpGT1ZCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇯🇵 日本 | vless | 02
   type: vless
   server: 151.245.104.225
@@ -11482,14 +10426,6 @@ proxies:
     path: /danfeng?ed=2560fp=chromesecurity=tls
     headers:
       Host: q40ivxuck.danfeng.qzz.io
-- name: 🇯🇵 日本 | ss | 06
-  type: ss
-  server: 178.239.124.195
-  port: 30011
-  cipher: ss
-  password: //c3M6Ly9jM002THk5Wk1taG9XVEpvYUUxcVFYUmhWMVl3V21reGQySXllRFZOVkUxM1RsUndlbUl5TVd4WmJUbHJaVkU5UFE9PQ==
-  udp: true
-  skip-cert-verify: false
 - name: 🇯🇵 日本 | vless | 08
   type: vless
   server: 151.245.104.225
@@ -11575,14 +10511,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   servername: www.nintendogames.net
-- name: 🇯🇵 日本 | ss | 16
-  type: ss
-  server: 141.98.197.101
-  port: 11665
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YVdKVWJERlhiRkoyVFRBNVZXRjZTazVTTUd3elYxZHJkMDB4Y0VWVVdHaE5Wa1pHTlZSdGNFNWtSVGxGWVROb1QxVjZRWGxVYkZKR1pVWnNjVkZ0ZUU1V1JUQjZWMVpTYmxCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇯🇵 日本 | trojan | 17
   type: trojan
   server: 160.16.132.38
@@ -11774,14 +10702,6 @@ proxies:
   tls: false
   udp: true
   skip-cert-verify: false
-- name: 🇯🇵 日本 | ss | 43
-  type: ss
-  server: 138.2.59.96
-  port: 10129
-  cipher: ss
-  password: //bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=
-  udp: true
-  skip-cert-verify: false
 - name: 🇯🇵 日本 | vless | 44
   type: vless
   server: 151.245.104.225
@@ -11919,14 +10839,6 @@ proxies:
   skip-cert-verify: false
   flow: xtls-rprx-vision
   servername: mensura.cdn-apple.com
-- name: 🇯🇵 日本 | ss | 56
-  type: ss
-  server: 150.95.85.12
-  port: 22867
-  cipher: chacha20-ietf-poly1305
-  password: 7yjfj65mySQ2wnOkB6El3D
-  udp: true
-  skip-cert-verify: false
 - name: 🇯🇵 日本 | vmess | 57
   type: vmess
   server: 161.129.34.126
@@ -12056,22 +10968,6 @@ proxies:
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇯🇵 日本 | ss | 76
-  type: ss
-  server: 202.84.53.85
-  port: 11738
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWWmtTMVpYU2tWU2JHaHBVbXR2ZVZkc1ZsWk5WazVIVkd4c1lWSlVWbkJXYlhoYVRWWlplRmRyTld0TlJGWkhWREZhVjFaV1pFaFZhelZYWVRGd1RGbHFSbXRrUlRGV1kwZDBVMVpIZUVkV2JGcHZZakZTZEZKc1ZsTmlhelZaVm0xNFMxWkdiRlpXVkVaVFZqQlpNbFZ0Y3pWVk1ERkZWbTVhVjFJemFISlZNbmhEVld4Q1ZVMUVNRDA9
-  udp: true
-  skip-cert-verify: false
-- name: 🇯🇵 日本 | ss | 77
-  type: ss
-  server: 202.84.53.85
-  port: 17892
-  cipher: ss
-  password: //c3M6Ly9jM002THk5aWJUbDFXbFJ2ZUU1SFNYZE5iVlY1V1ZNd05FOVVUWGRNVkZKb1dtMUpkRTlFVVhoTmFURnNXVlJTYUU1RWF6Rk9SMDVvVGxkSlBRPT0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇯🇵 日本 | vless | 78
   type: vless
   server: 202.84.53.85
@@ -12186,14 +11082,6 @@ proxies:
   skip-cert-verify: false
   flow: xtls-rprx-vision
   servername: cdn.jsdelivr.net
-- name: 🇯🇵 日本 | ss | 90
-  type: ss
-  server: basic9873cheap.fq-number-001.co
-  port: 38031
-  cipher: ss
-  password: //YWVzLTEyOC1nY206YzUxOTY3YjItY2I2OC00ZGRjLWJhN2YtZTAxZTFmNmUyMmY0
-  udp: true
-  skip-cert-verify: false
 - name: 🇯🇵 日本 | vmess | 91
   type: vmess
   server: tunnel1.qqa678.com
@@ -12227,54 +11115,6 @@ proxies:
   tls: false
   udp: true
   skip-cert-verify: false
-- name: 🇯🇵 日本 | ss | 94
-  type: ss
-  server: basic9873cheap.fq-number-001.co
-  port: 16718
-  cipher: ss
-  password: //YWVzLTEyOC1nY206YzUxOTY3YjItY2I2OC00ZGRjLWJhN2YtZTAxZTFmNmUyMmY0
-  udp: true
-  skip-cert-verify: false
-- name: 🇯🇵 日本 | ss | 95
-  type: ss
-  server: basic9873cheap.fq-number-001.co
-  port: 19752
-  cipher: ss
-  password: //YWVzLTEyOC1nY206YzUxOTY3YjItY2I2OC00ZGRjLWJhN2YtZTAxZTFmNmUyMmY0
-  udp: true
-  skip-cert-verify: false
-- name: 🇯🇵 日本 | ss | 96
-  type: ss
-  server: basic9873cheap.fq-number-001.co
-  port: 22717
-  cipher: ss
-  password: //c3M6Ly9jM002THk5WlYxWjZURlJGZVU5RE1XNVpNakEyV1hwVmVFOVVXVE5aYWtsMFdUSkpNazlETURCYVIxSnFURmRLYUU0eVdYUmFWRUY0V2xSR2JVNXRWWGxOYlZrdw==
-  udp: true
-  skip-cert-verify: false
-- name: 🇯🇵 日本 | ss | 97
-  type: ss
-  server: basic9873cheap.fq-number-001.co
-  port: 52891
-  cipher: ss
-  password: //c3M6Ly9jM002THk5WlYxWjZURlJGZVU5RE1XNVpNakEyV1hwVmVFOVVXVE5aYWtsMFdUSkpNazlETURCYVIxSnFURmRLYUU0eVdYUmFWRUY0V2xSR2JVNXRWWGxOYlZrdw==
-  udp: true
-  skip-cert-verify: false
-- name: 🇯🇵 日本 | ss | 98
-  type: ss
-  server: basic9873cheap.fq-number-001.co
-  port: 14151
-  cipher: ss
-  password: //c3M6Ly9jM002THk5WlYxWjZURlJGZVU5RE1XNVpNakEyV1hwVmVFOVVXVE5aYWtsMFdUSkpNazlETURCYVIxSnFURmRLYUU0eVdYUmFWRUY0V2xSR2JVNXRWWGxOYlZrdw==
-  udp: true
-  skip-cert-verify: false
-- name: 🇯🇵 日本 | ss | 99
-  type: ss
-  server: basic9873cheap.fq-number-001.co
-  port: 48319
-  cipher: ss
-  password: //c3M6Ly9jM002THk5WlYxWjZURlJGZVU5RE1XNVpNakEyV1hwVmVFOVVXVE5aYWtsMFdUSkpNazlETURCYVIxSnFURmRLYUU0eVdYUmFWRUY0V2xSR2JVNXRWWGxOYlZrdw==
-  udp: true
-  skip-cert-verify: false
 - name: 🇯🇵 日本 | vless | 100
   type: vless
   server: aws-link14.liangxin1.xyz
@@ -12306,14 +11146,6 @@ proxies:
   obfs-password: CF7WJGiw6r1c8imX
   skip-cert-verify: false
   udp: true
-- name: 🇯🇵 日本 | ss | 103
-  type: ss
-  server: basic9873cheap.fq-number-001.co
-  port: 22815
-  cipher: ss
-  password: //c3M6Ly9jM002THk5WlYxWjZURlJGZVU5RE1XNVpNakEyV1hwVmVFOVVXVE5aYWtsMFdUSkpNazlETURCYVIxSnFURmRLYUU0eVdYUmFWRUY0V2xSR2JVNXRWWGxOYlZrdw==
-  udp: true
-  skip-cert-verify: false
 - name: 🇯🇵 日本 | hy2 | 104
   type: hysteria2
   server: jpaws.ccwink.photos
@@ -12342,14 +11174,6 @@ proxies:
   skip-cert-verify: false
   sni: jp2-8sb.6121999.dpdns.org
   servername: jp2-8sb.6121999.dpdns.org
-- name: 🇰🇭 柬埔寨 | ss | 01
-  type: ss
-  server: 38.54.4.87
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇰🇷 韩国 | vless | 01
   type: vless
   server: 27.102.138.74
@@ -12434,14 +11258,6 @@ proxies:
     path: /danfeng?ed=2560fp=chromesecurity=tls
     headers:
       Host: q40ivxuck.danfeng.qzz.io
-- name: 🇰🇷 韩国 | ss | 11
-  type: ss
-  server: 221.139.79.57
-  port: 13979
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  udp: true
-  skip-cert-verify: false
 - name: 🇰🇷 韩国 | ss | 13
   type: ss
   server: 141.164.45.187
@@ -12640,14 +11456,6 @@ proxies:
     path: /danfengfp=chromesecurity=tls
     headers:
       Host: q40ivxuck.danfeng.qzz.io
-- name: 🇰🇷 韩国 | ss | 39
-  type: ss
-  server: 211.48.77.114
-  port: 24095
-  cipher: none
-  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-  udp: true
-  skip-cert-verify: false
 - name: 🇰🇷 韩国 | vless | 40
   type: vless
   server: 116.44.53.251
@@ -12708,14 +11516,6 @@ proxies:
       Host: kr-arm2.018999.xyz
   skip-cert-verify: false
   servername: kr-arm2.018999.xyz
-- name: 🇰🇷 韩国 | ss | 50
-  type: ss
-  server: 158.247.205.87
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-  skip-cert-verify: false
 - name: 🇰🇷 韩国 | vless | 52
   type: vless
   server: 129.154.50.159
@@ -12789,14 +11589,6 @@ proxies:
       Host: chuncheon03.zgjok.com
   skip-cert-verify: false
   servername: chuncheon03.zgjok.com
-- name: 🇰🇷 韩国 | ss | 58
-  type: ss
-  server: p141.panda001.net
-  port: 4652
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  udp: true
-  skip-cert-verify: false
 - name: 🇰🇷 韩国 | vless | 59
   type: vless
   server: 47.80.13.96
@@ -12807,14 +11599,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: api.company-target.com
-- name: 🇰🇷 韩国 | ss | 62
-  type: ss
-  server: 218.237.185.230
-  port: 4652
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  udp: true
-  skip-cert-verify: false
 - name: 🇰🇷 韩国 | vless | 63
   type: vless
   server: ako.pagate.top
@@ -12988,14 +11772,6 @@ proxies:
     public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
     short-id: 48720c
   client-fingerprint: chrome
-- name: 🇱🇹 立陶宛 | ss | 01
-  type: ss
-  server: 195.238.126.84
-  port: 9039
-  cipher: aes-256-cfb
-  password: qYEN5HX4JKeVCdEC
-  udp: true
-  skip-cert-verify: false
 - name: 🇱🇹 立陶宛 | trojan | 03
   type: trojan
   server: 195.66.25.251
@@ -13046,14 +11822,6 @@ proxies:
   skip-cert-verify: false
   flow: xtls-rprx-vision
   servername: www.apple.com
-- name: 🇱🇻 拉脱维亚 | ss | 01
-  type: ss
-  server: 185.176.221.72
-  port: 24637
-  cipher: chacha20-ietf-poly1305
-  password: MholStyHL7DhrewKbpQa20
-  udp: true
-  skip-cert-verify: false
 - name: 🇱🇻 拉脱维亚 | vless | 03
   type: vless
   server: 195.123.211.204
@@ -13068,14 +11836,6 @@ proxies:
     path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
     headers:
       Host: sni.111000.indevs.in
-- name: 🇱🇻 拉脱维亚 | ss | 04
-  type: ss
-  server: 46.183.217.204
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇱🇻 拉脱维亚 | vless | 05
   type: vless
   server: 90.156.255.198
@@ -13271,38 +12031,6 @@ proxies:
   skip-cert-verify: false
   flow: xtls-rprx-vision
   servername: hls-svod.itunes.apple.com
-- name: 🇲🇦 摩洛哥 | ss | 01
-  type: ss
-  server: 188.214.157.58
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇲🇦 摩洛哥 | ss | 02
-  type: ss
-  server: 188.214.157.30
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇲🇦 摩洛哥 | ss | 03
-  type: ss
-  server: 154.70.207.97
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇲🇩 摩尔多瓦 | ss | 01
-  type: ss
-  server: 185.218.3.131
-  port: 60664
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1WkZKaVNFSmFWMjV3UTJKR1draGtSRlpXWWtkUk1GUldXbEpsYkhCSlVtMTBVMDF1WjNoWFZsWnFUbFUxU0ZOcmJGVmlSVVU1
-  udp: true
-  skip-cert-verify: false
 - name: 🇲🇩 摩尔多瓦 | vless | 02
   type: vless
   server: 94.131.101.135
@@ -13611,14 +12339,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇲🇰 北马其顿 | ss | 01
-  type: ss
-  server: 46.183.185.37
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇲🇳 蒙古 | trojan | 01
   type: trojan
   server: 103.168.56.77
@@ -13628,22 +12348,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: 103.168.56.77
-- name: 🇲🇹 马耳他 | ss | 01
-  type: ss
-  server: 171.22.254.17
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇲🇹 马耳他 | ss | 02
-  type: ss
-  server: 171.22.254.129
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇲🇽 墨西哥 | vmess | 01
   type: vmess
   server: 216.238.86.158
@@ -13711,22 +12415,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇲🇽 墨西哥 | ss | 09
-  type: ss
-  server: 147.78.1.230
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇲🇽 墨西哥 | ss | 10
-  type: ss
-  server: 147.78.1.230
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇲🇽 墨西哥 | vless | 12
   type: vless
   server: 82.27.100.239
@@ -13883,14 +12571,6 @@ proxies:
     headers:
       Host: ''
   skip-cert-verify: false
-- name: 🇲🇾 马来西亚 | ss | 19
-  type: ss
-  server: 124.217.247.205
-  port: 51348
-  cipher: chacha20-ietf-poly1305
-  password: RZirHzSqyyb37DDIiQeDLZTJft5ZQGmUCwyA3wm5ath4j9Y3
-  udp: true
-  skip-cert-verify: false
 - name: 🇲🇾 马来西亚 | vless | 20
   type: vless
   server: 210.187.176.154
@@ -13917,14 +12597,6 @@ proxies:
     path: /?ed=2560fp=random
     headers:
       Host: fm3.pages.dev
-- name: 🇲🇾 马来西亚 | ss | 22
-  type: ss
-  server: usgpt.sldyjy.top
-  port: 13012
-  cipher: chacha20-ietf-poly1305
-  password: e777513e-9df5-4dc3-bc84-74e564345a81
-  udp: true
-  skip-cert-verify: false
 - name: 🇲🇾 马来西亚 | vmess | 23
   type: vmess
   server: gtm1.ktmwan.net
@@ -13960,14 +12632,6 @@ proxies:
   cipher: auto
   network: tcp
   tls: false
-  udp: true
-  skip-cert-verify: false
-- name: 🇲🇾 马来西亚 | ss | 26
-  type: ss
-  server: usgpt.slianrk.com
-  port: 13012
-  cipher: chacha20-ietf-poly1305
-  password: e777513e-9df5-4dc3-bc84-74e564345a81
   udp: true
   skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 01
@@ -14150,14 +12814,6 @@ proxies:
   password: cvII85TrW6n0OGyfpHVS1u
   udp: true
   skip-cert-verify: false
-- name: 🇳🇱 荷兰 | ss | 25
-  type: ss
-  server: 213.109.147.242
-  port: 62685
-  cipher: chacha20-ietf-poly1305
-  password: VpKABcOpNNA0l5G2AVOmw8
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | ss | 26
   type: ss
   server: 193.29.139.217
@@ -14180,14 +12836,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 28
-  type: ss
-  server: 193.29.139.175
-  port: 8080
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1V214U2JGcDZWMnRTVDFkR1NYbGFNM0JZWWxoU1NGVlVRVEZYUm5CR1UyeE9WMlZ0YzNsV2JYaFRWVEZPUmsxWVRsSmlWRkU1
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | ss | 33
   type: ss
   server: 193.29.139.235
@@ -14246,14 +12894,6 @@ proxies:
   password: cvII85TrW6n0OGyfpHVS1u
   udp: true
   skip-cert-verify: false
-- name: 🇳🇱 荷兰 | ss | 44
-  type: ss
-  server: 51.15.17.169
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vmess | 45
   type: vmess
   server: 51.15.19.206
@@ -14299,14 +12939,6 @@ proxies:
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 1RWwXhwfAB5gAEozU4G2Pg
-  udp: true
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 | ss | 56
-  type: ss
-  server: 51.15.23.63
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
   udp: true
   skip-cert-verify: false
 - name: 🇳🇱 荷兰 | ss | 58
@@ -14429,14 +13061,6 @@ proxies:
     path: /getWorkerUpdates
     headers:
       Host: nl-90w-c.southnetworks.cloud
-- name: 🇳🇱 荷兰 | ss | 80
-  type: ss
-  server: 194.87.186.134
-  port: 6354
-  cipher: ss
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0RHJpb0hBYkFDajYxV3E4eVowd3Vx
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 82
   type: vless
   server: 77.238.245.250
@@ -14632,14 +13256,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 331a8c3fe668c1ee
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 99
-  type: ss
-  server: 46.29.237.53
-  port: 2053
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWZFNNRnBGV2xOVWJGcDFVV3h3VjFaRmIzZFdha1pXWlZaT2NtRkhhRlJTVlhCWVYxZDRiMVV3TVhOalJtUllZbFZhVkZSV1dtRmxWbFY1WTNwV1YwMXJjRXBWVjNoM1ZqRmFObEpxVGxoV2JIQm9WVEJhUzJOV1pITmFSMnhUWVROQ1dGWnRNVFJoTVZaMFZtNU9hbEp0YUhOVmJUVkRZekZXZEU1VlRsUmlSbFkxVkZaU1ExWlhTa1pqUldSV1RWWktSRll3V21GU2JFNXpZVVprYUdFeGNHOVdiWEJIWkRGS2RGSnJhR2hTYXpWWVZXMTRkMWRzV1hoWGJFNVRUV3hHTkZaSGRHdFdiVXB5VGxac1dtRXhWWGhaTW5oWFkxWkdWVkpzVGs1V2EzQTJWakowVTFFeFduSk5WbVJxVWxkNGFGWnNXbUZqYkZsM1YyMUdhazFWTlhwVlYzaDNZVWRGZUdOR1VsaGlSbHBvVjFaa1QxWXhjRWxVYkZKcFVqSm9WVlpHVWt0aU1XUkhWMWhvWVZKRlNtRldiWE40VGtaVmVHRkhPV2hpUlhCNldUQmFjMWR0U2xsVVdHaGFUVlp3YUZwRlpGTlRSa3B5VGxaT2FXRXdjRmxXYlRFMFZURkplRmRZWkU1V2JIQnhWVzE0ZDFZeFduRlVhMDVvVW14d2VGVldhRzlXTURGeVRsVm9WMVl6YUROWlZscHJVMGRHUmxac1pHbFNNVVYzVmxaU1IxbFdXbkpOVmxwWFlYcFdWRlZyVmtaT1VUMDk=
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 100
   type: vless
   server: 77.246.103.70
@@ -14725,14 +13341,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 387d2fb5f83c0cde
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 107
-  type: ss
-  server: 212.34.139.147
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWZFNNRnBGV2xOVWJGcDFVV3h3VjFaRmIzZFdha1pXWlZaT2NtRkhhRlJTVlhCWVYxZDRiMVV3TVhOalJtUllZbFZhVkZSV1dtRmxWbFY1WTNwV1YwMXJjRXBWVjNoM1ZqRmFObEpxVGxoV2JIQm9WVEJhUzJOV1pITmFSMnhUWVROQ1dGWnRNVFJoTVZaMFZtNU9hbEp0YUhOVmJUVkRZekZXZEU1VlRsUmlSbFkxVkZaU1ExWlhTa1pqUldSV1RWWktSRll3V21GU2JFNXpZVVprYUdFeGNHOVdiWEJIWkRGS2RGSnJhR2hTYXpWWVZXMTRkMWRzV1hoWGJFNVRUV3hHTkZaSGRHdFdiVXB5VGxac1dtRXhWWGhaTW5oWFkxWkdWVkpzVGs1V2EzQTJWakowVTFFeFduSk5WbVJxVWxkNGFGWnNXbUZqYkZsM1YyMUdhazFWTlhwVlYzaDNZVWRGZUdOR1VsaGlSbHBvVjFaa1QxWXhjRWxVYkZKcFVqSm9WVlpHVWt0aU1XUkhWMWhvWVZKRlNtRldiWE40VGtaVmVHRkhPV2hpUlhCNldUQmFjMWR0U2xsVVdHaGFUVlp3YUZwRlpGTlRSa3B5VGxaT2FXRXdjRmxXYlRFMFZURkplRmRZWkU1V2JIQnhWVzE0ZDFZeFduRlVhMDVvVW14d2VGVldhRzlXTURGeVRsVm9WMVl6YUROWlZscHJVMGRHUmxac1pHbFNNVVYzVmxaU1IxbFdXbkpOVmxwWFlYcFdWRlZyVmtaT1VUMDk=
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 108
   type: vless
   server: 185.157.213.117
@@ -14803,14 +13411,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 387d2fb5f83c0cde
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 115
-  type: ss
-  server: 178.208.79.44
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVZkS1ZXSkVSbGhpUmtveVZGUkJOVlpYUmpaVGF6VlRUVWQzZWxZeFpISmtNREI0WTBWV1ZWZEhhRTVXYTFwSFRsWlNkR05GTld0U1ZHeEdXVlJPYjFReFZqWlJXR3hWWWtaS1IxcFZXbk5qVmtaMFpVVTFWMUpVUWpaV01WcFRZbXhDVWxCVU1EMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 116
   type: vless
   server: 91.84.109.205
@@ -14881,14 +13481,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 387d2fb5f83c0cde
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 124
-  type: ss
-  server: 91.84.105.32
-  port: 8443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV2FFTlRiR3QzV2tSQ1ZXSlZjRWRXTVdoM1ZqRktjMk5HYUZkaGExcG9WVEJhVDJOc2NFZGhSMnhUWWtoQ1dWWXhXbXRsYXpGWFZWaG9hbEpzY0ZsWmJHaFRWMFpTVjFwR1RrNVNia0pIVmpKNFQxWlhTa2RqUkVaV1ZqTm9NMVpxUm1GU2JVbDZXa1prYUdFeGNGaFhiRnBoVkRKT2RGSnJhR2hTYkVwVVZteG9RMWRXV1hoYVJGSnBUVlpXTTFSV2FFOWhiRXAwVld4c1dtSkdXbWhXYTFwVFZqRmtkRkp0ZUZkaVJsa3hWMVJPZDFZeFdYZE5XRXBxVWxoQ1YxWnFUbTlOTVZweFVtMUdUMkpGY0hoV1IzaHZWakpLU1ZGdE9WZFdSVXBvVlhwS1QxWXhjRWxVYlVaVFRXNW9WVmRXVWs5Uk1XUkhWMjVTVGxaR1NtOVVWbHBoVFVaYWRFNVZPV2hpUlhBd1dWVm9UMVp0U2xWV2ExSmFaV3RhV0ZwRlZURldiRkp6Vlcxc1UySkdhM2hXYTFwaFZURkZlRmRzYUZSaE1YQnhWV3hrVTFZeFVsZFhhM1JUVW14c00xWXlNVWRWTWtwR1RsaHdXbFpXY0hKWlZXUkdaVWRPU0U5V1pHbFhSVXBKVjJ0U1IxTXlVa2RUYmtwb1VqSm9WRmxZY0ZkWFZscFlUVlJTYTAxWFVucFdNV2h2VjBkS1JrNVdVbFZXTTJoSVZHdGFZVk5IVWtoa1JtUnBWbGhDTlZaSGVHRmpNV1IwVWxob1YxZEhhR0ZVVnpWdlYwWnJlRmRyWkZkV2EzQjZWa2R6TVZZeVJYcFJWRXBYWVd0dmQxWlVSa1psUm1SMVUyczFWMkpXU25oV1YzaHJUa2RHUjFkdVRsaGlWVnB4V1d0YWMwMHhXWGxOVldSb1lYcEdWMVJzYUhkV2JGbDZZVVJPV2xaWFVrZGFWV1JQVWpGV2MyRkhiRk5pU0VKMlZtcEdZV0V4VVhoWFdHaHFVbGQ0VmxscldrdGpSbFp4VTIwNVYxWnNjRWhXVjNRd1lWVXhXRlZyYUZkTlYyaDJWMVphUzFKc1RuUlNiR1JwVjBVME1GWkhkR0ZXYlZaSVVtdG9VRll5YUhCVmJHaERUbXhrVlZGdFJtcE5WMUl3VlRKNGMxWldaRWhoUjBaVlZteHdNMWxWV25kU2JIQkhWR3hTVTJFelFqVldSM2hoVkRKR1dGSllaR3BTYlhoWVdXeFNSazFHV2xWU2EzQnNVbTFTV2xkclZURldNa3BKVVc1b1YxWjZSVEJhUkVaYVpVWmtkVkpzVm1oTlJGWjJWbGN4TkdReVZrZFdiR1JvVW5wc1dGUlZVa2RsVmxKelZtMDVWMDFXYkRaWlZWSlBWMnhhYzJOSVNsWk5SMUpJVlcxNFlXTXhjRWhpUms1T1ZsWlplbFp0ZUdGVk1VbDRZa1prV0dKcmNFOVdiWGgzVjBac1dXTkdaRmRTYkZwNVZtMTBZVlF4VmxWTlJHczk=
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 126
   type: vless
   server: 212.34.143.82
@@ -15023,14 +13615,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 808e2d36726ee97e
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 137
-  type: ss
-  server: 91.84.105.79
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWWmtTMVpYU2tWU2JHaHBVbXR2ZVZaR1VrSk9WbHBZVW1wYVZHRjZWbFJVVldRelpXeFplRnBJU210TlJFSTBXVEJXVjFaV1pFaGhSVFZYWVRGd1NGUnNXbE5rUjA1R1RsZDBVMVpIZUVkWFZsSlBZakZSZUZacVdsSlhSM2hXV1d0YVMxSXhjRlpYYms1cVZtdGFNRnBWVlRGV01VcFZVV3BhVjAxV2NGUlpiWGhEVld4Q1ZVMUVNRDA9
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 138
   type: vless
   server: 195.26.226.195
@@ -15130,14 +13714,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 387d2fb5f83c0cde
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 149
-  type: ss
-  server: 5.253.189.184
-  port: 443
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 150
   type: vless
   server: 62.84.96.96
@@ -15178,14 +13754,6 @@ proxies:
     public-key: T9-LNstrlOx3Bme7jREFDfDcvgYt3YGUpkTH4Uhwlws
     short-id: 4da040bb05be9f47
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 154
-  type: ss
-  server: 89.150.35.155
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVZkS1ZXSkVSbGhpUmtveVZGUkJOVlpYUmpaVGF6VlRUVWQzZWxZeFpISmtNREI0WTBWV1ZWZEhhRTVXYTFwSFRsWlNkR05GTld0U1ZHeEdXVlJPYjFReFZqWlJXR3hWWWtaS1IxcFZXbk5qVmtaMFpVVTFWMUpVUWpaV01WcFRZbXhDVWxCVU1EMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 155
   type: vless
   server: 45.88.67.37
@@ -15211,22 +13779,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 387d2fb5f83c0cde
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 158
-  type: ss
-  server: 89.150.34.41
-  port: 8443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVdSMFpFWlNUbFp1UWxwV1ZFb3dWakZWZVZOcmFHaFRSVXBYV1d4b1UwMXNjRmRYYlVaVFRWWmFlVlV5Y3pWV01rcEpVV3h3VjFaNlJqTlhWbHBoVTBaS2NWZHNaR2xTYTNCWFZtMTRhMVZ0Vm5OalJtaHNVbTVDYzFWdE5VTlRiRlY1VFZSQ1ZXSkZjRWRWTVZKRFYwWmFSbE5zYUZkaGExcG9WbXBHZDFKdFJraGhSazVYVW14d1dsWXhXbE5TTWxGNFZHdGtWbUpyTlZsWmExVXhZMnhXY1ZGVVJsTk5Wa3A2VjJ0U1ExWnJNVmRqUld4aFZsWmFjbFl3V21Gak1VNXpVV3h3YUdFeGNGUlhiRlpoV1ZkT1YxcElUbFJpUjJoVVZGUktiMWRHV1hoYVJFSmFWbXN4TkZVeGFHOWhiRXB6WTBac1dtSllUWGhaTVZwaFpFZFNTRkpyTlZOaWEwcFlWbTE0VTFJeFdYZE5WbHBxVW14d1YxWnFUa05oUmxweFVWaG9WMDFyTlVoV1YzaDNZVlprU0dGRlZsZGlSMUV3VlZSR1lWWnJNVlpXYXpWVFVrVkZOUT09
-  udp: true
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 | ss | 159
-  type: ss
-  server: 172.99.188.71
-  port: 443
-  cipher: ss
-  password: //YWVzLTI1Ni1nY206cEtFVzhKUEJ5VFZUTHRN
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 160
   type: vless
   server: 45.136.126.16
@@ -15255,14 +13807,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳+@WangCai2security=tls
     headers:
       Host: sni.111000.indevs.in
-- name: 🇳🇱 荷兰 | ss | 164
-  type: ss
-  server: 212.34.128.155
-  port: 2053
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV1pGTk5SbkJHVjJ4T1ZXSkdjREZWVjNoM1ZqRmFSbUl6WkZkaGExcFhXbFphVDJOdFJraGhSbEpUVmxoQ1dWWXhaRFJpTVZWM1RWaE9hbEp0VWxsWmJGWmhWa1pTVjFkdFJteFdiRlkxV1ROd1YxWXdNWEpqUlhCV1ZqTm9NMVpxUm1GT2JFcHhWR3hvVjJKSVFtOVdWRUpoVXpKT1YxcElUbUZTTW5oVVdWUk9RMWRHV25STlZGSm9UVlphTUZadE5VOWhiRXAwWVVoT1ZtSlVWa1JaZWtaWFpFVTFWbFJzVW1sU2JGa3hWa1phVTFFeFdsaFRhMXBxVWxkU1YxUldXa3RTUmxsM1YyMUdVMkpGTlhwWlZWcHJZVWRGZUdOSE9WZGlXRUpJV2tSR1MyUkdTbkpoUjJoVFlYcFdXVlpYTVRSa01XUnpWMWhvV0dKRk5WUlVWM2hIVGtaYVNHUkhkRmRpVlhCNVZHeGFjMWR0UlhoV1dHaGFUVzVvV0ZreFdrZFdWa3B6VkdzMVYyRXpRVEpXYWtvd1ZURkZlRmR1U2s1V2JWSnhWV3hrTkdGR1duTlhiVVpxWWtac00xWXlNVWRoYXpGV1RsaHdWbFl6YUROWlZXUkdaVWRPUjFWc2FHbFNiSEJ2VmpGYWExUXhXWGhqUld4VllrWktjRlZxU205V1ZscEhWV3QwYVUxWFVraFdNV2h2V1ZaS1JsTnRSbGRpV0U0MFZHdGFWbVZIUmtoUFYyaHBVbGhDTmxkVVFtRmpNV1IwVTJ4c1ZWZEhhR0ZVVmxwM1lVWndSbHBHVGxSU2EzQjVWR3hhVDJGWFJYZGpSbXhYWWxSRk1GWlVSa3BsUm1SWldrVTFWMkpJUW5oV1Z6RTBaREZaZUZkdVJsVmhNRFZ2VlcxNGQyVkdWbGRoUnpsWFRVUkdlVlJzVm05V01WbDZZVVJPV2xac2NISlZNR1JIVW14YWMxcEhiRk5OVlZZelZteGFVMUl4YkZkWGJrcE9WbXh3V0ZsWWNGZFdSbFp5Vm10YVQxVlVNRGs9
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 165
   type: vless
   server: 103.90.75.41
@@ -15302,14 +13846,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 387d2fb5f83c0cde
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 169
-  type: ss
-  server: 89.110.116.183
-  port: 2053
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV1pGTk5SbkJHVjJ4T1ZXSkdjREZWVjNoM1ZqRmFSbUl6WkZkaGExcFhXbFphVDJOdFJraGhSbEpUVmxoQ1dWWXhaRFJpTVZWM1RWaE9hbEp0VWxsWmJGWmhWa1pTVjFkdFJteFdiRlkxV1ROd1YxWXdNWEpqUlhCV1ZqTm9NMVpxUm1GT2JFcHhWR3hvVjJKSVFtOVdWRUpoVXpKT1YxcElUbUZTTW5oVVdWUk9RMWRHV25STlZGSm9UVlphTUZadE5VOWhiRXAwWVVoT1ZtSlVWa1JaZWtaWFpFVTFWbFJzVW1sU2JGa3hWa1phVTFFeFdsaFRhMXBxVWxkU1YxUldXa3RTUmxsM1YyMUdVMkpGTlhwWlZWcHJZVWRGZUdOSE9WZGlXRUpJV2tSR1MyUkdTbkpoUjJoVFlYcFdXVlpYTVRSa01XUnpWMWhvV0dKRk5WUlVWM2hIVGtaYVNHUkhkRmRpVlhCNVZHeGFjMWR0UlhoV1dHaGFUVzVvV0ZreFdrZFdWa3B6VkdzMVYyRXpRVEpXYWtvd1ZURkZlRmR1U2s1V2JWSnhWV3hrTkdGR1duTlhiVVpxWWtac00xWXlNVWRoYXpGV1RsaHdWbFl6YUROWlZXUkdaVWRPUjFWc2FHbFNiSEJ2VmpGYWExUXhXWGhqUld4VllrWktjRlZxU205V1ZscEhWV3QwYVUxWFVraFdNV2h2V1ZaS1JsTnRSbGRpV0U0MFZHdGFWbVZIUmtoUFYyaHBVbGhDTmxkVVFtRmpNV1IwVTJ4c1ZWZEhhR0ZVVmxwM1lVWndSbHBHVGxSU2EzQjVWR3hhVDJGWFJYZGpSbXhYWWxSRk1GWlVSa3BsUm1SWldrVTFWMkpJUW5oV1Z6RTBaREZaZUZkdVJsVmhNRFZ2VlcxNGQyVkdWbGRoUnpsWFRVUkdlVlJzVm05V01WbDZZVVJPV2xac2NISlZNR1JIVW14YWMxcEhiRk5OVlZZelZteGFVMUl4YkZkWGJrcE9WbXh3V0ZsWWNGZFdSbFp5Vm10YVQxVlVNRGs9
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | trojan | 171
   type: trojan
   server: 51.158.146.183
@@ -15380,14 +13916,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 387d2fb5f83c0cde
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 176
-  type: ss
-  server: 213.183.59.144
-  port: 2053
-  cipher: ss
-  password: //bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 177
   type: vless
   server: 62.84.102.162
@@ -15594,14 +14122,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 808e2d36726ee97e
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 196
-  type: ss
-  server: 93.113.171.95
-  port: 443
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 197
   type: vless
   server: 185.157.212.226
@@ -15617,22 +14137,6 @@ proxies:
     public-key: Cxvc5bVMKln6RxPs5MtviUZNDsmpfuYUK8UFBlcBaS0
     short-id: 331a8c3fe668c1ee
   client-fingerprint: chrome
-- name: 🇳🇱 荷兰 | ss | 198
-  type: ss
-  server: 45.88.67.37
-  port: 8443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV2FFTlRiR3QzV2tSQ1ZXSlZjRWRXTVdoM1ZqRktjMk5HYUZkaGExcG9WVEJhVDJOc2NFZGhSMnhUWWtoQ1dWWXhXbXRsYXpGWFZWaG9hbEpzY0ZsWmJHaFRWMFpTVjFwR1RrNVNia0pIVmpKNFQxWlhTa2RqUkVaV1ZqTm9NMVpxUm1GU2JVbDZXa1prYUdFeGNGaFhiRnBoVkRKT2RGSnJhR2hTYkVwVVZteG9RMWRXV1hoYVJGSnBUVlpXTTFSV2FFOWhiRXAwVld4c1dtSkdXbWhXYTFwVFZqRmtkRkp0ZUZkaVJsa3hWMVJPZDFZeFdYZE5XRXBxVWxoQ1YxWnFUbTlOTVZweFVtMUdUMkpGY0hoV1IzaHZWakpLU1ZGdE9WZFdSVXBvVlhwS1QxWXhjRWxVYlVaVFRXNW9WVmRXVWs5Uk1XUkhWMjVTVGxaR1NtOVVWbHBoVFVaYWRFNVZPV2hpUlhBd1dWVm9UMVp0U2xWV2ExSmFaV3RhV0ZwRlZURldiRkp6Vlcxc1UySkdhM2hXYTFwaFZURkZlRmRzYUZSaE1YQnhWV3hrVTFZeFVsZFhhM1JUVW14c00xWXlNVWRWTWtwR1RsaHdXbFpXY0hKWlZXUkdaVWRPU0U5V1pHbFhSVXBKVjJ0U1IxTXlVa2RUYmtwb1VqSm9WRmxZY0ZkWFZscFlUVlJTYTAxWFVucFdNV2h2VjBkS1JrNVdVbFZXTTJoSVZHdGFZVk5IVWtoa1JtUnBWbGhDTlZaSGVHRmpNV1IwVWxob1YxZEhhR0ZVVnpWdlYwWnJlRmRyWkZkV2EzQjZWa2R6TVZZeVJYcFJWRXBYWVd0dmQxWlVSa1psUm1SMVUyczFWMkpXU25oV1YzaHJUa2RHUjFkdVRsaGlWVnB4V1d0YWMwMHhXWGxOVldSb1lYcEdWMVJzYUhkV2JGbDZZVVJPV2xaWFVrZGFWV1JQVWpGV2MyRkhiRk5pU0VKMlZtcEdZV0V4VVhoWFdHaHFVbGQ0VmxscldrdGpSbFp4VTIwNVYxWnNjRWhXVjNRd1lWVXhXRlZyYUZkTlYyaDJWMVphUzFKc1RuUlNiR1JwVjBVME1GWkhkR0ZXYlZaSVVtdG9VRll5YUhCVmJHaERUbXhrVlZGdFJtcE5WMUl3VlRKNGMxWldaRWhoUjBaVlZteHdNMWxWV25kU2JIQkhWR3hTVTJFelFqVldSM2hoVkRKR1dGSllaR3BTYlhoWVdXeFNSazFHV2xWU2EzQnNVbTFTV2xkclZURldNa3BKVVc1b1YxWjZSVEJhUkVaYVpVWmtkVkpzVm1oTlJGWjJWbGN4TkdReVZrZFdiR1JvVW5wc1dGUlZVa2RsVmxKelZtMDVWMDFXYkRaWlZWSlBWMnhhYzJOSVNsWk5SMUpJVlcxNFlXTXhjRWhpUms1T1ZsWlplbFp0ZUdGVk1VbDRZa1prV0dKcmNFOVdiWGgzVjBac1dXTkdaRmRTYkZwNVZtMTBZVlF4VmxWTlJHczk=
-  udp: true
-  skip-cert-verify: false
-- name: 🇳🇱 荷兰 | ss | 200
-  type: ss
-  server: 185.209.162.35
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVZkS1ZXSkVSbGhpUmtveVZGUkJOVlpYUmpaVGF6VlRUVWQzZWxZeFpISmtNREI0WTBWV1ZWZEhhRTVXYTFwSFRsWlNkR05GTld0U1ZHeEdXVlJPYjFReFZqWlJXR3hWWWtaS1IxcFZXbk5qVmtaMFpVVTFWMUpVUWpaV01WcFRZbXhDVWxCVU1EMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 201
   type: vless
   server: 2.59.183.197
@@ -15848,14 +14352,6 @@ proxies:
     path: /
     headers:
       Host: sni.111000.indevs.in
-- name: 🇳🇱 荷兰 | ss | 227
-  type: ss
-  server: 89.110.127.51
-  port: 8443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV1pGTk5SbkJHVjJ4T1ZXSkdjREZWVjNoM1ZqRmFSbUl6WkZkaGExcFhXbFphVDJOdFJraGhSbEpUVmxoQ1dWWXhaRFJpTVZWM1RWaE9hbEp0VWxsWmJGWmhWa1pTVjFkdFJteFdiRlkxV1ROd1YxWXdNWEpqUlhCV1ZqTm9NMVpxUm1GT2JFcHhWR3hvVjJKSVFtOVdWRUpoVXpKT1YxcElUbUZTTW5oVVdWUk9RMWRHV25STlZGSm9UVlphTUZadE5VOWhiRXAwWVVoT1ZtSlVWa1JaZWtaWFpFVTFWbFJzVW1sU2JGa3hWa1phVTFFeFdsaFRhMXBxVWxkU1YxUldXa3RTUmxsM1YyMUdVMkpGTlhwWlZWcHJZVWRGZUdOSE9WZGlXRUpJV2tSR1MyUkdTbkpoUjJoVFlYcFdXVlpYTVRSa01XUnpWMWhvV0dKRk5WUlVWM2hIVGtaYVNHUkhkRmRpVlhCNVZHeGFjMWR0UlhoV1dHaGFUVzVvV0ZreFdrZFdWa3B6VkdzMVYyRXpRVEpXYWtvd1ZURkZlRmR1U2s1V2JWSnhWV3hrTkdGR1duTlhiVVpxWWtac00xWXlNVWRoYXpGV1RsaHdWbFl6YUROWlZXUkdaVWRPUjFWc2FHbFNiSEJ2VmpGYWExUXhXWGhqUld4VllrWktjRlZxU205V1ZscEhWV3QwYVUxWFVraFdNV2h2V1ZaS1JsTnRSbGRpV0U0MFZHdGFWbVZIUmtoUFYyaHBVbGhDTmxkVVFtRmpNV1IwVTJ4c1ZWZEhhR0ZVVmxwM1lVWndSbHBHVGxSU2EzQjVWR3hhVDJGWFJYZGpSbXhYWWxSRk1GWlVSa3BsUm1SWldrVTFWMkpJUW5oV1Z6RTBaREZaZUZkdVJsVmhNRFZ2VlcxNGQyVkdWbGRoUnpsWFRVUkdlVlJzVm05V01WbDZZVVJPV2xac2NISlZNR1JIVW14YWMxcEhiRk5OVlZZelZteGFVMUl4YkZkWGJrcE9WbXh3V0ZsWWNGZFdSbFp5Vm10YVQxVlVNRGs9
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 229
   type: vless
   server: v315470.hosted-by-vdsina.com
@@ -15902,14 +14398,6 @@ proxies:
   skip-cert-verify: false
   flow: xtls-rprx-vision
   servername: hls-svod.itunes.apple.com
-- name: 🇳🇱 荷兰 | ss | 234
-  type: ss
-  server: 185.164.163.172
-  port: 2053
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YVdKVWJERlhiRkoyVFRBNVZXRjZTazVTTUd3elYxZHJkMDB4Y0VWVVdHaE5Wa1pHTlZSdGNFNWtSVGxGWVROb1QxVjZRWGxVYkZKR1pVWnNjVkZ0ZUU1V1JUQjZWMVpTYmxCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇳🇱 荷兰 | vless | 235
   type: vless
   server: 144.31.227.2
@@ -16498,14 +14986,6 @@ proxies:
     public-key: Bg1P8Pv18fdeezfJWpqfUScMYHUUInCgdXsXEWBNBFo
     short-id: 9edc548e1e284d84
   client-fingerprint: chrome
-- name: 🇵🇪 秘鲁 | ss | 01
-  type: ss
-  server: 185.47.252.251
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇵🇰 巴基斯坦 | vless | 01
   type: vless
   server: 103.175.79.10
@@ -16520,54 +15000,6 @@ proxies:
   reality-opts:
     public-key: 4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI
   client-fingerprint: chrome
-- name: 🇵🇰 巴基斯坦 | ss | 02
-  type: ss
-  server: 119.159.245.24
-  port: 26739
-  cipher: chacha20-ietf-poly1305
-  password: 1d1bc54689ed4b75
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇰 巴基斯坦 | ss | 03
-  type: ss
-  server: 119.159.245.24
-  port: 26737
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1V214U2JrSkdWVzB4YzFkdFZuTldXR1JWWWxoQ2RWUnNXbmRYUmxaVlVXeHdhR0pWTVRRPQ==
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 01
-  type: ss
-  server: 217.30.10.70
-  port: 9000
-  cipher: aes-256-cfb
-  password: a3GFYt36Sm82Vys9
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 02
-  type: ss
-  server: 217.30.10.70
-  port: 9020
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoalIwWnBWbGR6ZVZaV1pIcE5WMUpIVW14a2FGSnRlSE5WYkZaaFUyeFplR0ZGVGxkV2JGb3dWbGR3WVdFeFZsVk5SR3M5
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 03
-  type: ss
-  server: 217.30.10.70
-  port: 9001
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoalIwWnBWbGR6ZVZadGVHdE5SbVJYVm01V1ZXSkhlSEpaYTFaeVpWWmtXRTVXWkZOV2JFcFhWMVJPYzFkR1ZsVk5SR3M5
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 04
-  type: ss
-  server: 217.30.10.70
-  port: 9045
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2VEhBeU4zSnhlVXB4TnpKaVduTnhXQT09
-  udp: true
-  skip-cert-verify: false
 - name: 🇵🇱 波兰 | vless | 05
   type: vless
   server: 85.158.57.75
@@ -16582,38 +15014,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇵🇱 波兰 | ss | 07
-  type: ss
-  server: 217.30.10.70
-  port: 9033
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV2FFTlRiR3QzV2tSQ1ZXSlZjRWRXTVdoM1ZqRktjMk5HYUZkaGExcG9WVEJhVDJOc2NFZGhSMnhUWWtoQ1dWWXhXbXRsYXpGWFZWaG9hbEpzY0ZsWmJGWmhZMVphZEdONlJteFNiSEJaV2xWak5XRkdXbk5qU0hCYVRVWmFlbFpxUVhoa1ZsWjFWMnhhYUdFeGNIbFdWRUpoVkRKT2MyTkZaR2hTTW5oVVdWUk9RMkl4V1hoWGJFNVRUVmQ0VjFSVmFHOVhSMFY0WTBac1dtSkdXbWhXYTFwVFZqRndSMVJ0ZUdsU2JYY3hWMVJPZDFJeFdYZE5WVlpUWVRGd1dGbHNhRk5rYkZweFVtdDBhazFyTlVsWlZWcDNZVWRGZWxGcmJGaFhTRUpJVmtSR2ExWXlUa1phUjJoVFRXNW9kbFpHVm05Uk1XUnpWMWhvWVZKRlNtOVVWbHBYVFRGU2MyRkZPV2hpUlhBd1ZsZDRjMWR0U2tkWGJXaGFUVzVvV0ZreFdrdGtSa3B6Vld4a2FWSnRPVE5XTW5oWFlURkplRmRzYUZSaE1sSnhWVzE0ZDFZeGJISlhhM1JUVW14d2VGVnRNVWRVTWtwR1kwWmFWbFl6YUhKWlZXUkdaVWRPU0dGR2FHbFNiSEJ2VjFaU1MxUXlUWGhqUld4VVlrVktXRmxzWkc5V1ZscDBaRWRHV2xadFVucFdNalZMVjBkS1NGVnRSbGRpVkVVd1ZqQmFZVmRIVWtoa1IyaHBVbGhCZDFac1pEUmpNV1IwVWxob1YxZEhhRmhVVmxwM1YwWnJlRmRyZEd0U2EzQjZWbGQ0YTJGV1NsZGhNMlJYWWxoQ1RGUnJaRVpsUm1SMVUyczFXRkpZUW5oV1YzaHJZakZzVjFWc1dtRlNhelZWVlcxNGQyVkdWblJOVldSb1RWVndlbFV5ZUhkWGJGcFhZMGhLV2xaWFVrZGFWM2hIWTIxS1IxcEhiRmhTVlhCS1ZtcEdZV0V4VW5SV2EyUmhVMFphVlZsWWNITlhSbXhaWTBaa1YxWnNjRWhXVjNSTFlUQXhSVkpzVGxaU2JFWXpWVVpGT1ZCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 08
-  type: ss
-  server: 217.30.10.70
-  port: 9098
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2WVV4d1VYUm1SVnBsTkRRMVVYbElhdz09
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 09
-  type: ss
-  server: 217.30.10.70
-  port: 9057
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2ZDJwVWRXZFlNMXAwU0UxQ09XTXpXZz09
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 10
-  type: ss
-  server: 217.30.10.70
-  port: 9073
-  cipher: aes-256-cfb
-  password: daFYagqDdBdA6VTX
-  udp: true
-  skip-cert-verify: false
 - name: 🇵🇱 波兰 | vless | 11
   type: vless
   server: 85.158.57.75
@@ -16670,30 +15070,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇵🇱 波兰 | ss | 19
-  type: ss
-  server: 217.30.10.70
-  port: 9059
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV2FFTlRiR3QzV2tSQ1ZXSlZjRWRXTVdoM1ZqRktjMk5HYUZkaGExcG9WVEJhVDJOc2NFZGhSMnhUWWtoQ1dWWXhXbXRsYXpGWFZWaG9hbEpzY0ZsWmJGWmhZMVphZEdONlJteFNiSEJaV2xWak5XRkdXbk5qU0hCYVRVWmFlbFpxUVhoa1ZsWjFWMnhhYUdFeGNIbFdWRUpoVkRKT2MyTkZaR2hTTW5oVVdWUk9RMkl4V1hoWGJFNVRUVmQ0VjFSVmFHOVhSMFY0WTBac1dtSkdXbWhXYTFwVFZqRndSMVJ0ZUdsU2JYY3hWMVJPZDFJeFdYZE5WVlpUWVRGd1dGbHNhRk5rYkZweFVtdDBhazFyTlVsWlZWcDNZVWRGZWxGcmJGaFhTRUpJVmtSR2ExWXlUa1phUjJoVFRXNW9kbFpHVm05Uk1XUnpWMWhvWVZKRlNtOVVWbHBYVFRGU2MyRkZPV2hpUlhBd1ZsZDRjMWR0U2tkWGJXaFhZVEZ3YUZwRlpGTlRWbkJHVGxaT2FWSnRPVE5XYTFwaFlqRlJlRmRzYUZSaE1YQnhWV3hrVTFZeFVsZFhhM1JUVW14d2VGVldhRzloTVZwelYycENXbFpXY0ROWmEyUkdaV3hHY21KR1pHbFhSVXBKVm10U1IyRXhXWGxVYTFwaFVqSm9WRlJYTlc5a2JGcEhWMjA1VWsxWFVraFdNalZUVkd4YVIxTnRPVlZXTTFKNlZHdGFZVll5UmtoUFZtUnBWbGhDU1ZkVVFtRmpNV1IwVTJ0a1dHSlhhRmhVVlZwM1lVWndSbHBHVGxSU2EzQjZWMnRrYzFVeVNraFBWRTVYVFZaS1VGcEVSbHBsVmtweVdrWm9hV0V6UW5oV1ZFSnZVVEZzVjFWc1dsaGliVkp5V1d0YWQyVkdWWGxrUkVKWFVtdHdlbFl5Tlc5V01VbDZZVWRvVjJGcldreFdha3BQVTFkS1IxcEdaRTVOUlhCS1ZtcEdZV0V4VW5SV2EyUmhVMFphVlZsWWNITlhSbXhaWTBaa1YxWnNjRWhXVjNSTFlUQXhSVkpzVGxaU2JFWXpWVVpGT1ZCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 20
-  type: ss
-  server: 217.30.10.70
-  port: 9006
-  cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 21
-  type: ss
-  server: 217.30.10.70
-  port: 9094
-  cipher: aes-256-cfb
-  password: rpgbNnU9rDDU4aWZ
-  udp: true
-  skip-cert-verify: false
 - name: 🇵🇱 波兰 | vless | 23
   type: vless
   server: 85.158.57.75
@@ -16708,14 +15084,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇵🇱 波兰 | ss | 24
-  type: ss
-  server: 217.30.10.70
-  port: 9064
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2WTNBNGNGSlRWVUY1VEdoVVpsWlhTQT09
-  udp: true
-  skip-cert-verify: false
 - name: 🇵🇱 波兰 | vless | 25
   type: vless
   server: 85.158.57.75
@@ -16740,22 +15108,6 @@ proxies:
   skip-cert-verify: false
   sni: pl1.trojanvh.xyz
   servername: pl1.trojanvh.xyz
-- name: 🇵🇱 波兰 | ss | 27
-  type: ss
-  server: 217.30.10.70
-  port: 9040
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2Y0RsNk5VSldRVVJJTWxsR2N6Tk5UZz09
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 | ss | 28
-  type: ss
-  server: 57.128.214.100
-  port: 12000
-  cipher: aes-256-gcm
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  udp: true
-  skip-cert-verify: false
 - name: 🇵🇱 波兰 | vless | 29
   type: vless
   server: 151.115.96.243
@@ -16930,22 +15282,6 @@ proxies:
     public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
     short-id: a20d3ed244c76426
   client-fingerprint: qq
-- name: 🇵🇷 波多黎各 | ss | 01
-  type: ss
-  server: 185.47.255.22
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇵🇹 葡萄牙 | ss | 01
-  type: ss
-  server: 185.231.233.112
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇵🇼 PW | vmess | 01
   type: vmess
   server: 38.150.13.64
@@ -16960,14 +15296,6 @@ proxies:
     path: /
     headers:
       Host: ''
-  skip-cert-verify: false
-- name: 🇵🇾 巴拉圭 | ss | 01
-  type: ss
-  server: 38.165.233.93
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
   skip-cert-verify: false
 - name: 🇷🇴 罗马尼亚 | vless | 01
   type: vless
@@ -17064,14 +15392,6 @@ proxies:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
   skip-cert-verify: false
   servername: 45.67.215.119
-- name: 🇷🇺 俄罗斯 | ss | 03
-  type: ss
-  server: 194.116.173.21
-  port: 9038
-  cipher: aes-256-cfb
-  password: gYCYXfkUQEs2TaJQ
-  udp: true
-  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 | vless | 04
   type: vless
   server: 147.45.60.5
@@ -17098,14 +15418,6 @@ proxies:
   skip-cert-verify: false
   servername: api.furypay.ru
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 | ss | 07
-  type: ss
-  server: 145.249.109.121
-  port: 25512
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1Wkd4aVZYQllWa2R6TVZsWFNrWmhla1phVm5wV1NGWkdXblprTURGWlUyeFNWRkpzY0ZSWGExWnZZakZhUjFSc1pHRlNlbWM1
-  udp: true
-  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 | vless | 08
   type: vless
   server: 5.181.171.10
@@ -17172,14 +15484,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: nl17.fastlanehosting.ru
-- name: 🇷🇺 俄罗斯 | ss | 14
-  type: ss
-  server: 77.73.68.155
-  port: 54106
-  cipher: chacha20-ietf-poly1305
-  password: 9CmcQ6dF8LEyZU0YsMjgu8
-  udp: true
-  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 | vless | 17
   type: vless
   server: 46.253.132.55
@@ -17446,14 +15750,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 | ss | 51
-  type: ss
-  server: 90.156.203.62
-  port: 5112
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1WkZkTlZuQXdXbFZXUzFsWFNsZGhNM0JWWVd0S1VGcEdXa2RXTVZwVlVXczFUbEpXYjNsV01XaDNWakpPVmsxV1ZsZGlSemc1
-  udp: true
-  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 | vless | 53
   type: vless
   server: 85.239.56.189
@@ -17755,14 +16051,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 | ss | 91
-  type: ss
-  server: 38.60.223.8
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 | vmess | 92
   type: vmess
   server: 45.89.52.207
@@ -17772,14 +16060,6 @@ proxies:
   cipher: auto
   network: tcp
   tls: false
-  udp: true
-  skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 | ss | 93
-  type: ss
-  server: 80.92.206.138
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWWmtTMVpYU2tWU2JHaHBVbXR2ZVZaR1VrSk9WbHBZVW1wYVZHRjZWbFJVVldRelpXeFplRnBJU210TlJFSTBXVEJXVjFaV1pFaGhSVFZYWVRGd1NGUnNXbE5rUjA1R1RsZDBVMVpIZUVkWFZsSlBZakZSZUZacVdsSlhSM2hXV1d0YVMxSXhjRlpYYms1cVZtdGFNRnBWVlRGV01VcFZVV3BhVjAxV2NGUlpiWGhEVld4Q1ZVMUVNRDA9
   udp: true
   skip-cert-verify: false
 - name: 🇷🇺 俄罗斯 | vless | 94
@@ -18522,22 +16802,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇸🇨 塞舌尔 | ss | 04
-  type: ss
-  server: 154.90.62.168
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇨 塞舌尔 | ss | 05
-  type: ss
-  server: 156.244.19.94
-  port: 11201
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1V2s1aGVsWldWVEl4TkZReFNrWmlSRnBZVjBoQ1YxUldWVFZYUmxwMFpVZEdhVlpyVmpNPQ==
-  udp: true
-  skip-cert-verify: false
 - name: 🇸🇨 塞舌尔 | vless | 06
   type: vless
   server: 45.196.234.36
@@ -18552,38 +16816,6 @@ proxies:
     path: /danfeng?ed=2560fp=chromesecurity=tls
     headers:
       Host: snippet.danfeng.com.cfd
-- name: 🇸🇨 塞舌尔 | ss | 08
-  type: ss
-  server: 154.90.63.177
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇨 塞舌尔 | ss | 09
-  type: ss
-  server: 154.205.153.107
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇨 塞舌尔 | ss | 11
-  type: ss
-  server: 154.223.20.79
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇨 塞舌尔 | ss | 12
-  type: ss
-  server: 154.205.146.153
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇸🇨 塞舌尔 | vmess | 13
   type: vmess
   server: n1672318788.lyqrdde.cn
@@ -19075,36 +17307,12 @@ proxies:
     headers:
       Host: ''
   skip-cert-verify: false
-- name: 🇸🇬 新加坡 | ss | 34
-  type: ss
-  server: 38.89.142.56
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 | ss | 35
-  type: ss
-  server: 156.59.243.6
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇸🇬 新加坡 | ss | 37
   type: ss
   server: 194.233.94.119
   port: 80
   cipher: aes-256-gcm
   password: 8t2xeemUtyui4zAv
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 | ss | 38
-  type: ss
-  server: 103.36.91.32
-  port: 8388
-  cipher: chacha20-ietf
-  password: asd123456
   udp: true
   skip-cert-verify: false
 - name: 🇸🇬 新加坡 | trojan | 39
@@ -19175,14 +17383,6 @@ proxies:
     path: /?ed=2560&https://t.me/WangCai2🇨🇳
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇸🇬 新加坡 | ss | 47
-  type: ss
-  server: 116.251.217.65
-  port: 443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVZkS1ZXSkVSbGhpUmtveVdsZDRkMVpYUmpaVGJVWlhUVmQwTmxZeWRFNWtNRFZHVGxoR1ZWWkZOVTVXYTFwSFRsWmtXV05GY0d0U2JYaFpWa1pTVDFSdFZsVlJXSEJWWWtaS1IxUnJWWGhqVmtwVlZtczVhVlpzVmpaV1IzaFRWbXhDVWxCVU1EMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇸🇬 新加坡 | vless | 48
   type: vless
   server: 13.212.193.78
@@ -19342,14 +17542,6 @@ proxies:
   skip-cert-verify: false
   servername: node1.nanonet.host
   client-fingerprint: chrome
-- name: 🇸🇮 斯洛文尼亚 | ss | 01
-  type: ss
-  server: 192.71.244.150
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇸🇮 斯洛文尼亚 | vless | 02
   type: vless
   server: 92.60.78.221
@@ -19584,14 +17776,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: www.vk.com
-- name: 🇹🇼 台湾 | ss | 01
-  type: ss
-  server: 185.189.160.105
-  port: 41632
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  udp: true
-  skip-cert-verify: false
 - name: 🇹🇼 台湾 | vless | 03
   type: vless
   server: 141.11.86.65
@@ -19606,14 +17790,6 @@ proxies:
     path: /danfeng?ed=2560fp=chromesecurity=tls
     headers:
       Host: q40ivxuck.danfeng.qzz.io
-- name: 🇹🇼 台湾 | ss | 04
-  type: ss
-  server: 1.165.138.167
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-  skip-cert-verify: false
 - name: 🇹🇼 台湾 | ss | 05
   type: ss
   server: 38.54.107.101
@@ -19661,22 +17837,6 @@ proxies:
     path: /danfeng?ed=2560security=tls
     headers:
       Host: snippet.danfeng.com.cfd
-- name: 🇹🇼 台湾 | ss | 09
-  type: ss
-  server: 46.249.109.128
-  port: 56594
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1WkdwV2JGcDRWbTE0YjFsWFZuSk5WRlpYVFVkb00xVnRlSFprTVZKellrZG9iR0pGY0ZCV2JGWlhWREpLZEZWdVVsWlhSMmhVV2xkMFlWWnNhM3BqUnpsWVVtczFSMVV5YzNoaGF6RllZVVU1VjJKSFVraGFWVnBUVjBaS1ZWSnNUbE5pUm5CaFZtdGFiMVl5VmtkVmJHaE9Wak5TV1Zsc1pGTlNWbVJZWXpOb2FsSXdOVWhaVlZaWFlVWktObUpGVGxwaVIxSXlWRlJCZDJWc1NuSlRiRUpYWlcxNGFGWkVRbE5XTURWeldrVmFhazB6UWxCV2JHaHFaVVpzYzFWc2NHeGhla1pZVmxjMVYxUXdNWFJsUkVaVlZucFdRMXBYZUU1a01sWklZa1prVGxKdGN6az0=
-  udp: true
-  skip-cert-verify: false
-- name: 🇹🇼 台湾 | ss | 10
-  type: ss
-  server: r3mrcg007117fb8.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-  skip-cert-verify: false
 - name: 🇹🇼 台湾 | vmess | 11
   type: vmess
   server: 103.229.124.3
@@ -19853,14 +18013,6 @@ proxies:
     path: /167.253.153.126:443fp=chrome
     headers:
       Host: 167.253.153.126
-- name: 🇹🇼 台湾 | ss | 24
-  type: ss
-  server: r3mrcg007147vhp.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-  skip-cert-verify: false
 - name: 🇹🇼 台湾 | vless | 25
   type: vless
   server: 167.253.153.58
@@ -19948,14 +18100,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: official.taipeicitygovernment.cn.ua
-- name: 🇹🇼 台湾 | ss | 34
-  type: ss
-  server: r3mrcg001287h3p.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-  skip-cert-verify: false
 - name: 🇹🇼 台湾 | trojan | 35
   type: trojan
   server: official.taipeicitygovernment.ivano-frankivsk.ua
@@ -19965,14 +18109,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: official.taipeicitygovernment.ivano-frankivsk.ua
-- name: 🇹🇼 台湾 | ss | 36
-  type: ss
-  server: r3mrcg00129437x.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-  skip-cert-verify: false
 - name: 🇹🇼 台湾 | trojan | 37
   type: trojan
   server: a03.taipeicitygovernment.cn.ua
@@ -19982,14 +18118,6 @@ proxies:
   udp: true
   skip-cert-verify: false
   servername: a03.taipeicitygovernment.cn.ua
-- name: 🇹🇼 台湾 | ss | 38
-  type: ss
-  server: 114.33.57.170
-  port: 443
-  cipher: ss
-  password: //bm9uZTozZTk2ZWY3ZC04NjM3LTQyYzItYWM3My03NTE4MjE5NmU3NTU=
-  udp: true
-  skip-cert-verify: false
 - name: 🇹🇼 台湾 | trojan | 39
   type: trojan
   server: official.taipeicitygovernment.kiev.ua
@@ -20115,22 +18243,6 @@ proxies:
   obfs-password: YmGRdMZ74sEC91FN
   skip-cert-verify: true
   udp: true
-- name: 🇹🇼 台湾 | ss | 50
-  type: ss
-  server: r3mrcg001269pz2.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-  skip-cert-verify: false
-- name: 🇹🇼 台湾 | ss | 51
-  type: ss
-  server: r3mrcg007134n4g.cybervena.com
-  port: 50099
-  cipher: chacha20-ietf-poly1305
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇦 乌克兰 | vless | 01
   type: vless
   server: 95.164.36.217
@@ -20142,22 +18254,6 @@ proxies:
   skip-cert-verify: false
   flow: xtls-rprx-vision
   servername: www.booking.com
-- name: 🇺🇸 美国 | ss | 02
-  type: ss
-  server: 138.2.231.58
-  port: 45638
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YVdKVWJERlhiRkoyVFRBNVZXRjZTazVTTUd3elYxZHJkMDB4Y0VWVVdHaE5Wa1pHTlZSdGNFNWtSVGxGWVROb1QxVjZRWGxVYkZKR1pVWnNjVkZ0ZUU1V1JUQjZWMVpTYmxCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 04
-  type: ss
-  server: 192.9.156.27
-  port: 587
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVdSMFpFWlNUbFp1UWxwV1ZFb3dWakZWZVZOcmFHaFRSVXBYV1d4b1UwMXNjRmRYYlVaVFRWWmFlVlV5Y3pWV01rcEpVV3h3VjFaNlJqTlhWbHBoVTBaS2NWZHNaR2xTYTNCWFZtMTRhMVZ0Vm5OalJtaHNVbTVDYzFWdE5VTlRiRlY1VFZSQ1ZXSkZjRWRWTVZKRFYwWmFSbE5zYUZkaGExcG9WbXBHZDFKdFJraGhSazVYVW14d1dsWXhXbE5TTWxGNFZHdGtWbUpyTlZsWmExVXhZMnhXY1ZGVVJsTk5Wa3A2VjJ0U1ExWnJNVmRqUld4aFZsWmFjbFl3V21Gak1VNXpVV3h3YUdFeGNGUlhiRlpoV1ZkT1YxcElUbFJpUjJoVVZGUktiMWRHV1hoYVJFSmFWbXN4TkZVeGFHOWhiRXB6WTBac1dtSllUWGhaTVZwaFpFZFNTRkpyTlZOaWEwcFlWbTE0VTFJeFdYZE5WbHBxVW14d1YxWnFUa05oUmxweFVWaG9WMDFyTlVoV1YzaDNZVlprU0dGRlZsZGlSMUV3VlZSR1lWWnJNVlpXYXpWVFVrVkZOUT09
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 05
   type: vmess
   server: 147.182.244.200
@@ -20258,14 +18354,6 @@ proxies:
   cipher: auto
   network: tcp
   tls: false
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 14
-  type: ss
-  server: 47.88.24.237
-  port: 10443
-  cipher: ss
-  password: //bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=
   udp: true
   skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 15
@@ -20556,14 +18644,6 @@ proxies:
   uuid: 6d5c3274-2ba2-49f8-a683-5e0e9b9a6027
   tls: false
   network: tcp
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 42
-  type: ss
-  server: 104.168.87.155
-  port: 3306
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
   udp: true
   skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 43
@@ -21115,22 +19195,6 @@ proxies:
   reality-opts:
     public-key: GTrEA54lSdFrwHHu3YdeqkGY9moMid4ijQvULTAcBjM
   client-fingerprint: safari
-- name: 🇺🇸 美国 | ss | 107
-  type: ss
-  server: 38.105.28.221
-  port: 30011
-  cipher: ss
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpzb21lYm9keQ==
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 108
-  type: ss
-  server: 107.151.182.253
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 111
   type: vless
   server: 45.40.144.238
@@ -21169,14 +19233,6 @@ proxies:
     path: /danfeng?ed=2560fp=chromesecurity=tls
     headers:
       Host: snippet.danfeng.com.cfd
-- name: 🇺🇸 美国 | ss | 115
-  type: ss
-  server: 23.94.213.132
-  port: 27149
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 117
   type: vless
   server: 192.169.221.40
@@ -21191,14 +19247,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇺🇸 美国 | ss | 118
-  type: ss
-  server: 38.75.137.9
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 120
   type: vmess
   server: 216.167.32.53
@@ -21213,14 +19261,6 @@ proxies:
     path: /
     headers:
       Host: ''
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 121
-  type: ss
-  server: 74.48.145.83
-  port: 31556
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
   skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 122
   type: vless
@@ -21317,14 +19357,6 @@ proxies:
   skip-cert-verify: false
   servername: myopen.tencan.ir
   client-fingerprint: chrome
-- name: 🇺🇸 美国 | ss | 133
-  type: ss
-  server: 144.168.56.119
-  port: 40864
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVZkS1ZXSkVSbGhpUmtveVZGUkJOVlpYUmpaVGF6VlRUVWQzZWxZeFpISmtNREI0WTBWV1ZWZEhhRTVXYTFwSFRsWlNkR05GTld0U1ZHeEdXVlJPYjFReFZqWlJXR3hWWWtaS1IxcFZXbk5qVmtaMFpVVTFWMUpVUWpaV01WcFRZbXhDVWxCVU1EMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 134
   type: vless
   server: 192.200.160.20
@@ -21364,14 +19396,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇺🇸 美国 | ss | 139
-  type: ss
-  server: 74.48.179.37
-  port: 58184
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 140
   type: vless
   server: 74.80.226.86
@@ -21481,14 +19505,6 @@ proxies:
     path: /danfeng?ed=2560fp=chromesecurity=tls
     headers:
       Host: snippet.danfeng.rr.kg
-- name: 🇺🇸 美国 | ss | 153
-  type: ss
-  server: 104.168.87.41
-  port: 16443
-  cipher: ss
-  password: //bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 156
   type: vless
   server: 209.94.90.149
@@ -21542,22 +19558,6 @@ proxies:
     path: /IfUknowThenUKnowfp=chromesecurity=tls
     headers:
       Host: mrx.xher0.de
-- name: 🇺🇸 美国 | ss | 160
-  type: ss
-  server: 108.181.0.177
-  port: 8388
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJzeGRHRkhPVmhXUlhCMldWVlZlR05XUmxsVmJXaFhUVlpzTTFZeU1YSmxSMUY1VTFoc2JGSkdXazlXYTFWNFRURlNjMVZ1WkZSU1ZGWmFWVlpTUzJFd01IbFVXR1JhWW01Q1lWUlVSazlTYkU1U1VGUXdQUT09
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 161
-  type: ss
-  server: 74.48.179.37
-  port: 36358
-  cipher: ss
-  password: //c3M6Ly9jM002THk5aWJUbDFXbFJ2TTA5VWF6Sk5SMGwzV1drd00xcEVUWGhNVkZGNVRtcE5kRTlFYTNoT1V6QXlUbFJGZUZscVFteE5WRTB6V1ZSblBRPT0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 162
   type: vless
   server: 154.26.178.175
@@ -22460,14 +20460,6 @@ proxies:
     path: /danfengsecurity=tls
     headers:
       Host: snippet.danfeng.kozow.com
-- name: 🇺🇸 美国 | ss | 260
-  type: ss
-  server: 38.244.42.24
-  port: 30011
-  cipher: chacha20-ietf-poly1305
-  password: somebody
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 262
   type: vless
   server: 166.62.106.41
@@ -22624,14 +20616,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇺🇸 美国 | ss | 274
-  type: ss
-  server: 129.153.112.108
-  port: 3966
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWZFNNRnBGV2xOVWJGcDFVV3h3VjFaRmIzZFdha1pXWlZaT2NtRkhhRlJTVlhCWVYxZDRiMVV3TVhOalJtUllZbFZhVkZSV1dtRmxWbFY1WTNwV1YwMXJjRXBWVjNoM1ZqRmFObEpxVGxoV2JIQm9WVEJhUzJOV1pITmFSMnhUWVROQ1dGWnRNVFJoTVZaMFZtNU9hbEp0YUhOVmJUVkRZekZXZEU1VlRsUmlSbFkxVkZaU1ExWlhTa1pqUldSV1RWWktSRll3V21GU2JFNXpZVVprYUdFeGNHOVdiWEJIWkRGS2RGSnJhR2hTYXpWWVZXMTRkMWRzV1hoWGJFNVRUV3hHTkZaSGRHdFdiVXB5VGxac1dtRXhWWGhaTW5oWFkxWkdWVkpzVGs1V2EzQTJWakowVTFFeFduSk5WbVJxVWxkNGFGWnNXbUZqYkZsM1YyMUdhazFWTlhwVlYzaDNZVWRGZUdOR1VsaGlSbHBvVjFaa1QxWXhjRWxVYkZKcFVqSm9WVlpHVWt0aU1XUkhWMWhvWVZKRlNtRldiWE40VGtaVmVHRkhPV2hpUlhCNldUQmFjMWR0U2xsVVdHaGFUVlp3YUZwRlpGTlRSa3B5VGxaT2FXRXdjRmxXYlRFMFZURkplRmRZWkU1V2JIQnhWVzE0ZDFZeFduRlVhMDVvVW14d2VGVldhRzlXTURGeVRsVm9WMVl6YUROWlZscHJVMGRHUmxac1pHbFNNVVYzVmxaU1IxbFdXbkpOVmxwWFlYcFdWRlZyVmtaT1VUMDk=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 275
   type: vless
   server: 192.0.54.40
@@ -22674,52 +20658,12 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇺🇸 美国 | ss | 278
-  type: ss
-  server: 62.146.171.57
-  port: 80
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZkV1kzaFZhelZYVTI1T1ZGZEhhRTlaYlRGVFRURnJlV1JFUWxaV2JFcDVXVEJXYzFsWFVqTlFWREE5
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 279
-  type: ss
-  server: 23.94.56.111
-  port: 20338
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVZkS1ZXSkVSbGhpUmtveVZGUkJOVlpYUmpaVGF6VlRUVWQzZWxZeFpISmtNREI0WTBWV1ZWZEhhRTVXYTFwSFRsWlNkR05GTld0U1ZHeEdXVlJPYjFReFZqWlJXR3hWWWtaS1IxcFZXbk5qVmtaMFpVVTFWMUpVUWpaV01WcFRZbXhDVWxCVU1EMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | ss | 280
   type: ss
   server: 154.53.63.42
   port: 80
   cipher: ss
   password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZac1VrSmtNREI0VjFob2FWSkZTbE5XTUdSU1pWWldXR042VmxaTlYxSkhXa1ZvUjFaR1ZsSlFWREE5
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 282
-  type: ss
-  server: 154.53.60.197
-  port: 80
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZaRVFtOVRNa1pXVGxaV1lVMHlVbFJXYkZaM1UxWlNjbHBFVGs1TmJFcEhWREJTVTFaSFVqTlFWREE5
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 283
-  type: ss
-  server: 107.172.180.73
-  port: 3306
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 284
-  type: ss
-  server: 66.94.125.178
-  port: 80
-  cipher: aes-256-gcm
-  password: 14CLBaFBqwqxBJy6
   udp: true
   skip-cert-verify: false
 - name: 🇺🇸 美国 | ss | 285
@@ -22767,22 +20711,6 @@ proxies:
     path: /danfeng?ed=2560security=tls
     headers:
       Host: snippet.danfeng.theworkpc.com
-- name: 🇺🇸 美国 | ss | 289
-  type: ss
-  server: 144.126.145.77
-  port: 80
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZac1dtOWtNVkp5VFZWYVQxWjZSbkpXYkZKSFZVWnNkRTFYZEdoV2JIQXdWR3hrUjFaSFVqTlFWREE5
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 290
-  type: ss
-  server: 154.12.242.150
-  port: 80
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZaSGNFOVpWbXhYVldwYVYxWkZXbWhaYTJSdlpGWlpkMVpyWkZSTlYxSkpWV3hvYzFVeGNETlFWREE5
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | ss | 291
   type: ss
   server: 100.21.232.129
@@ -22825,14 +20753,6 @@ proxies:
     path: /?telegram%F0%9F%87%A8%F0%9F%87%B3+%40wangcai2=
     headers:
       Host: sni.jpmj.dev
-- name: 🇺🇸 美国 | ss | 295
-  type: ss
-  server: 154.12.240.141
-  port: 80
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZkWGVGZGxhekI0WTBaYVQxTklRbk5aVjNSeVpXeFNkR1ZHVG14V1ZFWktWako0YTFWc1ZsSlFWREE5
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 296
   type: vmess
   server: ahsorathiyaa.fly.dev
@@ -23145,14 +21065,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇺🇸 美国 | ss | 320
-  type: ss
-  server: 154.53.60.212
-  port: 80
-  cipher: aes-256-gcm
-  password: ZfbPFDdeBj0B1Txs
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 321
   type: vmess
   server: 0218tw02.fans8.xyz
@@ -23328,14 +21240,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇺🇸 美国 | ss | 334
-  type: ss
-  server: 107.173.34.130
-  port: 8443
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 336
   type: vmess
   server: 331tw.fans8.xyz
@@ -23461,14 +21365,6 @@ proxies:
     path: /?ed=2560&Telegram🇨🇳@WangCai2
     headers:
       Host: edtunnel-eiz.pages.dev
-- name: 🇺🇸 美国 | ss | 346
-  type: ss
-  server: 104.192.226.106
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 347
   type: vless
   server: 160.153.1.122
@@ -23726,14 +21622,6 @@ proxies:
   skip-cert-verify: false
   sni: www.creationlong.org
   servername: www.creationlong.org
-- name: 🇺🇸 美国 | ss | 370
-  type: ss
-  server: 185.186.245.205
-  port: 81
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVdSMFpFWlNUbFp1UWxwV1ZFb3dWakZWZVZOcmFHaFRSVXBYV1d4b1UwMXNjRmRYYlVaVFRWWmFlVlV5Y3pWV01rcEpVV3h3VjFaNlJqTlhWbHBoVTBaS2NWZHNaR2xTYTNCWFZtMTRhMVZ0Vm5OalJtaHNVbTVDYzFWdE5VTlRiRlY1VFZSQ1ZXSkZjRWRWTVZKRFYwWmFSbE5zYUZkaGExcG9WbXBHZDFKdFJraGhSazVYVW14d1dsWXhXbE5TTWxGNFZHdGtWbUpyTlZsWmExVXhZMnhXY1ZGVVJsTk5Wa3A2VjJ0U1ExWnJNVmRqUld4aFZsWmFjbFl3V21Gak1VNXpVV3h3YUdFeGNGUlhiRlpoV1ZkT1YxcElUbFJpUjJoVVZGUktiMWRHV1hoYVJFSmFWbXN4TkZVeGFHOWhiRXB6WTBac1dtSllUWGhaTVZwaFpFZFNTRkpyTlZOaWEwcFlWbTE0VTFJeFdYZE5WbHBxVW14d1YxWnFUa05oUmxweFVWaG9WMDFyTlVoV1YzaDNZVlprU0dGRlZsZGlSMUV3VlZSR1lWWnJNVlpXYXpWVFVrVkZOUT09
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 371
   type: vless
   server: 5.78.73.22
@@ -23779,14 +21667,6 @@ proxies:
     headers:
       Host: mx1.v2rayserv.com
   skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 375
-  type: ss
-  server: 185.186.245.40
-  port: 81
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVZkS1ZXSkVSbGhpUmtveVZGUkJOVlpYUmpaVGF6VlRUVWQzZWxZeFpISmtNREI0WTBWV1ZWZEhhRTVXYTFwSFRsWlNkR05GTld0U1ZHeEdXVlJPYjFReFZqWlJXR3hWWWtaS1IxcFZXbk5qVmtaMFpVVTFWMUpVUWpaV01WcFRZbXhDVWxCVU1EMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 376
   type: vmess
   server: cg1c01.waimaojd.com
@@ -23803,30 +21683,6 @@ proxies:
       Host: cg1c01.waimaojd.com
   skip-cert-verify: false
   servername: cg1c01.waimaojd.com
-- name: 🇺🇸 美国 | ss | 377
-  type: ss
-  server: 167.88.62.62
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 378
-  type: ss
-  server: 167.88.62.68
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 379
-  type: ss
-  server: 185.186.245.45
-  port: 81
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 380
   type: vmess
   server: 66.181.36.174
@@ -23882,14 +21738,6 @@ proxies:
       Host: cg1c07.waimaojd.com
   skip-cert-verify: false
   servername: cg1c07.waimaojd.com
-- name: 🇺🇸 美国 | ss | 384
-  type: ss
-  server: 198.46.218.63
-  port: 27149
-  cipher: none
-  password: 79960b0b-7d31-4263-8915-6511b0e137a8
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 385
   type: vless
   server: 216.24.57.1
@@ -23904,14 +21752,6 @@ proxies:
     path: /
     headers:
       Host: qyi.fqjd663.ggff.net
-- name: 🇺🇸 美国 | ss | 386
-  type: ss
-  server: 173.234.29.2
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 387
   type: vmess
   server: kampong.org
@@ -23928,14 +21768,6 @@ proxies:
       Host: kampong.org
   skip-cert-verify: false
   servername: kampong.org
-- name: 🇺🇸 美国 | ss | 388
-  type: ss
-  server: 23.94.94.192
-  port: 42539
-  cipher: ss
-  password: //c3M6Ly9jM002THk5aWJUbDFXbFJ2TTA5VWF6Sk5SMGwzV1drd00xcEVUWGhNVkZGNVRtcE5kRTlFYTNoT1V6QXlUbFJGZUZscVFteE5WRTB6V1ZSblBRPT0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | trojan | 389
   type: trojan
   server: 135.148.148.4
@@ -23946,14 +21778,6 @@ proxies:
   skip-cert-verify: false
   sni: us3.trojanvh.xyz
   servername: us3.trojanvh.xyz
-- name: 🇺🇸 美国 | ss | 390
-  type: ss
-  server: 38.107.226.49
-  port: 3306
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 391
   type: vmess
   server: 137.184.164.233
@@ -23968,22 +21792,6 @@ proxies:
     path: /vmess
     headers:
       Host: ''
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 392
-  type: ss
-  server: 82.117.252.189
-  port: 81
-  cipher: ss
-  password: //bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 393
-  type: ss
-  server: 142.202.48.52
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
   skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 394
   type: vmess
@@ -24050,22 +21858,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇺🇸 美国 | ss | 401
-  type: ss
-  server: 137.184.174.93
-  port: 8080
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 402
-  type: ss
-  server: 108.174.61.161
-  port: 59581
-  cipher: ss
-  password: //bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | trojan | 403
   type: trojan
   server: 15.204.210.176
@@ -24112,30 +21904,6 @@ proxies:
   reality-opts:
     public-key: lJ9INPpO4rdnm2Tek_yg0PGFyUrBB6MoKyvqt_Mfqm0
   client-fingerprint: chrome
-- name: 🇺🇸 美国 | ss | 408
-  type: ss
-  server: 107.175.245.68
-  port: 50242
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVdSMFpFWlNUbFp1UWxwV1ZFb3dWakZWZVZOcmFHaFRSVXBYV1d4b1UwMXNjRmRYYlVaVFRWWmFlVlV5Y3pWV01rcEpVV3h3VjFaNlJqTlhWbHBoVTBaS2NWZHNaR2xTYTNCWFZtMTRhMVZ0Vm5OalJtaHNVbTVDYzFWdE5VTlRiRlY1VFZSQ1ZXSkZjRWRWTVZKRFYwWmFSbE5zYUZkaGExcG9WbXBHZDFKdFJraGhSazVYVW14d1dsWXhXbE5TTWxGNFZHdGtWbUpyTlZsWmExVXhZMnhXY1ZGVVJsTk5Wa3A2VjJ0U1ExWnJNVmRqUld4aFZsWmFjbFl3V21Gak1VNXpVV3h3YUdFeGNGUlhiRlpoV1ZkT1YxcElUbFJpUjJoVVZGUktiMWRHV1hoYVJFSmFWbXN4TkZVeGFHOWhiRXB6WTBac1dtSllUWGhaTVZwaFpFZFNTRkpyTlZOaWEwcFlWbTE0VTFJeFdYZE5WbHBxVW14d1YxWnFUa05oUmxweFVWaG9WMDFyTlVoV1YzaDNZVlprU0dGRlZsZGlSMUV3VlZSR1lWWnJNVlpXYXpWVFVrVkZOUT09
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 409
-  type: ss
-  server: 5.161.16.176
-  port: 449
-  cipher: ss
-  password: //bm9uZTo3OTk2MGIwYi03ZDMxLTQyNjMtODkxNS02NTExYjBlMTM3YTg=
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 410
-  type: ss
-  server: 141.148.1.34
-  port: 38589
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVdSMFpFWlNUbFp1UWxwV1ZFb3dWakZWZVZOcmFHaFRSVXBYV1d4b1UwMXNjRmRYYlVaVFRWWmFlVlV5Y3pWV01rcEpVV3h3VjFaNlJqTlhWbHBoVTBaS2NWZHNaR2xTYTNCWFZtMTRhMVZ0Vm5OalJtaHNVbTVDYzFWdE5VTlRiRlY1VFZSQ1ZXSkZjRWRWTVZKRFYwWmFSbE5zYUZkaGExcG9WbXBHZDFKdFJraGhSazVYVW14d1dsWXhXbE5TTWxGNFZHdGtWbUpyTlZsWmExVXhZMnhXY1ZGVVJsTk5Wa3A2VjJ0U1ExWnJNVmRqUld4aFZsWmFjbFl3V21Gak1VNXpVV3h3YUdFeGNGUlhiRlpoV1ZkT1YxcElUbFJpUjJoVVZGUktiMWRHV1hoYVJFSmFWbXN4TkZVeGFHOWhiRXB6WTBac1dtSllUWGhaTVZwaFpFZFNTRkpyTlZOaWEwcFlWbTE0VTFJeFdYZE5WbHBxVW14d1YxWnFUa05oUmxweFVWaG9WMDFyTlVoV1YzaDNZVlprU0dGRlZsZGlSMUV3VlZSR1lWWnJNVlpXYXpWVFVrVkZOUT09
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 411
   type: vless
   server: 159.89.87.21
@@ -24150,14 +21918,6 @@ proxies:
   reality-opts:
     public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
   client-fingerprint: chrome
-- name: 🇺🇸 美国 | ss | 413
-  type: ss
-  server: 159.65.162.90
-  port: 4431
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YVdKVWJERlhiRkoyVFRBNVZXRjZTazVTTUd3elYxZHJkMDB4Y0VWVVdHaE5Wa1pHTlZSdGNFNWtSVGxGWVROb1QxVjZRWGxVYkZKR1pVWnNjVkZ0ZUU1V1JUQjZWMVpTYmxCUlBUMD0=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 414
   type: vless
   server: 147.182.212.232
@@ -24172,14 +21932,6 @@ proxies:
   reality-opts:
     public-key: Td03Ae-cuYLq4xg7MSps58c_yRUcbbwtZLXm0ywabjY
   client-fingerprint: chrome
-- name: 🇺🇸 美国 | ss | 415
-  type: ss
-  server: 156.146.38.163
-  port: 443
-  cipher: aes-128-cfb
-  password: shadowsocks
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 416
   type: vmess
   server: 107.175.91.118
@@ -24275,22 +22027,6 @@ proxies:
       Host: sg-gcore.sharecentre.online
   skip-cert-verify: false
   servername: cf-lt.sharecentre.online
-- name: 🇺🇸 美国 | ss | 424
-  type: ss
-  server: 38.68.135.123
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 425
-  type: ss
-  server: 194.113.37.242
-  port: 2053
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV1pGTk5SbkJHVjJ4T1ZXSkdjREZWVjNoM1ZqRmFSbUl6WkZkaGExcFhXbFphVDJOdFJraGhSbEpUVmxoQ1dWWXhaRFJpTVZWM1RWaE9hbEp0VWxsWmJGWmhWa1pTVjFkdFJteFdiRlkxV1ROd1YxWXdNWEpqUlhCV1ZqTm9NMVpxUm1GT2JFcHhWR3hvVjJKSVFtOVdWRUpoVXpKT1YxcElUbUZTTW5oVVdWUk9RMWRHV25STlZGSm9UVlphTUZadE5VOWhiRXAwWVVoT1ZtSlVWa1JaZWtaWFpFVTFWbFJzVW1sU2JGa3hWa1phVTFFeFdsaFRhMXBxVWxkU1YxUldXa3RTUmxsM1YyMUdVMkpGTlhwWlZWcHJZVWRGZUdOSE9WZGlXRUpJV2tSR1MyUkdTbkpoUjJoVFlYcFdXVlpYTVRSa01XUnpWMWhvV0dKRk5WUlVWM2hIVGtaYVNHUkhkRmRpVlhCNVZHeGFjMWR0UlhoV1dHaGFUVzVvV0ZreFdrZFdWa3B6VkdzMVYyRXpRVEpXYWtvd1ZURkZlRmR1U2s1V2JWSnhWV3hrTkdGR1duTlhiVVpxWWtac00xWXlNVWRoYXpGV1RsaHdWbFl6YUROWlZXUkdaVWRPUjFWc2FHbFNiSEJ2VmpGYWExUXhXWGhqUld4VllrWktjRlZxU205V1ZscEhWV3QwYVUxWFVraFdNV2h2V1ZaS1JsTnRSbGRpV0U0MFZHdGFWbVZIUmtoUFYyaHBVbGhDTmxkVVFtRmpNV1IwVTJ4c1ZWZEhhR0ZVVmxwM1lVWndSbHBHVGxSU2EzQjVWR3hhVDJGWFJYZGpSbXhYWWxSRk1GWlVSa3BsUm1SWldrVTFWMkpJUW5oV1Z6RTBaREZaZUZkdVJsVmhNRFZ2VlcxNGQyVkdWbGRoUnpsWFRVUkdlVlJzVm05V01WbDZZVVJPV2xac2NISlZNR1JIVW14YWMxcEhiRk5OVlZZelZteGFVMUl4YkZkWGJrcE9WbXh3V0ZsWWNGZFdSbFp5Vm10YVQxVlVNRGs9
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 427
   type: vless
   server: 166.88.142.168
@@ -24445,14 +22181,6 @@ proxies:
     public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
     short-id: ff776ff77be48b88
   client-fingerprint: chrome
-- name: 🇺🇸 美国 | ss | 446
-  type: ss
-  server: 154.53.57.143
-  port: 80
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoT1ZuQk9ZV3RGZVZkcldtOWhNbEpIVm01T1YySkZTbGhaV0hCQ1pVWnNjbHBJWkZWTlZWcGFWbGQ0UjJGR2NETlFWREE5
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 447
   type: vless
   server: 216.107.136.181
@@ -24482,14 +22210,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🇺🇸 美国 | ss | 450
-  type: ss
-  server: 205.134.180.145
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: hgLCgfLRgB6d
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 451
   type: vmess
   server: 38.99.82.253
@@ -24520,14 +22240,6 @@ proxies:
     path: /
     headers:
       Host: qyi.fqjd663.ggff.net
-- name: 🇺🇸 美国 | ss | 454
-  type: ss
-  server: 205.134.180.139
-  port: 443
-  cipher: ss
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsV2FHUFZGam1uYWc=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 455
   type: vless
   server: 166.117.33.104
@@ -24595,14 +22307,6 @@ proxies:
     path: /fp=chromesecurity=tls
     headers:
       Host: 3-2h8.pages.dev
-- name: 🇺🇸 美国 | ss | 463
-  type: ss
-  server: 205.134.180.143
-  port: 443
-  cipher: ss
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSOVhjNGRIWEd2M2M=
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 465
   type: vless
   server: 152.53.242.55
@@ -24647,14 +22351,6 @@ proxies:
     path: /?ed=2560&telegram🇨🇳+@wangcai2fp=chrome
     headers:
       Host: sni.111000.indevs.in
-- name: 🇺🇸 美国 | ss | 469
-  type: ss
-  server: 205.134.180.137
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: g13S7doXar0A
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 470
   type: vless
   server: 95.164.85.109
@@ -24685,14 +22381,6 @@ proxies:
       Host: ''
   skip-cert-verify: false
   servername: 47.253.55.72
-- name: 🇺🇸 美国 | ss | 474
-  type: ss
-  server: 199.119.137.77
-  port: 2053
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV1pGTk5SbkJHVjJ4T1ZXSkdjREZWVjNoM1ZqRmFSbUl6WkZkaGExcFhXbFphVDJOdFJraGhSbEpUVmxoQ1dWWXhaRFJpTVZWM1RWaE9hbEp0VWxsWmJGWmhWa1pTVjFkdFJteFdiRlkxV1ROd1YxWXdNWEpqUlhCV1ZqTm9NMVpxUm1GT2JFcHhWR3hvVjJKSVFtOVdWRUpoVXpKT1YxcElUbUZTTW5oVVdWUk9RMWRHV25STlZGSm9UVlphTUZadE5VOWhiRXAwWVVoT1ZtSlVWa1JaZWtaWFpFVTFWbFJzVW1sU2JGa3hWa1phVTFFeFdsaFRhMXBxVWxkU1YxUldXa3RTUmxsM1YyMUdVMkpGTlhwWlZWcHJZVWRGZUdOSE9WZGlXRUpJV2tSR1MyUkdTbkpoUjJoVFlYcFdXVlpYTVRSa01XUnpWMWhvV0dKRk5WUlVWM2hIVGtaYVNHUkhkRmRpVlhCNVZHeGFjMWR0UlhoV1dHaGFUVzVvV0ZreFdrZFdWa3B6VkdzMVYyRXpRVEpXYWtvd1ZURkZlRmR1U2s1V2JWSnhWV3hrTkdGR1duTlhiVVpxWWtac00xWXlNVWRoYXpGV1RsaHdWbFl6YUROWlZXUkdaVWRPUjFWc2FHbFNiSEJ2VmpGYWExUXhXWGhqUld4VllrWktjRlZxU205V1ZscEhWV3QwYVUxWFVraFdNV2h2V1ZaS1JsTnRSbGRpV0U0MFZHdGFWbVZIUmtoUFYyaHBVbGhDTmxkVVFtRmpNV1IwVTJ4c1ZWZEhhR0ZVVmxwM1lVWndSbHBHVGxSU2EzQjVWR3hhVDJGWFJYZGpSbXhYWWxSRk1GWlVSa3BsUm1SWldrVTFWMkpJUW5oV1Z6RTBaREZaZUZkdVJsVmhNRFZ2VlcxNGQyVkdWbGRoUnpsWFRVUkdlVlJzVm05V01WbDZZVVJPV2xac2NISlZNR1JIVW14YWMxcEhiRk5OVlZZelZteGFVMUl4YkZkWGJrcE9WbXh3V0ZsWWNGZFdSbFp5Vm10YVQxVlVNRGs9
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 475
   type: vless
   server: 199.119.137.95
@@ -24810,14 +22498,6 @@ proxies:
       Host: usaapp1.jisuyun.top
   skip-cert-verify: false
   servername: usaapp1.jisuyun.top
-- name: 🇺🇸 美国 | ss | 485
-  type: ss
-  server: 167.88.63.44
-  port: 443
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 486
   type: vmess
   server: oz.moonfree.top
@@ -24997,14 +22677,6 @@ proxies:
     path: /security=tls
     headers:
       Host: nnfgrr.azurewebsites.net
-- name: 🇺🇸 美国 | ss | 508
-  type: ss
-  server: 64.227.144.190
-  port: 50690
-  cipher: ss
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprZEQ5aWlxTFhNMHVqSXFxOU1yanZO
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 509
   type: vmess
   server: dll.avaaaal.ir
@@ -25050,14 +22722,6 @@ proxies:
     path: /vmessws
     headers:
       Host: v2ray.codefyinc.com
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | ss | 512
-  type: ss
-  server: 185.111.156.33
-  port: 80
-  cipher: aes-256-gcm
-  password: 5mCH4624QflO1cFR
-  udp: true
   skip-cert-verify: false
 - name: 🇺🇸 美国 | trojan | 513
   type: trojan
@@ -25264,14 +22928,6 @@ proxies:
     path: /?ed=2560
     headers:
       Host: sni.111000.indevs.in
-- name: 🇺🇸 美国 | ss | 537
-  type: ss
-  server: 85.209.195.61
-  port: 8443
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxWVdzd2QwMUVTbFZUUjNNeFdWZHpkMlF3TVVWVGJGWlVVak5OZUZkV1pIcGtNbEYzVFZWV1ZHSkdXbFZWYWs1T1pVWmtWMXBJY0d0TmJFWXpWRlpXVjFaSFNrZFhiRlpXWVdzMVQxcFZXbXRXTVhCSlkwZDBUbUpGV1hwV1JscFhWakZhU0ZOclpGaGlSbHBYV1Zkek1WUXhjRlpYYlhSWFRWaENTbGt3WkRCVWJVcEdWMWh3VjFKc2NGaFdha1poVTBaT2NscEdhR2xTYkhCWVYxWmtlazFXVVhoalJscFlZbGhTV0ZSV1pGTk5SbkJHVjJ4T1ZXSkdjREZWVjNoM1ZqRmFSbUl6WkZkaGExcFhXbFphVDJOdFJraGhSbEpUVmxoQ1dWWXhaRFJpTVZWM1RWaE9hbEp0VWxsWmJGWmhWa1pTVjFkdFJteFdiRlkxV1ROd1YxWXdNWEpqUlhCV1ZqTm9NMVpxUm1GT2JFcHhWR3hvVjJKSVFtOVdWRUpoVXpKT1YxcElUbUZTTW5oVVdWUk9RMWRHV25STlZGSm9UVlphTUZadE5VOWhiRXAwWVVoT1ZtSlVWa1JaZWtaWFpFVTFWbFJzVW1sU2JGa3hWa1phVTFFeFdsaFRhMXBxVWxkU1YxUldXa3RTUmxsM1YyMUdVMkpGTlhwWlZWcHJZVWRGZUdOSE9WZGlXRUpJV2tSR1MyUkdTbkpoUjJoVFlYcFdXVlpYTVRSa01XUnpWMWhvV0dKRk5WUlVWM2hIVGtaYVNHUkhkRmRpVlhCNVZHeGFjMWR0UlhoV1dHaGFUVzVvV0ZreFdrZFdWa3B6VkdzMVYyRXpRVEpXYWtvd1ZURkZlRmR1U2s1V2JWSnhWV3hrTkdGR1duTlhiVVpxWWtac00xWXlNVWRoYXpGV1RsaHdWbFl6YUROWlZXUkdaVWRPUjFWc2FHbFNiSEJ2VmpGYWExUXhXWGhqUld4VllrWktjRlZxU205V1ZscEhWV3QwYVUxWFVraFdNV2h2V1ZaS1JsTnRSbGRpV0U0MFZHdGFWbVZIUmtoUFYyaHBVbGhDTmxkVVFtRmpNV1IwVTJ4c1ZWZEhhR0ZVVmxwM1lVWndSbHBHVGxSU2EzQjVWR3hhVDJGWFJYZGpSbXhYWWxSRk1GWlVSa3BsUm1SWldrVTFWMkpJUW5oV1Z6RTBaREZaZUZkdVJsVmhNRFZ2VlcxNGQyVkdWbGRoUnpsWFRVUkdlVlJzVm05V01WbDZZVVJPV2xac2NISlZNR1JIVW14YWMxcEhiRk5OVlZZelZteGFVMUl4YkZkWGJrcE9WbXh3V0ZsWWNGZFdSbFp5Vm10YVQxVlVNRGs9
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vless | 539
   type: vless
   server: 134.209.227.233
@@ -25952,14 +23608,6 @@ proxies:
       Host: nl.sharecentre.online
   skip-cert-verify: false
   servername: nl.sharecentre.online
-- name: 🇺🇸 美国 | ss | 609
-  type: ss
-  server: 134.209.147.198
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
 - name: 🇺🇸 美国 | vmess | 610
   type: vmess
   server: us-dp2.sharecentre.online
@@ -26050,329 +23698,9 @@ proxies:
     public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
     short-id: 86b80f1e713a33ad
   client-fingerprint: chrome
-- name: 🇻🇳 越南 | ss | 01
-  type: ss
-  server: 103.163.218.2
-  port: 989
-  cipher: aes-256-cfb
-  password: f8f7aCzcPKbsF8p3
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 02
-  type: ss
-  server: 103.186.154.75
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 03
-  type: ss
-  server: 103.186.154.34
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 04
-  type: ss
-  server: 103.186.155.15
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 05
-  type: ss
-  server: 103.186.155.202
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 06
-  type: ss
-  server: 103.186.154.204
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 07
-  type: ss
-  server: 103.186.155.150
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 08
-  type: ss
-  server: 103.186.155.240
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 09
-  type: ss
-  server: 103.186.154.33
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 10
-  type: ss
-  server: 103.186.154.199
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 11
-  type: ss
-  server: 103.186.154.59
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 12
-  type: ss
-  server: 103.186.154.15
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 13
-  type: ss
-  server: 103.186.154.241
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 14
-  type: ss
-  server: 103.186.155.27
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 15
-  type: ss
-  server: 103.186.154.194
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 16
-  type: ss
-  server: 103.186.155.57
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 17
-  type: ss
-  server: 103.186.155.131
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 18
-  type: ss
-  server: 103.186.154.223
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 19
-  type: ss
-  server: 103.186.154.221
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 20
-  type: ss
-  server: 103.186.154.55
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 21
-  type: ss
-  server: 103.186.155.108
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 22
-  type: ss
-  server: 103.186.154.31
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 23
-  type: ss
-  server: 103.186.155.206
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 24
-  type: ss
-  server: 103.186.154.21
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 25
-  type: ss
-  server: 103.186.155.129
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 26
-  type: ss
-  server: 103.186.154.143
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9jM002THk5WlYxWjZURlJKTVU1cE1XcGFiVWsyVjBjME5HRnJkR3RpVlZKT1RVUkNTbHBWT0d4SmVWRnFXbXR3UWxSWVVucFNWVVpHVmxVNWQxTkRPVnBXTVd3d1YxaEdSVkp0TlZWTlJrNVg=
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 27
-  type: ss
-  server: 103.186.154.227
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 28
-  type: ss
-  server: 103.186.155.205
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 29
-  type: ss
-  server: 103.186.154.159
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 30
-  type: ss
-  server: 103.186.154.245
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 31
-  type: ss
-  server: 103.186.155.76
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 32
-  type: ss
-  server: 103.186.154.209
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 33
-  type: ss
-  server: 103.186.155.65
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 34
-  type: ss
-  server: 103.186.154.181
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 35
-  type: ss
-  server: 103.186.154.60
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 36
-  type: ss
-  server: 103.186.154.182
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
 - name: 🇻🇳 越南 | ss | 37
   type: ss
   server: 103.186.154.9
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 38
-  type: ss
-  server: 103.186.155.227
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 39
-  type: ss
-  server: 103.186.155.117
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 40
-  type: ss
-  server: 103.186.154.169
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 41
-  type: ss
-  server: 103.186.154.177
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -26393,585 +23721,9 @@ proxies:
     headers:
       Host: ''
   skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 43
-  type: ss
-  server: 103.186.154.233
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 44
-  type: ss
-  server: 103.186.155.83
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 45
-  type: ss
-  server: 103.186.154.162
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 46
-  type: ss
-  server: 103.186.155.19
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 47
-  type: ss
-  server: 103.186.154.38
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 48
-  type: ss
-  server: 103.186.154.54
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 49
-  type: ss
-  server: 103.186.155.39
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 50
-  type: ss
-  server: 103.186.154.189
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 51
-  type: ss
-  server: 103.186.155.153
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 52
-  type: ss
-  server: 103.186.154.232
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 53
-  type: ss
-  server: 103.186.154.157
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 54
-  type: ss
-  server: 103.186.154.230
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 55
-  type: ss
-  server: 103.186.154.19
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 56
-  type: ss
-  server: 103.186.155.32
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 57
-  type: ss
-  server: 103.186.154.154
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 58
-  type: ss
-  server: 103.186.155.136
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 59
-  type: ss
-  server: 103.186.155.106
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 60
-  type: ss
-  server: 103.186.155.35
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 61
-  type: ss
-  server: 103.186.155.20
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 62
-  type: ss
-  server: 103.186.154.145
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 63
-  type: ss
-  server: 103.186.155.71
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 64
-  type: ss
-  server: 103.186.155.122
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 65
-  type: ss
-  server: 103.186.155.68
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 66
-  type: ss
-  server: 103.186.154.58
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 67
-  type: ss
-  server: 103.186.155.22
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 68
-  type: ss
-  server: 103.186.154.163
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 69
-  type: ss
-  server: 103.186.155.236
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 70
-  type: ss
-  server: 103.186.154.228
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 71
-  type: ss
-  server: 103.186.154.52
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 72
-  type: ss
-  server: 103.186.154.148
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 73
-  type: ss
-  server: 103.186.154.196
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 74
-  type: ss
-  server: 103.186.154.80
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1YWswd01ESlVTR3MxVjJ4WmVGZHFXbFZTYkVwTFZGWlZNV05GTVZoalIwWnBWbGR6ZVZacVFtcE5SVFZJVW01S2ExSXpVbkJXYkZwTFZERlNWbFZyVGxSaVNFSlhWREJrTkZOdFZsZFNia1pZWWxoU00xVlhlRk5YVmxaMVkwWk9WMVpXY0VoV2JYaFdUbGRSZUZSclVsQldia0pZVkZaa00yUXhXWGhoUldSVFZtdHdNRlJzV2xkVWJFcHlUbFpuUFE9PQ==
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 75
-  type: ss
-  server: 103.186.155.135
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
 - name: 🇻🇳 越南 | ss | 76
   type: ss
   server: 103.186.154.4
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 77
-  type: ss
-  server: 103.186.154.251
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 78
-  type: ss
-  server: 103.186.154.153
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 79
-  type: ss
-  server: 103.186.154.36
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 80
-  type: ss
-  server: 103.186.155.54
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9jM002THk5WlYxWjZURlJKTVU1cE1XcGFiVWsyVjBjME5HRnJkR3RpVlZKT1RVUkNTbHBWT0d4SmVWRnFXbXR3UWxSWVVucFNWVVpHVmxVNWQxTkRPVnBXTVd3d1YxaEdSVkp0TlZWTlJrNVg=
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 81
-  type: ss
-  server: 103.186.154.32
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 82
-  type: ss
-  server: 103.186.155.69
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 83
-  type: ss
-  server: 103.186.155.16
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 84
-  type: ss
-  server: 103.186.154.183
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 86
-  type: ss
-  server: 103.186.154.14
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 87
-  type: ss
-  server: 103.186.154.158
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 88
-  type: ss
-  server: 103.186.154.210
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 89
-  type: ss
-  server: 103.186.154.176
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 90
-  type: ss
-  server: 103.186.154.151
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 91
-  type: ss
-  server: 103.186.154.166
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 92
-  type: ss
-  server: 103.186.155.24
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 93
-  type: ss
-  server: 103.186.155.52
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 94
-  type: ss
-  server: 103.186.155.75
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 95
-  type: ss
-  server: 103.186.155.239
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 96
-  type: ss
-  server: 103.186.154.142
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 97
-  type: ss
-  server: 103.186.155.82
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 98
-  type: ss
-  server: 103.186.154.43
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 99
-  type: ss
-  server: 103.186.155.13
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 100
-  type: ss
-  server: 103.186.155.56
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 101
-  type: ss
-  server: 103.186.154.193
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 102
-  type: ss
-  server: 103.186.154.201
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 103
-  type: ss
-  server: 103.186.155.148
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 104
-  type: ss
-  server: 103.186.154.37
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 105
-  type: ss
-  server: 103.186.155.29
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 106
-  type: ss
-  server: 103.186.155.221
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 107
-  type: ss
-  server: 103.186.154.235
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 108
-  type: ss
-  server: 103.186.155.44
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 109
-  type: ss
-  server: 103.186.154.244
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 110
-  type: ss
-  server: 103.186.155.220
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 111
-  type: ss
-  server: 103.186.155.141
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 112
-  type: ss
-  server: 103.186.154.39
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 113
-  type: ss
-  server: 103.186.154.252
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 114
-  type: ss
-  server: 103.186.155.235
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 115
-  type: ss
-  server: 103.186.154.220
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 116
-  type: ss
-  server: 103.186.154.213
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -26985,161 +23737,9 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
   skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 118
+- name: 🇻🇳 越南 | ss | 133
   type: ss
-  server: 103.186.154.211
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 119
-  type: ss
-  server: 103.186.155.209
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 120
-  type: ss
-  server: 103.186.154.16
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 121
-  type: ss
-  server: 103.186.155.215
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 122
-  type: ss
-  server: 103.186.154.234
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 123
-  type: ss
-  server: 103.186.155.48
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 124
-  type: ss
-  server: 103.186.155.103
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 125
-  type: ss
-  server: 103.186.154.25
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 126
-  type: ss
-  server: 103.186.155.38
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 127
-  type: ss
-  server: 103.186.154.237
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 128
-  type: ss
-  server: 103.186.154.229
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 129
-  type: ss
-  server: 103.186.154.200
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 130
-  type: ss
-  server: 103.186.155.146
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 131
-  type: ss
-  server: 103.186.155.134
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 132
-  type: ss
-  server: 103.186.155.143
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 134
-  type: ss
-  server: 103.186.155.18
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 135
-  type: ss
-  server: 103.186.154.175
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 136
-  type: ss
-  server: 103.186.155.12
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 137
-  type: ss
-  server: 103.186.154.17
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 138
-  type: ss
-  server: 103.186.155.26
+  server: 103.186.154.238
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -27153,49 +23753,9 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
   skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 140
-  type: ss
-  server: 103.186.154.26
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 141
-  type: ss
-  server: 103.186.155.59
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 142
-  type: ss
-  server: 103.186.154.178
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
 - name: 🇻🇳 越南 | ss | 143
   type: ss
   server: 103.186.155.3
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 144
-  type: ss
-  server: 103.186.155.33
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 145
-  type: ss
-  server: 103.186.154.164
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -27209,185 +23769,9 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
   skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 147
+- name: 🇻🇳 越南 | ss | 167
   type: ss
-  server: 103.186.155.120
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 148
-  type: ss
-  server: 103.186.154.63
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 149
-  type: ss
-  server: 103.186.155.110
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 150
-  type: ss
-  server: 103.186.155.228
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 151
-  type: ss
-  server: 103.186.155.130
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 152
-  type: ss
-  server: 103.186.155.45
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 153
-  type: ss
-  server: 103.186.154.254
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 154
-  type: ss
-  server: 103.186.154.198
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 155
-  type: ss
-  server: 103.186.154.208
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 156
-  type: ss
-  server: 103.186.155.145
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 157
-  type: ss
-  server: 103.186.155.132
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 158
-  type: ss
-  server: 103.186.154.61
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 159
-  type: ss
-  server: 103.186.155.79
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 160
-  type: ss
-  server: 103.186.155.58
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 161
-  type: ss
-  server: 103.186.155.40
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 162
-  type: ss
-  server: 103.186.154.51
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 163
-  type: ss
-  server: 103.186.154.49
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 164
-  type: ss
-  server: 103.186.154.53
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 165
-  type: ss
-  server: 103.186.154.192
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 166
-  type: ss
-  server: 103.186.154.180
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 168
-  type: ss
-  server: 103.186.155.137
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 169
-  type: ss
-  server: 103.186.154.214
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 170
-  type: ss
-  server: 103.186.155.144
+  server: 103.186.154.74
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -27396,486 +23780,6 @@ proxies:
 - name: 🇻🇳 越南 | ss | 171
   type: ss
   server: 103.186.155.5
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 172
-  type: ss
-  server: 103.186.154.149
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 173
-  type: ss
-  server: 103.186.155.154
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 174
-  type: ss
-  server: 103.186.155.238
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 175
-  type: ss
-  server: 103.186.154.236
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 176
-  type: ss
-  server: 103.186.154.23
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 177
-  type: ss
-  server: 103.186.154.72
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 178
-  type: ss
-  server: 103.186.154.144
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 179
-  type: ss
-  server: 103.186.154.247
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 180
-  type: ss
-  server: 103.186.154.18
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 181
-  type: ss
-  server: 103.186.155.63
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 182
-  type: ss
-  server: 103.186.154.141
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 183
-  type: ss
-  server: 103.186.155.115
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9jM002THk5WlYxWjZURlJKTVU1cE1XcGFiVWsyVjBjME5HRnJkR3RpVlZKT1RVUkNTbHBWT0d4SmVWRnFXbXR3UWxSWVVucFNWVVpHVmxVNWQxTkRPVnBXTVd3d1YxaEdSVkp0TlZWTlJrNVg=
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 184
-  type: ss
-  server: 103.186.155.46
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 185
-  type: ss
-  server: 103.186.155.81
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 186
-  type: ss
-  server: 103.186.154.207
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 187
-  type: ss
-  server: 103.186.154.140
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 188
-  type: ss
-  server: 103.186.154.250
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 189
-  type: ss
-  server: 103.186.155.147
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 190
-  type: ss
-  server: 103.186.154.44
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 191
-  type: ss
-  server: 103.186.155.224
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 192
-  type: ss
-  server: 103.186.154.187
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 193
-  type: ss
-  server: 103.186.154.79
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 194
-  type: ss
-  server: 103.186.154.216
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 195
-  type: ss
-  server: 103.186.155.234
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 196
-  type: ss
-  server: 103.186.155.84
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 197
-  type: ss
-  server: 103.186.154.240
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 198
-  type: ss
-  server: 103.186.154.67
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 199
-  type: ss
-  server: 103.186.155.80
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 200
-  type: ss
-  server: 103.186.154.224
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 201
-  type: ss
-  server: 103.186.154.249
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 202
-  type: ss
-  server: 103.186.154.203
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 203
-  type: ss
-  server: 103.186.154.179
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 204
-  type: ss
-  server: 103.186.155.61
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 205
-  type: ss
-  server: 103.186.155.77
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 206
-  type: ss
-  server: 103.186.154.170
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 207
-  type: ss
-  server: 103.186.155.21
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 208
-  type: ss
-  server: 103.186.155.60
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 209
-  type: ss
-  server: 103.186.154.226
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 210
-  type: ss
-  server: 103.186.154.197
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 211
-  type: ss
-  server: 103.186.155.78
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 212
-  type: ss
-  server: 103.186.155.211
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 213
-  type: ss
-  server: 103.186.154.57
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 214
-  type: ss
-  server: 103.186.155.118
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 215
-  type: ss
-  server: 103.186.154.202
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 216
-  type: ss
-  server: 103.186.154.191
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 217
-  type: ss
-  server: 103.186.155.218
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 218
-  type: ss
-  server: 103.186.154.146
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 219
-  type: ss
-  server: 103.186.154.167
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 220
-  type: ss
-  server: 103.186.154.47
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 221
-  type: ss
-  server: 103.186.155.41
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 222
-  type: ss
-  server: 103.186.155.51
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 223
-  type: ss
-  server: 103.186.154.11
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 224
-  type: ss
-  server: 103.186.154.155
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 225
-  type: ss
-  server: 103.186.154.173
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 226
-  type: ss
-  server: 103.186.155.47
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 227
-  type: ss
-  server: 103.186.155.70
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 228
-  type: ss
-  server: 103.186.154.13
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 229
-  type: ss
-  server: 103.186.154.156
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 230
-  type: ss
-  server: 103.186.155.10
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 231
-  type: ss
-  server: 103.186.154.27
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -27896,206 +23800,6 @@ proxies:
     headers:
       Host: ''
   skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 233
-  type: ss
-  server: 103.186.154.46
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 234
-  type: ss
-  server: 103.186.154.242
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 235
-  type: ss
-  server: 103.186.154.65
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 236
-  type: ss
-  server: 103.186.155.30
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 237
-  type: ss
-  server: 103.186.154.150
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 238
-  type: ss
-  server: 103.186.155.42
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 239
-  type: ss
-  server: 103.186.154.78
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 240
-  type: ss
-  server: 103.186.155.231
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 241
-  type: ss
-  server: 103.186.155.105
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 242
-  type: ss
-  server: 103.186.155.109
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 243
-  type: ss
-  server: 103.186.154.76
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 244
-  type: ss
-  server: 103.186.155.107
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 245
-  type: ss
-  server: 103.186.154.188
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 246
-  type: ss
-  server: 103.186.155.237
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 247
-  type: ss
-  server: 103.186.154.48
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 248
-  type: ss
-  server: 103.186.155.37
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 249
-  type: ss
-  server: 103.186.155.43
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 250
-  type: ss
-  server: 103.186.154.22
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 251
-  type: ss
-  server: 103.186.154.253
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 252
-  type: ss
-  server: 103.186.154.205
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 253
-  type: ss
-  server: 103.186.154.40
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 254
-  type: ss
-  server: 103.186.154.45
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 255
-  type: ss
-  server: 103.186.154.71
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 256
-  type: ss
-  server: 103.186.154.190
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 257
-  type: ss
-  server: 103.186.155.34
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
 - name: 🇻🇳 越南 | vmess | 258
   type: vmess
   server: 103.166.183.226
@@ -28111,745 +23815,25 @@ proxies:
     headers:
       Host: ''
   skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 259
+- name: 🇻🇳 越南 | ss | 323
   type: ss
-  server: 103.186.154.77
+  server: 103.186.154.64
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
   skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 260
+- name: 🇻🇳 越南 | ss | 325
   type: ss
-  server: 103.186.155.114
+  server: 103.186.155.23
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 261
-  type: ss
-  server: 103.186.155.85
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 262
-  type: ss
-  server: 103.186.155.36
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 263
-  type: ss
-  server: 103.186.155.140
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 264
-  type: ss
-  server: 103.186.154.66
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 265
-  type: ss
-  server: 103.186.155.126
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 266
-  type: ss
-  server: 103.186.155.142
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 267
-  type: ss
-  server: 103.186.155.226
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 268
-  type: ss
-  server: 103.186.154.161
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 269
-  type: ss
-  server: 103.186.155.213
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 270
-  type: ss
-  server: 103.186.155.223
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 271
-  type: ss
-  server: 103.186.154.225
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 272
-  type: ss
-  server: 103.186.155.28
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 273
-  type: ss
-  server: 103.186.154.29
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 274
-  type: ss
-  server: 103.186.154.160
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 275
-  type: ss
-  server: 103.186.154.139
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 276
-  type: ss
-  server: 103.186.155.67
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 277
-  type: ss
-  server: 103.186.154.195
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 278
-  type: ss
-  server: 103.186.154.42
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 279
-  type: ss
-  server: 103.186.155.139
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 280
-  type: ss
-  server: 103.186.155.225
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 281
-  type: ss
-  server: 103.186.155.17
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 282
-  type: ss
-  server: 103.186.154.12
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 283
-  type: ss
-  server: 103.186.154.28
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 284
-  type: ss
-  server: 103.186.155.104
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 285
-  type: ss
-  server: 103.186.155.156
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 286
-  type: ss
-  server: 103.186.155.138
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 287
-  type: ss
-  server: 103.186.154.217
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 288
-  type: ss
-  server: 103.186.154.215
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 289
-  type: ss
-  server: 103.186.155.207
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 290
-  type: ss
-  server: 103.186.155.55
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 291
-  type: ss
-  server: 103.186.155.214
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 292
-  type: ss
-  server: 103.186.155.102
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 293
-  type: ss
-  server: 103.186.155.233
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 294
-  type: ss
-  server: 103.186.155.116
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 295
-  type: ss
-  server: 103.186.155.25
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 296
-  type: ss
-  server: 103.186.155.66
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 297
-  type: ss
-  server: 103.186.155.127
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 298
-  type: ss
-  server: 103.186.154.243
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 299
-  type: ss
-  server: 103.186.155.113
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 300
-  type: ss
-  server: 103.186.154.62
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 301
-  type: ss
-  server: 103.186.155.49
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 302
-  type: ss
-  server: 103.186.154.218
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 303
-  type: ss
-  server: 103.186.155.111
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 304
-  type: ss
-  server: 103.186.154.20
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 305
-  type: ss
-  server: 103.186.154.219
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 306
-  type: ss
-  server: 103.186.154.239
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 307
-  type: ss
-  server: 103.186.155.203
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 308
-  type: ss
-  server: 103.186.154.165
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 309
-  type: ss
-  server: 103.186.155.222
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 310
-  type: ss
-  server: 103.186.155.232
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 311
-  type: ss
-  server: 103.186.154.73
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 312
-  type: ss
-  server: 103.186.154.185
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 313
-  type: ss
-  server: 103.186.155.183
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 314
-  type: ss
-  server: 103.186.154.50
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 315
-  type: ss
-  server: 103.186.154.35
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 316
-  type: ss
-  server: 103.186.155.64
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9jM002THk5WlYxWjZURlJKTVU1cE1XcGFiVWsyVjBjME5HRnJkR3RpVlZKT1RVUkNTbHBWT0d4SmVWRnFXbXR3UWxSWVVucFNWVVpHVmxVNWQxTkRPVnBXTVd3d1YxaEdSVkp0TlZWTlJrNVg=
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 317
-  type: ss
-  server: 103.186.155.121
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 318
-  type: ss
-  server: 103.186.155.229
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 319
-  type: ss
-  server: 103.12.76.62
-  port: 20002
-  cipher: chacha20-ietf-poly1305
-  password: b235696d-7873-4b15-9b22-7dae3a0b6747
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 320
-  type: ss
-  server: 103.186.154.174
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 321
-  type: ss
-  server: 103.186.154.168
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9jM002THk5ak0wMDJUSGs1V2xZeFdqWlVSbEpLVFZVMWNFMVhjR0ZpVldzeVZqQmpNRTVIUm5Ka1IzUnBWbFpLVDFSVlVrTlRiSEJXVDBkNFNtVldSbkZYYlhSM1VXeFNXVlZ1Y0ZOV1ZWcEhWbXhWTldReFRrUlBWbkJYVFZkM2QxWXhhRWRTVmtwMFRsWldUbEpyTlZnPQ==
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 322
-  type: ss
-  server: 103.186.154.206
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 324
-  type: ss
-  server: 103.186.154.184
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 326
-  type: ss
-  server: 103.186.155.101
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 327
-  type: ss
-  server: 103.186.155.62
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 328
-  type: ss
-  server: 103.186.154.212
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 329
-  type: ss
-  server: 103.186.155.124
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 330
-  type: ss
-  server: 103.186.155.123
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 331
-  type: ss
-  server: 103.186.154.147
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 332
-  type: ss
-  server: 103.186.154.248
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 333
-  type: ss
-  server: 103.186.155.133
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 334
-  type: ss
-  server: 103.186.154.56
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 335
-  type: ss
-  server: 103.186.155.204
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 336
-  type: ss
-  server: 103.186.154.24
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
   udp: true
   skip-cert-verify: false
 - name: 🇻🇳 越南 | ss | 337
   type: ss
   server: 103.186.155.9
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 338
-  type: ss
-  server: 103.186.155.128
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 339
-  type: ss
-  server: 103.186.155.31
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 340
-  type: ss
-  server: 103.186.154.246
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 341
-  type: ss
-  server: 103.186.155.50
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 342
-  type: ss
-  server: 103.186.155.230
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 343
-  type: ss
-  server: 103.186.154.41
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 344
-  type: ss
-  server: 103.186.155.53
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 345
-  type: ss
-  server: 103.186.154.152
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 346
-  type: ss
-  server: 103.186.155.125
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 347
-  type: ss
-  server: 103.186.155.119
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 348
-  type: ss
-  server: 103.186.155.112
-  port: 38388
-  cipher: ss
-  password: //YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 349
-  type: ss
-  server: 103.186.154.186
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 350
-  type: ss
-  server: 103.186.154.172
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 351
-  type: ss
-  server: 103.186.154.231
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 352
-  type: ss
-  server: 103.186.154.30
-  port: 38388
-  cipher: aes-256-cfb
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  udp: true
-  skip-cert-verify: false
-- name: 🇻🇳 越南 | ss | 353
-  type: ss
-  server: 103.186.155.149
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -28891,14 +23875,6 @@ proxies:
     path: /danfeng?ed=2560fp=chromesecurity=tls
     headers:
       Host: q40ivxuck.danfeng.qzz.io
-- name: 🇻🇳 越南 | ss | 358
-  type: ss
-  server: 103.186.154.222
-  port: 38388
-  cipher: ss
-  password: //c3M6Ly9ZV1Z6TFRJMU5pMWpabUk2V0c0NGFrdGtiVVJOTURCSlpVOGxJeVFqWmtwQlRYUnpSVUZGVlU5d1NDOVpWMWwwV1hGRVJtNVVNRk5X
-  udp: true
-  skip-cert-verify: false
 - name: 🇻🇳 越南 | vless | 359
   type: vless
   server: s226.okgg.top
@@ -29200,14 +24176,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇿🇦 南非 | ss | 44
-  type: ss
-  server: 102.133.165.160
-  port: 16233
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  udp: true
-  skip-cert-verify: false
 - name: 🇿🇦 南非 | vless | 45
   type: vless
   server: 160.119.251.91
@@ -29236,14 +24204,6 @@ proxies:
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
   client-fingerprint: chrome
-- name: 🇿🇦 南非 | ss | 48
-  type: ss
-  server: 156.38.168.58
-  port: 990
-  cipher: chacha20-ietf-poly1305
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  udp: true
-  skip-cert-verify: false
 - name: 🇿🇦 南非 | vless | 49
   type: vless
   server: 160.119.251.91
