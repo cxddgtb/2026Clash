@@ -18,8 +18,18 @@ def decode_base64(s: str) -> str | None:
     except Exception:
         return None
 
+def fix_ssr_proxy(proxy: dict) -> dict:
+    """自动修复 YAML 订阅里不完整的 ssr 节点（clash-speedtest 必需）"""
+    if proxy.get('type') != 'ssr':
+        return proxy
+    proxy.setdefault('obfs', 'plain')          # 最常用默认值
+    proxy.setdefault('protocol', 'origin')     # 最常用默认值
+    proxy.setdefault('obfs-param', '')
+    proxy.setdefault('protocol-param', '')
+    return proxy
+
 def parse_proxy_line(line: str) -> dict | None:
-    """解析单行代理链接 → Clash 格式（全协议支持版）"""
+    """解析单行代理链接 → Clash 格式（全协议支持）"""
     line = line.strip()
     if not line or line.startswith('#'):
         return None
@@ -171,15 +181,19 @@ def parse_proxy_line(line: str) -> dict | None:
         except:
             return None
 
-    # ssr:// (ShadowsocksR)
+    # ssr:// (完整解析 + query 参数)
     if line.startswith('ssr://'):
         try:
             b64 = line[6:]
             decoded = decode_base64(b64)
             if not decoded:
                 return None
-            # ssr 格式较复杂，这里做基础解析
-            parts = decoded.split(':')
+            # ssr:// 格式：server:port:protocol:method:obfs:password/?obfsparam=...&protoparam=...&remarks=...
+            if '/?' in decoded:
+                main_part, query_part = decoded.split('/?', 1)
+            else:
+                main_part, query_part = decoded, ''
+            parts = main_part.split(':')
             if len(parts) < 6:
                 return None
             server = parts[0]
@@ -187,16 +201,25 @@ def parse_proxy_line(line: str) -> dict | None:
             protocol = parts[2]
             method = parts[3]
             obfs = parts[4]
-            password = base64.urlsafe_b64decode(parts[5].split('/')[0] + '===').decode('utf-8')
-            name = "SSR" if len(parts) > 6 else "SSR"
-            return {
-                'name': name,
+            password = base64.urlsafe_b64decode(parts[5].split('/')[0] + '===').decode('utf-8') if parts[5] else ''
+            # 解析 query 参数
+            params = parse_qs(query_part)
+            obfs_param = params.get('obfsparam', [''])[0]
+            proto_param = params.get('protoparam', [''])[0]
+            name = unquote(params.get('remarks', ['SSR'])[0])
+            proxy = {
+                'name': name or f"SSR-{server}",
                 'type': 'ssr',
                 'server': server,
                 'port': port,
                 'cipher': method,
-                'password': password
+                'password': password,
+                'protocol': protocol,
+                'obfs': obfs,
+                'obfs-param': obfs_param,
+                'protocol-param': proto_param
             }
+            return fix_ssr_proxy(proxy)  # 确保字段完整
         except:
             return None
 
@@ -214,16 +237,19 @@ def fetch_single_subscription(url: str, index: int) -> list:
 
     proxies = []
 
-    # 1. 直接尝试 YAML / 纯 proxies 列表（已支持任意协议）
+    # 1. 直接尝试 YAML / 纯 proxies 列表（支持任意协议）
     try:
         data = yaml.safe_load(content)
         if isinstance(data, dict) and isinstance(data.get("proxies"), list):
             proxies = data["proxies"]
             print(f"  Clash YAML 格式，获取 {len(proxies)} 个节点（含全协议）")
+            # 对所有 ssr 节点进行修复
+            proxies = [fix_ssr_proxy(p) for p in proxies]
             return proxies
         elif isinstance(data, list):
             print(f"  纯 proxies 列表格式，获取 {len(data)} 个节点")
-            return data
+            proxies = [fix_ssr_proxy(p) for p in data]
+            return proxies
     except:
         pass
 
