@@ -51,7 +51,7 @@ jobs:
         run: python3 split_proxies.py
 
       - name: Fast Speed Test - Shard ${{ matrix.shard }}
-        timeout-minutes: 120
+        timeout-minutes: 300
         continue-on-error: true
         run: |
           if [ ! -f clash-speedtest ]; then
