@@ -31,7 +31,6 @@ jobs:
       - name: Install Python
         run: pip install pyyaml requests
 
-      # ==================== 【新增】下载订阅（关键！） ====================
       - name: Download raw proxies（多订阅全格式）
         env:
           PROXIES_URLS: ${{ secrets.PROXIES_URLS }}
@@ -52,7 +51,8 @@ jobs:
         run: python3 split_proxies.py
 
       - name: Fast Speed Test - Shard ${{ matrix.shard }}
-        timeout-minutes: 180
+        timeout-minutes: 120
+        continue-on-error: true
         run: |
           if [ ! -f clash-speedtest ]; then
             curl -sL https://github.com/faceair/clash-speedtest/releases/latest/download/clash-speedtest_Linux_x86_64.tar.gz | tar xz
@@ -66,7 +66,12 @@ jobs:
             -max-latency 15000ms \
             -max-packet-loss 60 \
             -timeout 4s \
-            -concurrent 20
+            -concurrent 10 || echo "Shard ${{ matrix.shard }} 超时/失败，但已测出的节点已保留"
+
+      - name: Ensure chunk exists（关键：保留超时前已测节点）
+        run: |
+          touch proxies_tested_chunk_${{ matrix.shard }}.yaml || true
+          echo "Shard ${{ matrix.shard }} 结果已确保存在（超时前已测节点被保留）"
 
       - name: Upload chunk result
         uses: actions/upload-artifact@v4
@@ -121,11 +126,12 @@ jobs:
         run: |
           if [ -f proxies_tested.yaml ] && [ -s proxies_tested.yaml ]; then
             cp proxies_tested.yaml proxies.yaml
-            echo "✅ 第二阶段成功，使用 download 测速结果作为 proxies.yaml"
+            echo "✅ 第二阶段成功，使用 download 测速结果"
           else
             cp low_latency.yaml proxies.yaml
-            echo "✅ 第二阶段失败，使用第一阶段 low_latency.yaml（281 个节点）作为 proxies.yaml"
+            echo "✅ 第二阶段失败，使用第一阶段 low_latency.yaml"
           fi
+
       - name: Enhance Node Names
         run: python3 enhance_names.py
 
