@@ -12,13 +12,13 @@ permissions:
   contents: write
 
 jobs:
-  # ==================== 8 Job 并行 fast 测速 ====================
+  # ==================== 12 Job 并行 fast 测速（稳定最大值） ====================
   test:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 
     steps:
       - uses: actions/checkout@v4
@@ -93,7 +93,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
 
-      - name: Download all 8 chunks
+      - name: Download all 12 chunks
         uses: actions/download-artifact@v4
         with:
           path: ./chunks
@@ -122,7 +122,7 @@ jobs:
             -timeout 6s \
             -concurrent 12 || echo "第二阶段失败，使用第一阶段结果"
 
-      - name: Prepare final proxies.yaml（关键修复）
+      - name: Prepare final proxies.yaml
         run: |
           if [ -f proxies_tested.yaml ] && [ -s proxies_tested.yaml ]; then
             cp proxies_tested.yaml proxies.yaml
@@ -144,6 +144,6 @@ jobs:
       - name: Commit & Force Push
         run: |
           git add proxies.yaml clash.yaml nodes_stats.md stars.svg raw_proxies.yaml proxies_dedup.yaml || true
-          git commit -m "🚀 8 Job 并行 + <5000ms 过滤 + 下载测速 ($(date '+%Y-%m-%d %H:%M:%S'))" --allow-empty || true
+          git commit -m "🚀 12 Job 并行 + <5000ms 过滤 + 下载测速 ($(date '+%Y-%m-%d %H:%M:%S'))" --allow-empty || true
           git push --force
           echo "✅ 强制推送成功（即使内容无差异也提交）"
