@@ -1,4 +1,4 @@
-name: Fetch & Strict Google + Download Speed Test (8 Job Parallel + <5000ms)
+name: Fetch & Strict Google + Download Speed Test (每10节点1chunk + 队列调度)
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -12,26 +12,18 @@ permissions:
   contents: write
 
 jobs:
-  # ==================== 12 Job 并行 fast 测速（稳定最大值） ====================
-  test:
+  # ==================== 1. 准备动态 matrix（每10节点1个chunk） ====================
+  prepare-matrix:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
-
+    outputs:
+      chunk-list: ${{ steps.set-matrix.outputs.chunk-list }}
     steps:
       - uses: actions/checkout@v4
-
-      - name: Config Git
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
 
       - name: Install Python
         run: pip install pyyaml requests
 
-      - name: Download raw proxies（多订阅全格式）
+      - name: Download raw proxies
         env:
           PROXIES_URLS: ${{ secrets.PROXIES_URLS }}
         run: |
@@ -41,16 +33,39 @@ jobs:
       - name: Deduplicate + 防重名
         run: python3 dedup.py
 
+      - name: Split into micro chunks（每10节点1个chunk）
+        run: python3 split_proxies.py
+
+      - name: Generate dynamic matrix JSON
+        id: set-matrix
+        run: |
+          echo "chunk-list=$(cat chunks.json)" >> $GITHUB_OUTPUT
+
+  # ==================== 2. 队列调度测速（提前完成自动接下一个chunk） ====================
+  test:
+    needs: prepare-matrix
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 20                  # GitHub 免费账号上限
+      matrix:
+        chunk_file: ${{ fromJSON(needs.prepare-matrix.outputs.chunk-list) }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Config Git
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+
       - name: Cache clash-speedtest
         uses: actions/cache@v4
         with:
           path: clash-speedtest
           key: clash-speedtest-linux-x86_64-latest
 
-      - name: Split proxies into shards
-        run: python3 split_proxies.py
-
-      - name: Fast Speed Test - Shard ${{ matrix.shard }}
+      - name: Fast Speed Test - ${{ matrix.chunk_file }}
         timeout-minutes: 120
         continue-on-error: true
         run: |
@@ -59,28 +74,28 @@ jobs:
             chmod +x clash-speedtest
           fi
           ./clash-speedtest \
-            -c proxies_chunk_${{ matrix.shard }}.yaml \
-            -output proxies_tested_chunk_${{ matrix.shard }}.yaml \
+            -c ${{ matrix.chunk_file }} \
+            -output proxies_tested_${{ matrix.chunk_file }} \
             -rename \
             -speed-mode fast \
             -max-latency 15000ms \
             -max-packet-loss 60 \
             -timeout 4s \
-            -concurrent 10 || echo "Shard ${{ matrix.shard }} 超时/失败，但已测出的节点已保留"
+            -concurrent 10 || echo "Chunk ${{ matrix.chunk_file }} 超时/失败，但已测出的节点已保留"
 
-      - name: Ensure chunk exists（关键：保留超时前已测节点）
+      - name: Ensure chunk exists（保留超时前已测节点）
         run: |
-          touch proxies_tested_chunk_${{ matrix.shard }}.yaml || true
-          echo "Shard ${{ matrix.shard }} 结果已确保存在（超时前已测节点被保留）"
+          touch proxies_tested_${{ matrix.chunk_file }} || true
+          echo "Chunk ${{ matrix.chunk_file }} 结果已确保存在（超时前已测节点被保留）"
 
       - name: Upload chunk result
         uses: actions/upload-artifact@v4
         with:
-          name: chunk-${{ matrix.shard }}
-          path: proxies_tested_chunk_${{ matrix.shard }}.yaml
+          name: chunk-${{ matrix.chunk_file }}
+          path: proxies_tested_${{ matrix.chunk_file }}
           retention-days: 1
 
-  # ==================== 合并 + 后续处理 ====================
+  # ==================== 3. 合并 + 后续处理 ====================
   merge-and-build:
     needs: test
     runs-on: ubuntu-latest
@@ -93,7 +108,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
 
-      - name: Download all 12 chunks
+      - name: Download all chunks
         uses: actions/download-artifact@v4
         with:
           path: ./chunks
@@ -144,6 +159,6 @@ jobs:
       - name: Commit & Force Push
         run: |
           git add proxies.yaml clash.yaml nodes_stats.md stars.svg raw_proxies.yaml proxies_dedup.yaml || true
-          git commit -m "🚀 12 Job 并行 + <5000ms 过滤 + 下载测速 ($(date '+%Y-%m-%d %H:%M:%S'))" --allow-empty || true
+          git commit -m "🚀 每10节点1chunk + 队列调度 + <5000ms 过滤 + 下载测速 ($(date '+%Y-%m-%d %H:%M:%S'))" --allow-empty || true
           git push --force
           echo "✅ 强制推送成功（即使内容无差异也提交）"
